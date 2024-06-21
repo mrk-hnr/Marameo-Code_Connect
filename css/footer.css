@@ -1,0 +1,59 @@
+/* Brand Block */
+footer {
+    background: #0F1828;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+footer button {
+    width: 240px;
+    display: block;
+}
+
+.brands {
+    display: flex;
+    justify-content: space-between;    
+}
+
+/* MIDDLE BLOCK */
+.middleBlock {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.phone, .email {
+    display: flex;
+    
+}
+
+.footerLinks {
+    color: white;
+}
+
+.link {
+    display: flex;
+    justify-content: space-around;
+}
+
+.innerLink-left, .innerLink-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.socialmedia {
+    display: flex;
+    margin: 32px 12px;
+}
+
+
+/* BOTTOM BLOCK */
+.bottomBlock {
+    display: flex;
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 20%);
+}
+
+.flagContainer {
+    margin: 15px 4px 0 0;
+}
