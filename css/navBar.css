@@ -1,17 +1,15 @@
+html {
+    background: rgb(217, 217, 217);
+}
+
 nav {
     font-family: 'General Sans', sans-serif;
-
+    background: white;
 }
 
 a {
     color: #0F1828;
     text-decoration: none;
-}
-
-.blockLinks {
-    font-weight: 500;
-    font-size: 16px;
-    justify-content: space-between;
 }
 
 .navBar {
@@ -20,5 +18,64 @@ a {
     display: flex;
     justify-content: space-around;
     align-items: center; 
+    /* background: rgb(9, 76, 9); */
 }
 
+.navBar div {
+    width: 100%;
+}
+
+.logoContainer {
+    /* background: maroon; */
+    margin-left: 32px;
+    flex: 1;
+}
+
+.blockLinks {
+    font-weight: 500;
+    font-size: 16px;
+    justify-content: space-between;
+    /* background: blue; */
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex: 3;
+    flex-wrap: nowrap;
+}
+
+.searchSubmit {
+    display: flex;
+    text-align: end;    
+    margin: 16px 16px 16px 0;
+    /* background: rgb(127, 127, 26); */
+    flex: 1;
+    
+}
+
+.searchSubmit img {
+    margin: -5px 0;
+    margin-right: 20px;  
+}
+
+@media(max-width: 1108px) {
+    nav a {
+        font-size: 12px;
+    }
+
+    .button {
+        font-size: 14px;
+    }
+}
+
+
+@media(max-width: 962px) {
+    nav a {
+        font-size: 10px;
+    }
+
+    .button a {
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+}
