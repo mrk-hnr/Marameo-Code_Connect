@@ -9,7 +9,7 @@ Code_Connect is a developer mentorship program aimed at supporting developers ge
 ## Goals:
 
 - Week 1 Target:
-  - Approved Estimates - the docs you're working on
+  - Approved Estimates (docs being worked on)
   - Theme Structure (+ repo) - Codebase setup
   - Header (static)
   - Footer
@@ -22,3 +22,4 @@ Code_Connect is a developer mentorship program aimed at supporting developers ge
 ## Optimizations
 
 1. Footer Styling
+2. Responsive Header/Nav
