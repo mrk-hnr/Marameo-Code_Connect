@@ -21,6 +21,6 @@ Code_Connect is a developer mentorship program aimed at supporting developers ge
 
 ## Optimizations
 
-1. Footer Styling
+1. <strike>Footer Styling</strike>
 2. Responsive Header/Nav
-3. Footer Flag Spacing on Responsive
+3. <strike>Footer Flag Spacing on Responsive</strike>
