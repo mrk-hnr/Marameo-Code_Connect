@@ -4,13 +4,14 @@ Code_Connect is a developer mentorship program aimed at supporting developers ge
 
 ## Working On:
 
-- Re-organizing atoms and blocks to minimize code redundancy and readability.
+- Restructure footer class names in compliance with [BEM](https://getbem.com/naming/) naming convention.
+- Proceed into other blocks
 
 ## Goals:
 
 - Week 1 Target:
-  - Approved Estimates (docs being worked on)
-  - Theme Structure (+ repo) - Codebase setup
+  - <strike>Approved Estimates (docs being worked on)</strike>
+  - <strike>Theme Structure (+ repo) - Codebase setup</strike>
   - Header (static)
   - Footer
   - At least 1 block from the home page
