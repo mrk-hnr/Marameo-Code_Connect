@@ -22,5 +22,6 @@ Code_Connect is a developer mentorship program aimed at supporting developers ge
 ## Optimizations
 
 1. <strike>Footer Styling</strike>
-2. Responsive Header/Nav
+2. <strike>Responsive Header/Nav</strike>
+   - Create functional burger menu on Week 3 (JS)
 3. <strike>Footer Flag Spacing on Responsive</strike>
