@@ -1,11 +1,10 @@
 .button {
     font-family: 'General Sans', sans-serif; 
-    font-weight: 600;
     border: none;
     padding: 12px 24px;
     border-radius: 100px;
-    font-size: 16px;
     color: #0F1828;
+    width: 165px;
     /* background: transparent; */
 }
 

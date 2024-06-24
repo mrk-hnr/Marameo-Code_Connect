@@ -1,10 +1,15 @@
 html {
     background: rgb(217, 217, 217);
+    list-style: none;
 }
 
-nav {
-    font-family: 'General Sans', sans-serif;
-    background: white;
+ul {
+    
+    padding: 0;
+}
+
+li {
+    margin: 15px 0;
 }
 
 a {
@@ -12,70 +17,92 @@ a {
     text-decoration: none;
 }
 
-.navBar {
-    height: 80px;
-    border-radius: 100px;
+/* Custom Styling */
+.navi {
+    font-family: 'General Sans', sans-serif;
+    background: white;
     display: flex;
-    justify-content: space-around;
+    border-radius: 100px;
     align-items: center; 
-    /* background: rgb(9, 76, 9); */
+    height: 80px;
+}
+/* 
+.navi div {
+    width: 100%; /* Allowed elements to be spreadout on the nav */
+ 
+/* LEFT NAV START */
+.navi__leftContainer {
+    margin: 12px 0 12px 32px;
+
 }
 
-.navBar div {
-    width: 100%;
-}
+/* LEFT NAV END */
 
-.logoContainer {
-    /* background: maroon; */
-    margin-left: 32px;
-    flex: 1;
-}
+/* MIDDLE NAV START */
 
-.blockLinks {
-    font-weight: 500;
-    font-size: 16px;
-    justify-content: space-between;
-    /* background: blue; */
-    text-align: center;
+.navi__middleContainer {
     display: flex;
     justify-content: space-evenly;
-    flex: 3;
-    flex-wrap: nowrap;
+    flex: 5;
 }
 
-.searchSubmit {
+.navi__select {
+    cursor: pointer;
+    padding: 12px 16px;
+}
+
+.navi__select:hover {
+    cursor: pointer;
+    border-radius: 100px;
+    font-weight: 600;
+    background: rgba(255, 225, 214, 1);
+}
+
+.navi__select:hover .navi__title {
+    font-weight: 600;
+}
+
+
+.navi__title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;;
+}
+
+.navi__menu {
+    display: none;
+}
+
+
+
+
+/* MIDDLE NAV END */
+
+
+/* RIGHT NAV START */
+
+.navi__rightContainer {
+    text-align: end; /* Makes the container to the rightmost position */
+    margin: 16px;
     display: flex;
-    text-align: end;    
-    margin: 16px 16px 16px 0;
-    /* background: rgb(127, 127, 26); */
-    flex: 1;
     
 }
 
-.searchSubmit img {
-    margin: -5px 0;
-    margin-right: 20px;  
+.navi__rightContainer img {
+    margin: 28px 12px;
 }
 
-@media(max-width: 1108px) {
-    nav a {
-        font-size: 12px;
-    }
-
-    .button {
-        font-size: 14px;
-    }
-}
-
-
-@media(max-width: 962px) {
-    nav a {
-        font-size: 10px;
-    }
-
-    .button a {
-        font-size: 10px;
-        font-weight: 500;
-    }
+.navi__button {
+    font-weight: 600;
+    font-size: 16px;
+    height: 48px;
+    transform: translateY(30%);
+    
 
 }
+
+
+/* RIGHT NAV END */
+
+
+
