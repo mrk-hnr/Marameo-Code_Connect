@@ -1,9 +1,13 @@
+
+
 /* Brand Block */
 footer {
     background: #0F1828;
     color: white;
     font-size: 16px;
     font-weight: 400;
+    min-width: 393px;
+    font-family: 'General Sans', sans-serif;
 }
 
 footer button {
@@ -11,49 +15,185 @@ footer button {
     display: block;
 }
 
-.brands {
+.brandLogo {
     display: flex;
     justify-content: space-between;    
+    padding: 100px 100px 45px 100px;
+}
+
+
+
+.brandLogo img + img {
+    margin-right: 10px;
 }
 
 /* MIDDLE BLOCK */
 .middleBlock {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin: 0 96px;
+}
+
+.contactInfo {
+    flex: 1;
 }
 
 .phone, .email {
     display: flex;
-    
+    margin: -20px 0;
+}
+
+.phone img, .email img {
+    margin-right: 12px;
+}
+
+
+.link {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-grow: 2;
+    margin-bottom: 57px;
+}
+
+.link a {
+    font-weight: 500;
 }
 
 .footerLinks {
     color: white;
 }
 
-.link {
-    display: flex;
-    justify-content: space-around;
-}
-
 .innerLink-left, .innerLink-right {
     display: flex;
     flex-direction: column;
+    flex: 3;
 }
+
+.innerLink-left a {
+    margin-bottom: 16px;
+}
+
+.innerLink-right a + a {
+    margin-top: -65px;
+}
+
+.yellowHeader {
+    display: block;
+    margin: 1em 0;
+    color: #FAE6AA;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.contactMedia {
+    flex: 1;
+    margin-left: auto;
+}
+
+/* .contactMedia button {
+
+} */
 
 .socialmedia {
     display: flex;
-    margin: 32px 12px;
+    margin: 32px 0;
+}
+
+.socialmedia a:nth-child(2) {
+    margin: 0 12px;
 }
 
 
 /* BOTTOM BLOCK */
 .bottomBlock {
     display: flex;
-    text-align: center;
+    justify-content: center;
     border-top: 1px solid rgba(255, 255, 255, 20%);
+    margin: 0 100px;
+    color: #D0D0D0;
+}
+
+.bottomBlock a {
+    font-weight: 600;
+    color: white;
 }
 
 .flagContainer {
-    margin: 15px 4px 0 0;
+    margin: 15px 15px 0 0;
+    text-align: center;
+    min-width: 110px;
+}
+
+.codeMeasurement {
+    text-align: center;
+    font-size: 14px;
+}
+
+
+/* RESPONSIVE DESIGN */
+
+@media(max-width: 1187px) {
+    .bottomBlock {
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 862px) {
+    .middleBlock, .contactInfo, .contactMedia {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .contactInfo {
+        margin-bottom: 25px;  
+        font-size: 16px;
+    }
+
+    .link {
+        margin: 0 auto;
+    }
+
+    .socialmedia {
+        display: flex;
+        margin: 24px auto;
+        justify-content: center;
+    }
+
+    .flagContainer {
+        margin: 15px 0 0 0;
+    }
+}
+
+@media(max-width: 600px) {
+    .brandLogo, .link {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .brandLogo {
+        padding-top: 76px;
+        width: 150px;
+    }
+
+    .brandLogo img + img {
+        margin-top: 50px;
+    }
+
+    .innerLink-right a + a {
+        margin: 0;
+    }
+
+    .innerLink-right a:nth-child(3) {
+        margin: 16px 0;
+    }
+
+    .contactMedia button {
+        margin-top: 55px;
+    }
+
+    .flagContainer {
+        margin: 15px 0 0 0;
+    }
 }
