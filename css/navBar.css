@@ -16,6 +16,12 @@ a {
     text-decoration: none;
 }
 
+header {
+    font-family: 'General Sans', sans-serif;
+    min-width: 393px;
+}
+
+
 /* BURGER MENU */
 
 .navi__burgermenu {
@@ -72,7 +78,6 @@ navi__bottom-click {
 
 /* Custom Styling */
 .navi {
-    font-family: 'General Sans', sans-serif;
     background: white;
     display: flex;
     border-radius: 100px;
@@ -113,8 +118,11 @@ navi__bottom-click {
 .navi__title {
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;;
+    line-height: 24px;
+    margin-top: 32px;
 }
+
+
 
 .navi__menu {
     display: none;
@@ -141,8 +149,197 @@ navi__bottom-click {
     transform: translateY(30%);
 }
 
-
 /* RIGHT NAV END */
+
+/* SHARED NAV HOVER PROPERTIES */
+
+.navi__hover {
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 4px;
+    background: white;
+    border-radius: 8px;
+    padding: 0 32px;
+    width: fit-content;
+    max-width: 689px;
+}
+
+.navi__hover img {
+    width: 240px;
+    
+    border-radius: 8px;
+}
+
+
+.navi__left {
+    display: flex;
+    flex-direction: column;
+    color: rgba(15, 24, 40, 0.75);
+}
+
+.navi__right h5 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;;
+}
+
+.navi__left {
+    justify-content: space-evenly;
+}
+
+.navi__left .navi__custom {
+    margin-top: -20px;
+}
+
+/* PROPERTIES HOVER CONTENT */
+
+/* .navi__properties {
+    display: none;
+} */
+
+.navi__upperContainer {
+    display: flex;
+}
+
+.navi__upperLeft-properties, .navi__upperRight-properties {
+    width: 100%;
+    margin-top: 25px;
+}
+
+.navi__content .navi__custom {
+    font-weight: 600;
+    width: 100%;
+}
+
+.navi__upperRight-properties {
+    justify-content: end; 
+}
+
+/* PROPERTIES NAV -- MAP CONTENT */
+.navi__mapContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.navi__stateContainer {
+    justify-content: center;
+    margin: 18px 28px;
+    height: 110px;
+    text-align: center;
+    position: relative; /* Relative so that absolute/bottom:0 works for its child p */
+}
+
+.navi__stateContainer > p {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.navi__stateContainer > img, .navi__upperRight-properties > img {
+    width: auto !important;
+}
+
+/* SDA NAV -- CONTENT */
+
+.navi__hover + .navi__SDA,
+.navi__hover + .navi__about,
+.navi__hover + .navi__resource,
+.navi__hover + .navi__mediaNews
+ {
+    padding: 0 !important;
+}
+
+.navi__leftContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 220%;
+    margin: 0 32px;
+    
+}
+
+.navi__leftContent a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(15, 24, 40, 0.75);
+}
+
+.navi__leftContent-custom {
+    display: flex;
+    flex-direction: column;
+    width: 220%;
+    margin: 0 32px;
+}
+
+navi__leftContent-custom:last-child {
+    margin-top: 16px
+}
+
+.navi__customTitle {
+    font-weight: 600;
+    font-size: 16;
+    line-height: 24px;
+    margin-bottom: 8px
+}
+
+.navi__customLink {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(15, 24, 40, 0.75);
+    margin: 16px 0;
+}
+
+
+
+.navi__leftContent a:last-child {
+    margin-bottom: 36px;
+}
+
+.navi__SDA > .navi__contentContainer,
+.navi__about > .navi__contentContainer,
+.navi__resource > .navi__contentContainer,
+.navi__mediaNews > .navi__contentContainer
+ {
+    display: flex;
+}
+
+.navi__rightContent {
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+.navi__rightContent > * {
+    margin: 0 32px;
+}
+
+.navi__rightContent img {
+    margin-top: 32px;
+    height: 120px;
+}
+
+.navi__rightContent h5 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    margin-top: 16px;
+    margin-bottom: 4px;
+}
+
+.navi__rightContent p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: .5px;
+    padding-bottom: 32px;
+}
+
+.navi__leftContent .navi__title {
+    font-weight: 600;
+}
 
 @media(max-width: 1086px) {
     .navi__title {
@@ -195,4 +392,78 @@ navi__bottom-click {
     .navi__leftContainer {
         width: 100%;
     }
+
+    .navi__stateContainer {
+        margin: 20px 45px;
+    }
+
+    .navi__hover {
+        background: rgba(255, 225, 214, 0.25);
+    }
+}
+
+@media(max-width: 600px) {
+    .navi__SDA > .navi__contentContainer,
+    .navi__about > .navi__contentContainer,
+    .navi__resource > .navi__contentContainer,
+    .navi__mediaNews > .navi__contentContainer
+     {
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+        
+    }
+
+    .navi__leftContent {
+        width: auto;
+        height: 250px;
+    }
+
+    .navi__leftContent a:last-child {
+        margin-bottom: 0;
+    }
+
+    .navi__rightContent {
+        display: flex;
+        align-items: center;
+        margin-top: -1rem;
+    }
+
+    .navi__rightContent * {
+        margin: 0;
+        padding: 0;
+        margin-left: 16px;
+    }
+
+    /* .navi__rightContent div:nth-child(1) {
+
+    } */
+    .navi__rightContent div:nth-child(2) {
+        padding-left: 12px;
+        margin-top: 10%;
+        margin-bottom: 24px;
+
+    }
+
+    .navi__rightContent img {
+        width: 140px;
+        height: 70px;
+    }
+
+
+    .navi__rightContent h5 {
+        font-size: 18px;
+        margin: 0;
+        line-height: 24px;
+    }
+
+    .navi__rightContent p {
+        font-size: 13px;
+        line-height: 18px;
+        letter-spacing: .5px;
+        padding: 0;
+        margin: 0;
+    
+    }
+
 }
