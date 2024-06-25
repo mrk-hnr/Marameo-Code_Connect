@@ -25,3 +25,8 @@ Code_Connect is a developer mentorship program aimed at supporting developers ge
 2. <strike>Responsive Header/Nav</strike>
    - Create functional burger menu on Week 3 (JS)
 3. <strike>Footer Flag Spacing on Responsive</strike>
+
+## Notes
+
+1. navi-hover put on display: none, and then display:block on havi-(linkname) on hover
+   - don't forget to put navi\_\_properties on hover contents
