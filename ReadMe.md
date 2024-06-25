@@ -4,7 +4,6 @@ Code_Connect is a developer mentorship program aimed at supporting developers ge
 
 ## Working On:
 
-- Restructure footer class names in compliance with [BEM](https://getbem.com/naming/) naming convention.
 - Proceed into creating Header/Nav hover content
 
 ## Goals:
