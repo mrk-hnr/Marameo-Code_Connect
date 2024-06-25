@@ -70,7 +70,6 @@ navi__bottom-click {
     transition: 0.55s 0.5s;
 }
 
-
 /* Custom Styling */
 .navi {
     font-family: 'General Sans', sans-serif;
@@ -80,14 +79,11 @@ navi__bottom-click {
     align-items: center; 
     height: 80px;
 }
-
-   
  
 /* LEFT NAV START */
 .navi__leftContainer {
     margin: 12px 0 12px 32px;
 }
-
 /* LEFT NAV END */
 
 /* MIDDLE NAV START */
@@ -97,7 +93,6 @@ navi__bottom-click {
     justify-content: space-evenly;
     flex: 5;
 }
-
 
 .navi__select {
     cursor: pointer;
@@ -115,7 +110,6 @@ navi__bottom-click {
     font-weight: 600;
 }
 
-
 .navi__title {
     font-weight: 500;
     font-size: 16px;
@@ -125,10 +119,6 @@ navi__bottom-click {
 .navi__menu {
     display: none;
 }
-
-
-
-
 /* MIDDLE NAV END */
 
 
@@ -137,8 +127,7 @@ navi__bottom-click {
 .navi__rightContainer {
     text-align: end; /* Makes the container to the rightmost position */
     margin: 16px;
-    display: flex;
-    
+    display: flex; 
 }
 
 .navi__rightContainer img {
@@ -150,8 +139,6 @@ navi__bottom-click {
     font-size: 16px;
     height: 48px;
     transform: translateY(30%);
-    
-
 }
 
 
@@ -190,7 +177,7 @@ navi__bottom-click {
 }
 
 
-@media(max-width: 885px) { /* Replaces midNav with Burger coz cannot fix format on this size */
+@media(max-width: 885px) { /* Removes links and button, mobile layout takesover the design*/
     .navi__middleContainer, .navi__rightContainer button {
         display: none;
     }

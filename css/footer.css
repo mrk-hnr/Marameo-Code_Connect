@@ -1,5 +1,4 @@
 
-
 /* Brand Block */
 footer {
     background: #0F1828;
@@ -8,47 +7,51 @@ footer {
     font-weight: 400;
     min-width: 393px;
     font-family: 'General Sans', sans-serif;
+    min-width: 393px;
 }
 
-footer button {
+.footer__button {
     width: 240px;
     display: block;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
 }
 
-.brandLogo {
+.footer__brandLogo {
     display: flex;
     justify-content: space-between;    
-    padding: 100px 100px 45px 100px;
+    padding: 100px 45px 45px 100px;
 }
 
 
-
-.brandLogo img + img {
-    margin-right: 10px;
+.footer__brandLogo img + img {
+    margin-right: 85px;
 }
 
 /* MIDDLE BLOCK */
-.middleBlock {
+.footer__middleBlock {
     display: flex;
     justify-content: space-between;
     margin: 0 96px;
 }
 
-.contactInfo {
+.footer__contactInfo {
     flex: 1;
 }
 
-.phone, .email {
+.footer__phone, .footer__email {
     display: flex;
     margin: -20px 0;
 }
 
-.phone img, .email img {
+.footer__phone img, .footer__email img {
     margin-right: 12px;
 }
 
 
-.link {
+.footer__link {
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -56,29 +59,29 @@ footer button {
     margin-bottom: 57px;
 }
 
-.link a {
+.footer__link a {
     font-weight: 500;
 }
 
-.footerLinks {
+.footer__footerLinks {
     color: white;
 }
 
-.innerLink-left, .innerLink-right {
+.footer__innerLink-left, .footer__innerLink-right {
     display: flex;
     flex-direction: column;
     flex: 3;
 }
 
-.innerLink-left a {
+.footer__innerLink-left a {
     margin-bottom: 16px;
 }
 
-.innerLink-right a + a {
-    margin-top: -65px;
+.footer__innerLink-right a:nth-child(3) {
+    margin: 15px;
 }
 
-.yellowHeader {
+.footer__yellowHeader {
     display: block;
     margin: 1em 0;
     color: #FAE6AA;
@@ -87,27 +90,23 @@ footer button {
     font-weight: 600;
 }
 
-.contactMedia {
+.footer__contactMedia {
     flex: 1;
     margin-left: auto;
 }
 
-/* .contactMedia button {
-
-} */
-
-.socialmedia {
+.footer__socialmedia {
     display: flex;
     margin: 32px 0;
 }
 
-.socialmedia a:nth-child(2) {
+.footer__socialmedia a:nth-child(2) {
     margin: 0 12px;
 }
 
 
 /* BOTTOM BLOCK */
-.bottomBlock {
+.footer__bottomBlock {
     display: flex;
     justify-content: center;
     border-top: 1px solid rgba(255, 255, 255, 20%);
@@ -115,18 +114,18 @@ footer button {
     color: #D0D0D0;
 }
 
-.bottomBlock a {
+.footer__bottomBlock a {
     font-weight: 600;
     color: white;
 }
 
-.flagContainer {
+.footer__flagContainer {
     margin: 15px 15px 0 0;
     text-align: center;
     min-width: 110px;
 }
 
-.codeMeasurement {
+.footer__codeMeasurement {
     text-align: center;
     font-size: 14px;
 }
@@ -135,65 +134,72 @@ footer button {
 /* RESPONSIVE DESIGN */
 
 @media(max-width: 1187px) {
-    .bottomBlock {
+    .footer__bottomBlock {
         flex-direction: column;
     }
 }
 
 @media(max-width: 862px) {
-    .middleBlock, .contactInfo, .contactMedia {
+    .footer__middleBlock, .footer__contactInfo, .footer__contactMedia {
         flex-direction: column;
         margin: 0 auto;
     }
 
-    .contactInfo {
+    .footer__contactInfo {
         margin-bottom: 25px;  
         font-size: 16px;
     }
 
-    .link {
+    .footer__phone {
+        margin-left: 25px;
+    }
+
+    .footer__link {
         margin: 0 auto;
     }
 
-    .socialmedia {
+    .footer__socialmedia {
         display: flex;
         margin: 24px auto;
         justify-content: center;
+
     }
 
-    .flagContainer {
+    .footer__flagContainer {
         margin: 15px 0 0 0;
     }
 }
 
 @media(max-width: 600px) {
-    .brandLogo, .link {
+    .footer__brandLogo, .footer__link {
         flex-direction: column;
         margin: 0 auto;
     }
 
-    .brandLogo {
+    .footer__brandLogo {
         padding-top: 76px;
-        width: 150px;
+        width: 230px;
     }
 
-    .brandLogo img + img {
+    .footer__brandLogo img + img {
         margin-top: 50px;
+        margin-right: 0;
     }
 
-    .innerLink-right a + a {
+    .footer__innerLink-right a + a {
         margin: 0;
     }
 
-    .innerLink-right a:nth-child(3) {
+    .footer__innerLink-right a:nth-child(3) {
         margin: 16px 0;
     }
 
-    .contactMedia button {
-        margin-top: 55px;
+    .footer__button  {
+        margin-top: 44px;
+        width: 340px;
     }
 
-    .flagContainer {
+    .footer__flagContainer {
         margin: 15px 0 0 0;
     }
 }
