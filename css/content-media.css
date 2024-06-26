@@ -1,53 +1,91 @@
 p {
     color: rgba(56, 56, 56, 1); 
-    margin-top: 16px;
     margin-bottom: 32px;
+}
+
+h1 {
+     margin-bottom: 40px; /* margin-top on <p> not working, adjusted spacing from h1 instead */
+}
+
+.contentMedia__descr button:first-of-type {
+    margin-right: 8px;
+    margin-bottom: 8px;
 }
 
 .contentMedia-container {
     display: flex;
-    justify-content: space-around;
-    height: 810px;
-}
-
-.contentMedia-container > div {
-    
+    min-width: 393px;
+    height: 100vh;
 }
 
 .mainContainer {
     background: linear-gradient(90deg, #F1EAE6 80%, #009496 20%); 
 }
 
-.contentMedia-container div {
-    width: 100%;
+.contentMedia-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 95px;
+    margin-right: 5px;
+    
 }
 
-.contentMedia-left {
-    position: relative; 
-    margin-left: 95px;
+
+.contentMedia-right {
+    margin-top: 50%; /* Adjust to give image spacing from the top */
+    margin-right: 50%;
+    position: relative;
+}
+.curvedImage {
+    width: 40vw; /* Best image width to maintain ratio and spacing upon resizing */
+    position: absolute;
+    bottom: 0;
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
 }
 
 .contentMedia__descr {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    margin-top: 100px;
 }
 
-.contentMedia-right {
-    text-align: center;
-    position: relative;    
-    margin-right: 95px;
-}
+@media(max-width: 899px) {
 
-.curvedImage {
-    border-top-left-radius: 1000px;
-    border-top-right-radius: 1000px;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
+    .mainContainer {
+        background: linear-gradient(90deg, #F1EAE6 100%, #009496 20%); 
+    }
+
+    .contentMedia-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: auto;
+        text-align: center;
+    }
+
+    .contentMedia-left {
+        margin: 0 16px;
+    }
+
+    .contentMedia-right {
+        position: static;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 52px;
+    }
+
+    .curvedImage {
+        width: 50%; 
+        position: static;
+        bottom: 0;
+        border-top-left-radius: 1000px;
+        border-top-right-radius: 1000px;
+    } 
+    .contentMedia-buttonContainer button {
+        width: 95%;
+    }
+
+    /* .contentMedia-container {
+        padding-bottom: 10%;
+    } */
 }
