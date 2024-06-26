@@ -4,16 +4,16 @@ Code_Connect is a developer mentorship program aimed at supporting developers ge
 
 ## Working On:
 
-- Proceed into creating Header/Nav hover content
+- Continue creating other content media blocks
 
 ## Goals:
 
-- Week 1 Target:
+- Week 1-2 Target:
   - <strike>Approved Estimates (docs being worked on)</strike>
   - <strike>Theme Structure (+ repo) - Codebase setup</strike>
-  - Header (static)
-  - Footer
-  - At least 1 block from the home page
+  - <strike>Header (static)</strike>
+  - <strike>Footer</strike>
+  - <strike>At least 1 block from the home page</strike>
 
 ## Tech used:
 
@@ -25,6 +25,8 @@ Code_Connect is a developer mentorship program aimed at supporting developers ge
 2. <strike>Responsive Header/Nav</strike>
    - Create functional burger menu on Week 3 (JS)
 3. <strike>Footer Flag Spacing on Responsive</strike>
+4. Further organize classes name in accordance with the [BEM Naming Convention](https://getbem.com/naming/)
+   - Maximize potential shared atoms/components and further optimize reusable codes as a result of organizing classes
 
 ## Notes
 
