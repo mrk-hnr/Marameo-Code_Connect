@@ -1,0 +1,53 @@
+p {
+    color: rgba(56, 56, 56, 1); 
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.contentMedia-container {
+    display: flex;
+    justify-content: space-around;
+    height: 810px;
+}
+
+.contentMedia-container > div {
+    
+}
+
+.mainContainer {
+    background: linear-gradient(90deg, #F1EAE6 80%, #009496 20%); 
+}
+
+.contentMedia-container div {
+    width: 100%;
+}
+
+.contentMedia-left {
+    position: relative; 
+    margin-left: 95px;
+}
+
+.contentMedia__descr {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.contentMedia-right {
+    text-align: center;
+    position: relative;    
+    margin-right: 95px;
+}
+
+.curvedImage {
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}

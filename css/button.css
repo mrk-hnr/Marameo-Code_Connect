@@ -1,16 +1,37 @@
 .button {
     font-family: 'General Sans', sans-serif; 
     border: none;
-    padding: 12px 24px;
+    padding: 16px 24px;
     border-radius: 100px;
     color: #0F1828;
     width: 165px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
     /* background: transparent; */
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.button a {
+    text-decoration: none;
+    color: rgba(15, 24, 40, 1);
+    
+}
+
+.transparent {
+    border: 1px solid rgba(15, 24, 40, 0.5);
+    padding: 16px 24px;
 }
 
 .green {
     background: #007173;
     color: white;
+    
+}
+
+.green a {
+    color: white;
+    text-decoration: none;
 }
 
 .footerButton {

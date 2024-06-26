@@ -1,0 +1,142 @@
+/* .navi__properties {
+    display: none;
+} */
+
+.navi__upperContainer {
+    display: flex;
+}
+
+.navi__upperLeft-properties, .navi__upperRight-properties {
+    width: 100%;
+    margin-top: 25px;
+}
+
+.navi__content .navi__custom {
+    font-weight: 600;
+    width: 100%;
+}
+
+.navi__upperRight-properties {
+    justify-content: end; 
+}
+
+/* PROPERTIES NAV -- MAP CONTENT */
+.navi__mapContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.navi__stateContainer {
+    justify-content: center;
+    margin: 18px 28px;
+    height: 110px;
+    text-align: center;
+    position: relative; /* Relative so that absolute/bottom:0 works for its child p */
+}
+
+.navi__stateContainer > p {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.navi__stateContainer > img, .navi__upperRight-properties > img {
+    width: auto !important;
+}
+
+.navi__hover + .navi__SDA,
+.navi__hover + .navi__about,
+.navi__hover + .navi__resource,
+.navi__hover + .navi__mediaNews
+ {
+    padding: 0 !important;
+}
+
+.navi__leftContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 220%;
+    margin: 0 32px;
+    
+}
+
+.navi__leftContent a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(15, 24, 40, 0.75);
+}
+
+.navi__leftContent-custom {
+    display: flex;
+    flex-direction: column;
+    width: 220%;
+    margin: 0 32px;
+}
+
+navi__leftContent-custom:last-child {
+    margin-top: 16px
+}
+
+.navi__customTitle {
+    font-weight: 600;
+    font-size: 16;
+    line-height: 24px;
+    margin-bottom: 8px
+}
+
+.navi__customLink {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(15, 24, 40, 0.75);
+    margin: 16px 0;
+}
+
+
+
+.navi__leftContent a:last-child {
+    margin-bottom: 36px;
+}
+
+.navi__SDA > .navi__contentContainer
+ {
+    display: flex;
+}
+
+.navi__rightContent {
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+.navi__rightContent > * {
+    margin: 0 32px;
+}
+
+.navi__rightContent img {
+    margin-top: 32px;
+    height: 120px;
+}
+
+.navi__rightContent h5 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    margin-top: 16px;
+    margin-bottom: 4px;
+}
+
+.navi__rightContent p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: .5px;
+    padding-bottom: 32px;
+}
+
+.navi__leftContent .navi__title {
+    font-weight: 600;
+}

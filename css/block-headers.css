@@ -1,0 +1,58 @@
+/* H1 Styling */
+.sharedAtom-headerGreen {
+    font-family: 'Gotcha-Regular';
+    font-weight: 400;
+    color: #007173;
+    
+}
+
+.sharedAtom-headerGreen span {
+    font-weight: 600;
+    font-family: General Sans;
+    color: black;
+}
+
+
+/* H1 Styling */
+.h1-styling {
+    font-size: 66px;
+    line-height: 52px;
+}
+
+.h1-styling span {
+    font-size: 48px;
+    line-height: 52px;
+}
+
+
+/* H2 Styling */
+
+.h2-styling {
+    font-size: 60px;
+    line-height: 44px;
+}
+
+.h2-styling span {
+    font-size: 40px;
+    line-height: 44px;    
+}
+
+
+/* MARAMEO Difference */
+
+.sharedAtom-headerGreen .h2 {
+    font-size: 60px;
+    line-height: 44px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.h2 span {
+    font-size: 40px;
+    line-height: 44px;    
+    color: white;
+}
+
+
+
+
+
