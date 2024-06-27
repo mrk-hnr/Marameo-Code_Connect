@@ -17,11 +17,13 @@
 .h1-styling {
     font-size: 66px;
     line-height: 52px;
+    font-weight: 400;
 }
 
 .h1-styling span {
     font-size: 48px;
     line-height: 52px;
+    font-weight: 600;
 }
 
 

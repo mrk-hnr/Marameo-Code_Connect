@@ -1,10 +1,15 @@
-p {
+.sharedAtom-headerGreen p {
     color: rgba(56, 56, 56, 1); 
     margin-bottom: 32px;
-}
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    
+}   
 
-h1 {
-     margin-bottom: 40px; /* margin-top on <p> not working, adjusted spacing from h1 instead */
+.sharedAtom-headerGreen {
+    font-weight: 400;
+     margin-bottom: 30px; /* margin-top on <p> not working, adjusted spacing from h1 instead */
 }
 
 .contentMedia__descr button:first-of-type {
@@ -65,6 +70,12 @@ h1 {
 
     .contentMedia-left {
         margin: 0 16px;
+    }
+
+    .sharedAtom-headerGreen {
+        font-size: 56px !important;
+        line-height: 44px !important;
+        font-weight: 400;
     }
 
     .contentMedia-right {
