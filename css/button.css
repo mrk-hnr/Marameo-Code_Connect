@@ -39,3 +39,11 @@
     background: #00BFC3;
 }
 
+/* CONTACT BLOCK */
+
+@media(max-width: 952px) {
+    .contactContainer button {
+        width: 95%;
+    }
+}
+

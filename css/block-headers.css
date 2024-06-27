@@ -8,7 +8,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 40px;
     line-height: 44px;  
     font-family: "General Sans", sans-serif;
-    
+    font-weight: 600;
 }
 
 /* H1 Styling */
@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
 }
 
-.sharedAtom-headerGreen span {
+.h1-styling span {
     font-size: 48px;
     line-height: 52px;
     font-weight: 600;
@@ -33,6 +33,10 @@ h1, h2, h3, h4, h5, h6 {
 .h2-styling {
     font-size: 60px;
     line-height: 44px;
+}
+
+.h2-styling span {
+    color: black;
 }
 
 
@@ -50,7 +54,18 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
 }
 
+p {
+    font-family: "General Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #383838;
+}
 
+/* ABOUT US */
 
-
+.aboutContainer .h2-styling {
+    margin-top: 12px;
+    margin-bottom: 16px;
+}
 

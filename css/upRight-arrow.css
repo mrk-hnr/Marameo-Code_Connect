@@ -1,10 +1,13 @@
 .greenLink-arrow {
     display: flex;
-    font-weight: 600;
     font-size: 16px;
     line-height: 24px;
+    font-family: "General Sans", sans-serif; 
+    font-weight: 600;
 }
 
-.greenLink-arrow a {
-    color: rgba(0, 113, 115, 1);
+a {
+    text-decoration: none;
+    color: rgba(0, 113, 115, 1);    
 }
+

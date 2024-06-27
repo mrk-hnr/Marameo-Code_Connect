@@ -29,7 +29,7 @@
     height: 100vh;
 }
 
-.mainContainer {
+.contactContainer {
     background: linear-gradient(90deg, #009496 25%, #F1EAE6 20%); 
 }
 
@@ -62,7 +62,7 @@
 
 @media(max-width: 899px) {
 
-    .mainContainer {
+    .contactContainer {
         background: linear-gradient(90deg, #F1EAE6 100%, #009496 20%); 
     }
 
