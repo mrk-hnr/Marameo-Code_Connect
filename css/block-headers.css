@@ -1,42 +1,38 @@
-/* H1 Styling */
-.sharedAtom-headerGreen {
-    font-family: 'Gotcha-Regular';
-    font-weight: 400;
-    color: #007173;
+/* Global Header Styling  */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Gotcha-Regular', sans-serif;
+}
+
+.headerSpan {
+    font-size: 40px;
+    line-height: 44px;  
+    font-family: "General Sans", sans-serif;
     
 }
 
-.sharedAtom-headerGreen span {
-    font-weight: 600;
-    font-family: General Sans;
-    color: black;
-}
-
-
 /* H1 Styling */
-.h1-styling {
+.sharedAtom-headerGreen {
+    font-weight: 400;
+    color: #007173;
     font-size: 66px;
     line-height: 52px;
     font-weight: 400;
 }
 
-.h1-styling span {
+.sharedAtom-headerGreen span {
     font-size: 48px;
     line-height: 52px;
     font-weight: 600;
+    font-family: "General Sans", sans-serif; 
+    color: black;
 }
-
 
 /* H2 Styling */
 
 .h2-styling {
     font-size: 60px;
     line-height: 44px;
-}
-
-.h2-styling span {
-    font-size: 40px;
-    line-height: 44px;    
 }
 
 

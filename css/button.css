@@ -4,12 +4,13 @@
     padding: 16px 24px;
     border-radius: 100px;
     color: #0F1828;
-    width: 165px;
+    /* width: 165px; */
+    width: fit-content;
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
-    /* background: transparent; */
-    background: rgba(255, 255, 255, 0.5);
+    background: #F1EAE6;
+    /* background: rgba(255, 255, 255, 0.5); */
 }
 
 .button a {
@@ -19,7 +20,7 @@
 }
 
 .transparent {
-    border: 1px solid rgba(15, 24, 40, 0.5);
+    border: 1px solid rgba(15, 24, 40, 0.552);
     padding: 16px 24px;
 }
 

@@ -4,7 +4,6 @@
     font-size: 18px;
     line-height: 26px;
     font-weight: 400;
-    
 }   
 
 .sharedAtom-headerGreen {
@@ -12,35 +11,42 @@
      margin-bottom: 30px; /* margin-top on <p> not working, adjusted spacing from h1 instead */
 }
 
+.headerSpan-container {
+    display: flex;
+    align-items: center;
+}
+
 .contentMedia__descr button:first-of-type {
     margin-right: 8px;
     margin-bottom: 8px;
 }
 
+
 .contentMedia-container {
     display: flex;
+    flex-direction: row-reverse;
     min-width: 393px;
     height: 100vh;
 }
 
 .mainContainer {
-    background: linear-gradient(90deg, #F1EAE6 80%, #009496 20%); 
+    background: linear-gradient(90deg, #009496 25%, #F1EAE6 20%); 
 }
 
 .contentMedia-left {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 95px;
     margin-right: 5px;
-    
 }
 
 
 .contentMedia-right {
-    margin-top: 50%; /* Adjust to give image spacing from the top */
+    /* margin-top: 50%; Functional on header, not on contact.html */
     margin-right: 50%;
+    margin-left: 80px;
     position: relative;
+    
 }
 .curvedImage {
     width: 40vw; /* Best image width to maintain ratio and spacing upon resizing */
@@ -65,11 +71,11 @@
         align-items: center;
         justify-content: space-between;
         height: auto;
-        text-align: center;
     }
 
     .contentMedia-left {
         margin: 0 16px;
+        flex-wrap: wrap;
     }
 
     .sharedAtom-headerGreen {
@@ -77,6 +83,10 @@
         line-height: 44px !important;
         font-weight: 400;
     }
+
+    /* .headerSpan-container {
+        justify-content: center;
+    } */
 
     .contentMedia-right {
         position: static;
