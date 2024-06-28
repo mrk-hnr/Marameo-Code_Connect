@@ -18,9 +18,16 @@ a {
 
 header {
     font-family: 'General Sans', sans-serif;
-    min-width: 393px;
-}
 
+
+    /* Codes added when added into index.html */
+    position: absolute;
+    left: 0; 
+    right: 0;
+    margin: 0 auto; 
+    margin-top: 24px;
+    /* Codes added when added into index.html */
+}
 
 /* BURGER MENU */
 
@@ -83,25 +90,32 @@ navi__bottom-click {
     border-radius: 100px;
     align-items: center; 
     height: 80px;
+    width: 95%;
+    margin: 0 auto;
+
+
+
 }
  
 /* LEFT NAV START */
+
 .navi__leftContainer {
     margin: 12px 0 12px 32px;
 }
-/* LEFT NAV END */
 
+/* LEFT NAV END */
 /* MIDDLE NAV START */
 
 .navi__middleContainer {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex: 5;
 }
 
 .navi__select {
     cursor: pointer;
-    padding: 12px 16px;
+    padding: 12px 12px;
+
 }
 
 .navi__select:hover {
@@ -122,14 +136,11 @@ navi__bottom-click {
     margin-top: 32px;
 }
 
-
-
 .navi__menu {
     display: none;
 }
+
 /* MIDDLE NAV END */
-
-
 /* RIGHT NAV START */
 
 .navi__rightContainer {
@@ -193,9 +204,9 @@ navi__bottom-click {
 
 /* PROPERTIES HOVER CONTENT */
 
-/* .navi__properties {
+.navi__properties {
     display: none;
-} */
+}
 
 .navi__upperContainer {
     display: flex;
@@ -257,7 +268,6 @@ navi__bottom-click {
     justify-content: space-around;
     width: 220%;
     margin: 0 32px;
-    
 }
 
 .navi__leftContent a {
@@ -293,8 +303,6 @@ navi__leftContent-custom:last-child {
     margin: 16px 0;
 }
 
-
-
 .navi__leftContent a:last-child {
     margin-bottom: 36px;
 }
@@ -310,7 +318,6 @@ navi__leftContent-custom:last-child {
 .navi__rightContent {
     border-left: 1px solid rgba(0, 0, 0, 0.1);
 }
-
 
 .navi__rightContent > * {
     margin: 0 32px;
@@ -374,7 +381,7 @@ navi__leftContent-custom:last-child {
 }
 
 
-@media(max-width: 885px) { /* Removes links and button, mobile layout takesover the design*/
+@media(max-width: 899px) { /* Removes links and button, mobile layout takesover the design*/
     .navi__middleContainer, .navi__rightContainer button {
         display: none;
     }
@@ -465,5 +472,13 @@ navi__leftContent-custom:last-child {
         margin: 0;
     
     }
+}
 
+@media(max-width: 335px) {
+    .navi__rightContainer img {
+        display: none;
+    }
+    .navi {
+        min-width: 285px;
+    }
 }

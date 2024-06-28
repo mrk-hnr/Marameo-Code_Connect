@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "Gotcha-Regular";
+    src: url("../../fonts/gotcha-regular.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: "General-Sans";
+    src: url("../../fonts/GeneralSans-Regular.otf");
+}
+
+  @font-face {
+    font-family: "general Sans Medium";
+    src: url("../../fonts/GeneralSans-Medium.otf");
+}
+
+  @font-face {
+    font-family: "general Sans Semibold";
+    src: url("../../fonts/eneralSans-Semibold.otf");
+}
+  
+
+  @font-face {
+    font-family: "general Sans Semibold";
+    src: url(../../fonts/GeneralSans-Semibold.otf);
+}
+  

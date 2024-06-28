@@ -4,7 +4,6 @@
     font-size: 18px;
     line-height: 26px;
     font-weight: 400;
-    
 }   
 
 .sharedAtom-headerGreen {
@@ -19,8 +18,6 @@
 
 .contentMedia-container {
     display: flex;
-    min-width: 393px;
-    height: 100vh;
 }
 
 .mainContainer {
@@ -33,19 +30,26 @@
     justify-content: center;
     margin-left: 95px;
     margin-right: 5px;
-    
 }
-
 
 .contentMedia-right {
-    margin-top: 50%; /* Adjust to give image spacing from the top */
-    margin-right: 50%;
-    position: relative;
+    /*margin-top: 50%;  Adjust to give image spacing from the top */
+    /* margin-right: 50%; */
+    /* position: relative; */
+    display: flex;
+    align-items: end;
+}
+
+.mainContainer .curvedImage {
+    margin-top: 230px
 }
 .curvedImage {
-    width: 40vw; /* Best image width to maintain ratio and spacing upon resizing */
-    position: absolute;
-    bottom: 0;
+    /* width: 40vw;  Best image width to maintain ratio and spacing upon resizing */
+    /* position: absolute;
+    bottom: 0; */
+    margin-right: 79px;
+    width: 30rem;
+
     border-top-left-radius: 1000px;
     border-top-right-radius: 1000px;
 }
@@ -55,17 +59,15 @@
 }
 
 @media(max-width: 899px) {
-
     .mainContainer {
         background: linear-gradient(90deg, #F1EAE6 100%, #009496 20%); 
     }
 
     .contentMedia-container {
-        flex-direction: column;
+        flex-direction: column !important;
         align-items: center;
         justify-content: space-between;
-        height: auto;
-        text-align: center;
+        height: auto; 
     }
 
     .contentMedia-left {
@@ -80,17 +82,18 @@
 
     .contentMedia-right {
         position: static;
-        text-align: center;
         margin: 0 auto;
-        margin-top: 52px;
+        justify-content: center;
     }
 
-    .curvedImage {
-        width: 50%; 
+    .mainContainer .curvedImage {
+        margin-top: 52px;
+        margin-right: 0;
         position: static;
         bottom: 0;
         border-top-left-radius: 1000px;
         border-top-right-radius: 1000px;
+        width: 85%;
     } 
     .contentMedia-buttonContainer button {
         width: 95%;

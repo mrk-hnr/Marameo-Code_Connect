@@ -1,0 +1,44 @@
+.aboutContainer {
+    flex-direction: row-reverse;
+}
+
+
+
+.aboutContainer .contentMedia-right {
+    flex-grow: 3;
+    justify-content: center;
+}
+
+.aboutContainer .contentMedia-left {
+    margin-right: 5%;
+    margin-left: -20%;
+    margin-bottom: 118px;
+    flex: 3;
+}
+
+/* .contentMedia-right .aboutContainer {
+    margin-right: 40%;
+    margin-left: 96px;
+} */
+
+
+
+@media(max-width: 899px) {
+    .aboutContainer .curvedImage {
+        width: 90%;
+        margin: 0;
+    } 
+
+    .aboutContainer .contentMedia-right {
+        flex-grow: 0;
+        justify-content: center;
+    }
+    
+    .aboutContainer .contentMedia-left {
+        margin: 0 5%;
+        
+        margin-bottom: 50px;
+        flex: 0;
+    }
+}
+

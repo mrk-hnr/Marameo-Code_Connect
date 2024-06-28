@@ -3,12 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/block-headers.css">
-    <link rel="stylesheet" href="../css/button.css">
-    <link rel="stylesheet" href="../css/fonts.css">
-    <link rel="stylesheet" href="../css/navBar.css">
-    <link rel="stylesheet" href="../css/upRight-arrow.css">
-    <link rel="stylesheet" href="../css/content-media.css">
+    <link rel="stylesheet" href="./css/global/global.css">
+    <link rel="stylesheet" href="./css/global/fonts.css">
+    <link rel="stylesheet" href="../css/atoms/subtitle.css">
+    <link rel="stylesheet" href="./css/atoms/block-headers.css">
+    <link rel="stylesheet" href="./css/atoms/button.css">
+    
+    <link rel="stylesheet" href="./css/blocks/navBar.css">
+    <link rel="stylesheet" href="./css/atoms/upRight-arrow.css">
+    <link rel="stylesheet" href="./css/blocks/content-media.css">
+    <link rel="stylesheet" href="../css/blocks/about.css">
+    <link rel="stylesheet" href="../css/blocks/contact.css">
+
+    
+
     <link rel="stylesheet" href="">
     <title>Marameo Design</title>
 </head>
@@ -175,7 +183,7 @@
             
         </section>
 
-        <section class="navi__hover navi__SDA">
+        <section class="navi__hover navi__SDA navi__properties">
            <div class="navi__contentContainer">
             <div class="navi__leftContent">
                 <span class="navi__title navi__custom">SDA</span>
@@ -197,7 +205,7 @@
            </div>   
         </section>
 
-        <section class="navi__hover navi__about">
+        <section class="navi__hover navi__about  navi__properties">
             <div class="navi__contentContainer">
              <div class="navi__leftContent">
                  <span class="navi__title navi__custom">ABOUTMARAMEO</span>
@@ -220,7 +228,7 @@
             </div>   
          </section>
 
-         <section class="navi__hover navi__resource">
+         <section class="navi__hover navi__resource navi__properties">
             <div class="navi__contentContainer">
              <div class="navi__leftContent-custom">
                  <span class="navi__title navi__customTitle">RESOURCE HUB</span>
@@ -241,7 +249,7 @@
             </div>   
          </section>
 
-         <section class="navi__hover navi__mediaNews">
+         <section class="navi__hover navi__mediaNews navi__properties">
             <div class="navi__contentContainer">
              <div class="navi__leftContent">
                  <span class="navi__title navi__custom">MEDIA AND NEWS</span>
@@ -263,6 +271,7 @@
             </div>   
          </section>
     </header>
+
     <section class="contentMedia-container mainContainer">
         <div class="contentMedia-left">
             <div class="contentMedia__descr">
@@ -279,6 +288,43 @@
             <img src="../images/main.png" alt="" class="curvedImage">
         </div>  
     </section>
+
+    <section class="contentMedia-container aboutContainer">
+        <div class="contentMedia-left">
+            <div class="contentMedia__descr">
+                <span class="subtitle">About Us</span>
+                <h2 class="sharedAtom-headerGreen h2-styling">Love where you live <span class="headerSpan">with Marameo</span></h2>   
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est veritatis molestiae maiores, ducimus voluptates corporis? Reiciendis, necessitatibus! Minus, velit! Dignissimos, cumque nihil? Dolorem, molestias accusamus.</p>
+
+                <div class="greenLink-arrow">
+                    <span><a href="#">Learn more about us</a></span>
+                    <img src="../images/upright-arrow.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="contentMedia-right">
+            <img src="../images/about.png" alt="" class="curvedImage">
+        </div>  
+    </section>
+
+    <section class="contentMedia-container contactContainer">
+        <div class="contentMedia-left">
+            <div class="contentMedia__descr">
+                    <h2 class="sharedAtom-headerGreen h2-styling "><span class="headerSpan">Contact</span>Marameo <span class="headerSpan">today</span></h2>   
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est veritatis molestiae maiores, ducimus voluptates corporis? Reiciendis, necessitatibus! Minus, velit! Dignissimos, cumque nihil? Dolorem, molestias accusamus.</p>
+
+                <div class="contentMedia-buttonContainer">
+                    <button class="button green"><a href="#">Submit Enquiry</a></button>
+                    <button class="button transparent"> <a href="#">Call us 1300 156 555 </a></button>
+                </div>
+            </div>
+        </div>
+        <div class="contentMedia-right">
+            <img src="../images/contact.png" alt="" class="curvedImage">
+        </div>  
+    </section>
+
+
     
 </body>
 </html>

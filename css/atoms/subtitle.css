@@ -8,3 +8,10 @@
     color: #0F1828BF;
 }
 
+p {
+    color: rgba(56, 56, 56, 1); 
+    margin-bottom: 32px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+} 

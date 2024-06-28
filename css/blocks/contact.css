@@ -1,0 +1,54 @@
+.contactContainer {
+    background: linear-gradient(90deg, #009496 17%, #F1EAE6 17%); 
+    flex-direction: row-reverse;
+}
+
+.contactContainer .contentMedia-left {
+    margin-right: 10%;
+    margin-left: 15%;
+    margin-bottom: 191px;
+}
+
+.contactContainer .curvedImage {
+    margin: 0 19%;
+}
+
+@media(max-width: 1019px) {
+    .contactContainer {
+        background: linear-gradient(90deg, #009496 0%, #F1EAE6 0%); 
+        flex-direction: column;
+    }
+
+    .contactContainer .contentMedia-left {
+        margin-bottom: 0;
+    }
+
+    .contactContainer .contentMedia-right {
+        margin-top: 56px;
+    }
+
+    .contactContainer .contentMedia-buttonContainer {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .contactContainer button {
+        width: 100%;
+    }
+
+    .contactContainer .curvedImage {
+        margin: 0 auto;
+    }
+}
+
+@media(max-width: 899px) {
+
+
+
+
+    .contactContainer .curvedImage {
+        width: 90%;
+    }
+}
