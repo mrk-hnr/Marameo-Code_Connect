@@ -5,7 +5,7 @@ Code_Connect is a developer mentorship program aimed at supporting developers ge
 ## Working On:
 
 - Finish 90% of site by Friday
-  - Proceed into completing Optimization once Week 3 target reached
+  - Proceed into completing Optimization 6-9 once Week 3 target reached
 
 ## Goals:
 
@@ -33,22 +33,22 @@ Code_Connect is a developer mentorship program aimed at supporting developers ge
 4. Further organize classes name in accordance with the [BEM Naming Convention](https://getbem.com/naming/)
    - Maximize potential shared atoms/components and further optimize reusable codes as a result of organizing classes
 5. Change class naming convention from camelCase to kebab-case
+6. Switch some button elements to anchor
+
+- anchor strictly for linking to other pages
+- buttons if it's behavioral actions
+
+7. Add inline width and height to images to prevent shifting during/after page load
+8. Add basic description for alt properties in image for SEO and accessibility purposes
+9. Create subfolders in css
+
+- i.e. css => atoms folder => button.css
+- i.e. css => block folder => nav.css
 
 ## Notes
 
 1. navi-hover put on display: none, and then display:block on havi-(linkname) on hover
    - don't forget to put navi\_\_properties on hover contents
-2. Switch some button elements to anchor
-
-- anchor strictly for linking to other pages
-- buttons if it's behavioral actions
-
-3. Add inline width and height to images to prevent shifting during/after page load
-4. Add basic description for alt properties in image for SEO and accessibility purposes
-5. Create subfolders in css
-
-- i.e. css => atoms folder => button.css
-- i.e. css => block folder => nav.css
 
 ## Resources:
 
