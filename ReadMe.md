@@ -32,15 +32,15 @@ Code_Connect is a developer mentorship program aimed at supporting developers ge
 3. <strike>Footer Flag Spacing on Responsive</strike>
 4. Further organize classes name in accordance with the [BEM Naming Convention](https://getbem.com/naming/)
    - Maximize potential shared atoms/components and further optimize reusable codes as a result of organizing classes
-5. Change files and class naming convention from camelCase to kebab-case
+5. <strike>Change files and class naming convention from camelCase to kebab-case</strike>
 6. Switch some button elements to anchor
    - anchor strictly for linking to other pages
    - buttons if it's behavioral actions
 7. Add inline width and height to images to prevent shifting during/after page load
 8. Add basic description for alt properties in image for SEO and accessibility purposes
-9. Create subfolders in css
-   - i.e. css => atoms folder => button.css
-   - i.e. css => block folder => nav.css
+9. <strike>Create subfolders in css</strike>
+   - <strike>i.e. css => atoms folder => button.css</strike
+   - <strike>i.e. css => block folder => nav.css</strike>
 
 ## Notes
 
