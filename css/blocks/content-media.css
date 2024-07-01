@@ -57,6 +57,16 @@
     margin-top: 100px;
 }
 
+/* PROPERTY Block */
+
+.property-container h3 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    margin: 8px 0;
+}
+
+
 @media(max-width: 899px) {
     .main-container {
         background: linear-gradient(90deg, #F1EAE6 100%, #009496 20%); 
@@ -101,4 +111,22 @@
     /* .contentMedia-container {
         padding-bottom: 10%;
     } */
+
+    .property-container .content-media__descr {
+        margin-top: 22px;
+    }
+
+    .property-container h3 {
+        font-size: 26px !important;
+        line-height: 34px !important;
+    }
+
+    .property-container .content-media-left {
+        padding-bottom: 64px;
+    }
+
+
 }
+
+
+

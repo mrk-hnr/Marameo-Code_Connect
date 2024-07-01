@@ -47,3 +47,9 @@
     }
 }
 
+@media(max-width: 899px) {
+    .property-container button {
+        width: 95%;
+    }
+}
+

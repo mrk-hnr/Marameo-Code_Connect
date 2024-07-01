@@ -10,6 +10,11 @@ footer {
     min-width: 393px;
 }
 
+.overall-footer-container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
 .footer__button {
     width: 240px;
     display: block;
@@ -23,6 +28,7 @@ footer {
     display: flex;
     justify-content: space-between;    
     padding: 100px 45px 45px 100px;
+    max-width: 1600px;
 }
 
 
