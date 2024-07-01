@@ -37,6 +37,10 @@ footer {
     margin: 0 96px;
 }
 
+.footer__middle-block > .footer__contact-info {
+    color: white !important;
+}
+
 .footer__contact-info {
     flex: 1;
 }
@@ -176,8 +180,9 @@ footer {
     }
 
     .footer__brand-logo {
-        padding-top: 76px;
+        padding: 76px 0 45px 0;
         width: 230px;
+        
     }
 
     .footer__brand-logo img + img {
