@@ -39,7 +39,7 @@ Code_Connect is a developer mentorship program aimed at supporting developers ge
 7. Add inline width and height to images to prevent shifting during/after page load
 8. Add basic description for alt properties in image for SEO and accessibility purposes
 9. <strike>Create subfolders in css</strike>
-   - <strike>i.e. css => atoms folder => button.css</strike
+   - <strike>i.e. css => atoms folder => button.css</strike>
    - <strike>i.e. css => block folder => nav.css</strike>
 
 ## Notes
