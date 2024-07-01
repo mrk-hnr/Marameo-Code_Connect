@@ -31,7 +31,7 @@ header {
 
 /* BURGER MENU */
 
-.navi__burgermenu {
+.navi__burger-menu {
     cursor: pointer;
     margin: 0 auto;
     padding-left: 1.25em;
@@ -92,21 +92,18 @@ navi__bottom-click {
     height: 80px;
     width: 95%;
     margin: 0 auto;
-
-
-
 }
  
 /* LEFT NAV START */
 
-.navi__leftContainer {
+.navi__left-container {
     margin: 12px 0 12px 32px;
 }
 
 /* LEFT NAV END */
 /* MIDDLE NAV START */
 
-.navi__middleContainer {
+.navi__middle-container {
     display: flex;
     justify-content: space-around;
     flex: 5;
@@ -115,7 +112,6 @@ navi__bottom-click {
 .navi__select {
     cursor: pointer;
     padding: 12px 12px;
-
 }
 
 .navi__select:hover {
@@ -143,13 +139,13 @@ navi__bottom-click {
 /* MIDDLE NAV END */
 /* RIGHT NAV START */
 
-.navi__rightContainer {
+.navi__right-container {
     text-align: end; /* Makes the container to the rightmost position */
     margin: 16px;
     display: flex; 
 }
 
-.navi__rightContainer img {
+.navi__right-container img {
     margin: 28px 12px;
 }
 
@@ -161,7 +157,6 @@ navi__bottom-click {
 }
 
 /* RIGHT NAV END */
-
 /* SHARED NAV HOVER PROPERTIES */
 
 .navi__hover {
@@ -177,7 +172,6 @@ navi__bottom-click {
 
 .navi__hover img {
     width: 240px;
-    
     border-radius: 8px;
 }
 
@@ -208,11 +202,11 @@ navi__bottom-click {
     display: none;
 }
 
-.navi__upperContainer {
+.navi__upper-container {
     display: flex;
 }
 
-.navi__upperLeft-properties, .navi__upperRight-properties {
+.navi__upper-left-properties, .navi__upper-right-properties {
     width: 100%;
     margin-top: 25px;
 }
@@ -222,18 +216,18 @@ navi__bottom-click {
     width: 100%;
 }
 
-.navi__upperRight-properties {
+.navi__upper-right-properties {
     justify-content: end; 
 }
 
 /* PROPERTIES NAV -- MAP CONTENT */
-.navi__mapContainer {
+.navi__map-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.navi__stateContainer {
+.navi__state-container {
     justify-content: center;
     margin: 18px 28px;
     height: 110px;
@@ -241,14 +235,14 @@ navi__bottom-click {
     position: relative; /* Relative so that absolute/bottom:0 works for its child p */
 }
 
-.navi__stateContainer > p {
+.navi__state-container > p {
     position: absolute;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
 }
 
-.navi__stateContainer > img, .navi__upperRight-properties > img {
+.navi__state-container > img, .navi__upper-right-properties > img {
     width: auto !important;
 }
 
@@ -257,12 +251,12 @@ navi__bottom-click {
 .navi__hover + .navi__SDA,
 .navi__hover + .navi__about,
 .navi__hover + .navi__resource,
-.navi__hover + .navi__mediaNews
+.navi__hover + .navi__media-news
  {
     padding: 0 !important;
 }
 
-.navi__leftContent {
+.navi__left-content {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -270,32 +264,36 @@ navi__bottom-click {
     margin: 0 32px;
 }
 
-.navi__leftContent a {
+.navi__left-content a {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     color: rgba(15, 24, 40, 0.75);
 }
 
-.navi__leftContent-custom {
+.navi__left-content-custom {
     display: flex;
     flex-direction: column;
     width: 220%;
     margin: 0 32px;
 }
 
-navi__leftContent-custom:last-child {
-    margin-top: 16px
+.navi__left-content-custom span {
+    font-weight: 600;
 }
 
-.navi__customTitle {
+/* navi__left-content-custom:last-child {
+    margin-top: 16px
+} */
+
+.navi__custom-title {
     font-weight: 600;
     font-size: 16;
     line-height: 24px;
     margin-bottom: 8px
 }
 
-.navi__customLink {
+.navi__custom-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -303,40 +301,41 @@ navi__leftContent-custom:last-child {
     margin: 16px 0;
 }
 
-.navi__leftContent a:last-child {
+.navi__left-content a:last-child {
     margin-bottom: 36px;
 }
 
-.navi__SDA > .navi__contentContainer,
-.navi__about > .navi__contentContainer,
-.navi__resource > .navi__contentContainer,
-.navi__mediaNews > .navi__contentContainer
+.navi__SDA > .navi__content-container,
+.navi__about > .navi__content-container,
+.navi__resource > .navi__content-container,
+.navi__media-news > .navi__content-container
  {
     display: flex;
 }
 
-.navi__rightContent {
+.navi__right-content {
     border-left: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.navi__rightContent > * {
+.navi__right-content > * {
     margin: 0 32px;
 }
 
-.navi__rightContent img {
+.navi__right-content img {
     margin-top: 32px;
     height: 120px;
 }
 
-.navi__rightContent h5 {
+.navi__right-content h5 {
     font-weight: 600;
     font-size: 20px;
     line-height: 26px;
     margin-top: 16px;
     margin-bottom: 4px;
+    font-family: "General Sans", sans-serif
 }
 
-.navi__rightContent p {
+.navi__right-content p {
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
@@ -344,7 +343,7 @@ navi__leftContent-custom:last-child {
     padding-bottom: 32px;
 }
 
-.navi__leftContent .navi__title {
+.navi__left-content .navi__title {
     font-weight: 600;
 }
 
@@ -364,8 +363,10 @@ navi__leftContent-custom:last-child {
 @media(max-width: 1033px) {
     .navi__title {
         font-weight: 500;
-        font-size: 12px;
-        line-height: 24px;;
+        font-size: 13px;
+        line-height: 24px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
     }
 
     .navi__button {
@@ -382,11 +383,11 @@ navi__leftContent-custom:last-child {
 
 
 @media(max-width: 899px) { /* Removes links and button, mobile layout takesover the design*/
-    .navi__middleContainer, .navi__rightContainer button {
+    .navi__middle-container, .navi__right-container button {
         display: none;
     }
 
-    .navi__burgermenu {
+    .navi__burger-menu {
         display: block;
         margin: 28px 21px
     }
@@ -396,47 +397,47 @@ navi__leftContent-custom:last-child {
         justify-content: space-around;
     }
 
-    .navi__leftContainer {
+    .navi__left-container {
         width: 100%;
     }
 
-    .navi__stateContainer {
+    .navi__state-container {
         margin: 20px 45px;
     }
 
     .navi__hover {
-        background: rgba(255, 225, 214, 0.25);
+        background: rgba(255, 225, 214, 1); /* Figma says 25% opacity but  */
     }
+    
 }
 
 @media(max-width: 600px) {
-    .navi__SDA > .navi__contentContainer,
-    .navi__about > .navi__contentContainer,
-    .navi__resource > .navi__contentContainer,
-    .navi__mediaNews > .navi__contentContainer
+    .navi__SDA > .navi__content-container,
+    .navi__about > .navi__content-container,
+    .navi__resource > .navi__content-container,
+    .navi__media-news > .navi__content-container
      {
         flex-direction: column;
         justify-content: center;
         margin: 0 auto;
-        
     }
 
-    .navi__leftContent {
+    .navi__left-content {
         width: auto;
         height: 250px;
     }
 
-    .navi__leftContent a:last-child {
+    .navi__left-content a:last-child {
         margin-bottom: 0;
     }
 
-    .navi__rightContent {
+    .navi__right-content {
         display: flex;
         align-items: center;
         margin-top: -1rem;
     }
 
-    .navi__rightContent * {
+    .navi__right-content * {
         margin: 0;
         padding: 0;
         margin-left: 16px;
@@ -445,37 +446,35 @@ navi__leftContent-custom:last-child {
     /* .navi__rightContent div:nth-child(1) {
 
     } */
-    .navi__rightContent div:nth-child(2) {
+    .navi__right-content div:nth-child(2) {
         padding-left: 12px;
         margin-top: 10%;
         margin-bottom: 24px;
-
     }
 
-    .navi__rightContent img {
+    .navi__right-content img {
         width: 140px;
         height: 70px;
     }
 
 
-    .navi__rightContent h5 {
+    .navi__right-content h5 {
         font-size: 18px;
         margin: 0;
         line-height: 24px;
     }
 
-    .navi__rightContent p {
+    .navi__right-content p {
         font-size: 13px;
         line-height: 18px;
         letter-spacing: .5px;
         padding: 0;
         margin: 0;
-    
     }
 }
 
 @media(max-width: 335px) {
-    .navi__rightContainer img {
+    .navi__right-container img {
         display: none;
     }
     .navi {

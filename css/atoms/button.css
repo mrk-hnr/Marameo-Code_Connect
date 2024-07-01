@@ -35,14 +35,14 @@
     text-decoration: none;
 }
 
-.footerButton {
+.footer-button {
     background: #00BFC3;
 }
 
 /* CONTACT BLOCK */
 
 @media(max-width: 952px) {
-    .contactContainer button {
+    .contact-container button {
         width: 95%;
     }
 }

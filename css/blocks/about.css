@@ -1,15 +1,15 @@
-.aboutContainer {
+.about-container {
     flex-direction: row-reverse;
 }
 
 
 
-.aboutContainer .contentMedia-right {
+.about-container .content-media-right {
     flex-grow: 3;
     justify-content: center;
 }
 
-.aboutContainer .contentMedia-left {
+.about-container .content-media-left {
     margin-right: 5%;
     margin-left: -20%;
     margin-bottom: 118px;
@@ -24,19 +24,18 @@
 
 
 @media(max-width: 899px) {
-    .aboutContainer .curvedImage {
+    .about-container .curved-image {
         width: 90%;
         margin: 0;
     } 
 
-    .aboutContainer .contentMedia-right {
+    .about-container .content-media-right {
         flex-grow: 0;
         justify-content: center;
     }
     
-    .aboutContainer .contentMedia-left {
-        margin: 0 5%;
-        
+    .about-container .content-media-left {
+        margin: 0 5%;        
         margin-bottom: 50px;
         flex: 0;
     }

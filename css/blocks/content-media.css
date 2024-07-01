@@ -1,4 +1,4 @@
-.sharedAtom-headerGreen p {
+.shared-atom-header-green p {
     color: rgba(56, 56, 56, 1); 
     margin-bottom: 32px;
     font-size: 18px;
@@ -6,25 +6,25 @@
     font-weight: 400;
 }   
 
-.sharedAtom-headerGreen {
+.shared-atom-header-green {
     font-weight: 400;
      margin-bottom: 30px; /* margin-top on <p> not working, adjusted spacing from h1 instead */
 }
 
-.contentMedia__descr button:first-of-type {
+.content-media__descr button:first-of-type {
     margin-right: 8px;
     margin-bottom: 8px;
 }
 
-.contentMedia-container {
+.content-media-container {
     display: flex;
 }
 
-.mainContainer {
+.main-container {
     background: linear-gradient(90deg, #F1EAE6 80%, #009496 20%); 
 }
 
-.contentMedia-left {
+.content-media-left {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,7 +32,7 @@
     margin-right: 5px;
 }
 
-.contentMedia-right {
+.content-media-right {
     /*margin-top: 50%;  Adjust to give image spacing from the top */
     /* margin-right: 50%; */
     /* position: relative; */
@@ -40,53 +40,52 @@
     align-items: end;
 }
 
-.mainContainer .curvedImage {
+.main-container .curved-image {
     margin-top: 230px
 }
-.curvedImage {
+.curved-image {
     /* width: 40vw;  Best image width to maintain ratio and spacing upon resizing */
     /* position: absolute;
     bottom: 0; */
     margin-right: 79px;
     width: 30rem;
-
     border-top-left-radius: 1000px;
     border-top-right-radius: 1000px;
 }
 
-.contentMedia__descr {
+.content-media__descr {
     margin-top: 100px;
 }
 
 @media(max-width: 899px) {
-    .mainContainer {
+    .main-container {
         background: linear-gradient(90deg, #F1EAE6 100%, #009496 20%); 
     }
 
-    .contentMedia-container {
+    .content-media-container {
         flex-direction: column !important;
         align-items: center;
         justify-content: space-between;
         height: auto; 
     }
 
-    .contentMedia-left {
+    .content-media-left {
         margin: 0 16px;
     }
 
-    .sharedAtom-headerGreen {
+    .shared-atom-header-green {
         font-size: 56px !important;
         line-height: 44px !important;
         font-weight: 400;
     }
 
-    .contentMedia-right {
+    .content-media-right {
         position: static;
         margin: 0 auto;
         justify-content: center;
     }
 
-    .mainContainer .curvedImage {
+    .main-container .curved-image {
         margin-top: 52px;
         margin-right: 0;
         position: static;
@@ -95,7 +94,7 @@
         border-top-right-radius: 1000px;
         width: 85%;
     } 
-    .contentMedia-buttonContainer button {
+    .content-media-button-container button {
         width: 95%;
     }
 

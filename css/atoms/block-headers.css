@@ -4,7 +4,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Gotcha-Regular', sans-serif;
 }
 
-.headerSpan {
+.header-span {
     font-size: 40px;
     line-height: 44px;  
     font-family: "General Sans", sans-serif;
@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* H1 Styling */
-.sharedAtom-headerGreen {
+.shared-atom-header-green {
     font-weight: 400;
     color: #007173;
     font-size: 66px;
@@ -42,7 +42,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* MARAMEO Difference */
 
-.sharedAtom-headerGreen .h2 {
+.shared-atom-header-green .h2 {
     font-size: 60px;
     line-height: 44px;
     color: rgba(255, 255, 255, 1);
@@ -64,8 +64,14 @@ p {
 
 /* ABOUT US */
 
-.aboutContainer .h2-styling {
+.about-container .h2-styling {
     margin-top: 12px;
     margin-bottom: 16px;
 }
 
+@media(max-width: 899px) {
+    .header-span {
+        font-size: 32px;
+        line-height: 36px;  
+    }
+}
