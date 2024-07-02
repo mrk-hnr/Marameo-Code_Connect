@@ -21,3 +21,21 @@ p {
 .property-container .subtitle {
     color: rgba(0, 113, 115, 1);
 }
+
+/* SDA Block */
+
+.SDA-container .subtitle {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    color: rgba(15, 24, 40, 0.75);
+}
+
+.SDA-container__card > .subtitle {
+    display: block;
+    font-weight: 600;
+    font-size: 32px;
+    padding: 16px 0 0 16px;
+    color: rgba(0, 113, 115, 1);
+}

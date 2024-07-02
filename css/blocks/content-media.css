@@ -43,6 +43,7 @@
 .main-container .curved-image {
     margin-top: 230px
 }
+
 .curved-image {
     /* width: 40vw;  Best image width to maintain ratio and spacing upon resizing */
     /* position: absolute;
@@ -104,6 +105,11 @@
         border-top-right-radius: 1000px;
         width: 85%;
     } 
+
+    .main-container .content-media-button-container {
+        text-align: center;
+    }
+
     .content-media-button-container button {
         width: 95%;
     }
@@ -125,7 +131,10 @@
         padding-bottom: 64px;
     }
 
-
+    .property-container__button-container {
+        margin: 0 auto;
+        text-align: center;
+    }
 }
 
 

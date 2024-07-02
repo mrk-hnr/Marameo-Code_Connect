@@ -39,6 +39,13 @@
     background: #00BFC3;
 }
 
+
+/* SDA Block */
+
+.SDA-container button {
+    margin-right: 24px;
+}
+
 /* CONTACT BLOCK */
 
 @media(max-width: 952px) {
@@ -50,6 +57,7 @@
 @media(max-width: 899px) {
     .property-container button {
         width: 95%;
+        margin-top: 32px !important;
     }
 }
 

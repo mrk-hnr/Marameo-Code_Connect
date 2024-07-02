@@ -10,6 +10,8 @@ footer {
     min-width: 393px;
 }
 
+footer 
+
 .overall-footer-container {
     max-width: 1600px;
     margin: 0 auto;
@@ -58,8 +60,13 @@ footer {
 
 .footer__phone img, .footer__email img {
     margin-right: 12px;
+    margin-top: -5px;
 }
 
+.footer__phone p,
+.footer_email p {
+    margin: 8px 0;
+}
 
 .footer__link {
     display: flex;
@@ -130,14 +137,14 @@ footer {
 }
 
 .footer__flag-container {
-    margin: 15px 15px 0 0;
+    margin: 20px 15px 0 0;
     text-align: center;
     min-width: 110px;
 }
 
-.footer__code-measurement {
+.footer__code-measurement p {
     text-align: center;
-    font-size: 14px;
+    font-size: 14px !important;
 }
 
 

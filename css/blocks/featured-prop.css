@@ -15,10 +15,6 @@
     font-family: "General Sans", sans-serif;
 }
 
-.property-container button {
-    margin-top: 32px;
-}
-
 .property-container span:last-of-type {
     font-weight: 600;
     font-size: 18px;
@@ -36,6 +32,13 @@
     flex: 1;
 }
 
+@media(max-width: 1330px) {
+    .property-container img {
+        width: 40rem;
+    }
+
+}
+
 @media(max-width: 1221px) {
 
     .property-container {
@@ -48,7 +51,7 @@
 
     .property-container .content-media-left {
         margin-left: 20px;
-        margin-top: -10px;
+        margin-top: -50px;
     }
 
     .property-container p {
@@ -87,8 +90,9 @@
     .property-container .content-media-left {
         margin: 0 16px;
         margin-top: 22px;
-        
     }
 
-
+    .property-container___button-container {
+        margin: 0 auto;
+    }
 }
