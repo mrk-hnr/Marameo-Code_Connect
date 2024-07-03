@@ -2,8 +2,14 @@
     padding: 80px 94px 88px 96px;
 }
 
+.stateproperties__link-map {
+    width: fit-content;
+    margin-left: -15px;
+}
+
 .stateproperties-container .stateproperties__link-map p {
     margin: 0; 
+    width: 14rem;
 }
 
 .stateproperties-container .stateproperties__link-map img {
@@ -22,7 +28,7 @@
 }
 
 .stateproperties-container .content-media-bottom img {
-    width: 100%;
+    width: 80%;
 }
 
 .state-properties__double {
@@ -54,11 +60,9 @@
         margin-bottom: 1%;
     }
 
-    .stateproperties__link-map {
+    /* .stateproperties__link-map {
         
-        /* background: rgb(219, 218, 218);   */
-        
-    }
+    } */
 
     .stateproperties__link-map div {
         display: flex;
