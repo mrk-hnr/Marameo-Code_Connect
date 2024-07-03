@@ -67,6 +67,15 @@
     margin: 8px 0;
 }
 
+/* DIFFERENCE Block */
+
+.difference-container .header-span {
+    color: white;
+    font-weight: 600;
+    font-size: 40px;
+    
+}
+
 
 @media(max-width: 899px) {
     .main-container {
@@ -134,6 +143,11 @@
     .property-container__button-container {
         margin: 0 auto;
         text-align: center;
+    }
+
+    .difference-container .h2-styling {
+        font-size: 48px !important;
+        line-height: 36px;
     }
 }
 

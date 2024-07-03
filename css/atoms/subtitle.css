@@ -39,3 +39,32 @@ p {
     padding: 16px 0 0 16px;
     color: rgba(0, 113, 115, 1);
 }
+
+/* DIFFERENCE Block */
+
+.difference-container .subtitle {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: .5px;
+    color: rgba(250, 230, 170, 1);
+    margin: 27px 32px 0 32px;
+}
+
+@media (max-width: 768px) {
+    .difference-container .subtitle {
+        margin: 0 0 0 0;
+    }
+
+}
+
+@media (max-width: 555px) {
+    .difference-container .subtitle {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 32px;
+        letter-spacing: .5px;
+        color: rgba(250, 230, 170, 1);
+        margin: 27px 0 0 0;
+    }
+}

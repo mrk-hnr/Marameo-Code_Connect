@@ -117,6 +117,31 @@ footer p {
     margin-bottom: 24px;
 }
 
+/* DIFFERENCE Block */
+
+.difference-container .h2-styling {
+    color: rgba(255, 225, 214, 1);
+    font-weight: 400;
+    font-size: 60px;
+}
+
+.difference-container__card h4 {
+    margin: 24px 15px 0 0;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.difference-container p {
+    color: rgba(241, 234, 230, 1);
+}
+
+.difference-container__card p {
+    margin: 0;
+    margin: 8px 33px 24px 0;
+    font-size: 16px;
+}
 
 @media (max-width: 1020px) {
     .SDA-container h2 {
@@ -144,5 +169,13 @@ footer p {
     .header-span {
         font-size: 32px;
         line-height: 36px;  
+    }
+}
+
+@media (max-width: 768px) {
+    .difference-container h4 {
+        font-size: 22px;
+        line-height: 28px;
+        margin-top: 10px
     }
 }

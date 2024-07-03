@@ -40,7 +40,6 @@
 .SDA-container__sub-components {
     display: flex;
     gap: 16px;
-    
 }
 
 .SDA-container__card {
@@ -93,7 +92,6 @@
 
     .SDA-container__video-container {
         margin-bottom: 63px;
-        
     }
 
     video {
