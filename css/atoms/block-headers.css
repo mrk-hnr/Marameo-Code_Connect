@@ -143,6 +143,34 @@ footer p {
     font-size: 16px;
 }
 
+/* NEWS RESOURCE Block */
+
+.newsresource-container .header-span {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 44px;
+}
+
+.newsresource-container h4 {
+    margin: 24px 0 8px 0;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+}
+
+.newsresource-container p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+@media (max-width:1063px) {
+    .newsresource-container p {
+        margin 16px 0 0 0:
+    }    
+}
+
+
 @media (max-width: 1020px) {
     .SDA-container h2 {
         

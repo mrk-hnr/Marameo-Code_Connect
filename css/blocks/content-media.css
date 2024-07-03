@@ -76,6 +76,12 @@
     
 }
 
+/* NEWS RESOURCE Block */ 
+
+.newsresource-container .shared-atom-header-green {
+    margin-bottom: 32px;
+}
+
 
 @media(max-width: 899px) {
     .main-container {

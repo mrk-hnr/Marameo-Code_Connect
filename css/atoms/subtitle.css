@@ -18,7 +18,8 @@ p {
 
 /* FEATURED PROPERTY Block */
 
-.property-container .subtitle {
+.property-container .subtitle,
+.newsresource-container .subtitle {
     color: rgba(0, 113, 115, 1);
 }
 
@@ -51,9 +52,21 @@ p {
     margin: 27px 32px 0 32px;
 }
 
+
+/* NEWS RESOURCE Block */
+
+.newsresource-container .subtitle {
+    margin-top: 24px;
+    display: block;
+}
+
 @media (max-width: 768px) {
     .difference-container .subtitle {
         margin: 0 0 0 0;
+    }
+
+    .newsresource-container p {
+        margin-bottom: 0;
     }
 
 }
