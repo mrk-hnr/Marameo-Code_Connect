@@ -1,6 +1,7 @@
 .difference-container {
     background: linear-gradient(90deg, #09443E 80%, #FFE1D6 20%);
     justify-content: space-around;
+    padding: 80px 96px;
 }
 
 .difference-container .content-media-left,
@@ -8,9 +9,9 @@
     width: 100%;
 }
 
-.difference-container .content-media-left {
+/* .difference-container .content-media-left {
     margin-bottom: 49px;
-}
+} */
 
 .difference-container .content-media-right {
     justify-content: center;

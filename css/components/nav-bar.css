@@ -51,19 +51,19 @@ header {
 }
 
 .navi__top {
-    top: 0;
+    top: 7px;
 }
 
 .navi__middle {
     top: 18px;
-    width: 25%;
+    width: 33%;
     display: inline-block;
-    margin-left: 15px;
+    margin-left: 10px;
 
 }
 
 .navi__bottom {
-    top: 36px;
+    top: 28px;
 }
 
 .navi__top-click {

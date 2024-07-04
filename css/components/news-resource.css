@@ -3,6 +3,7 @@
     padding: 85px 96px 108px 96px;
     display: flex;
     flex-direction: column;
+
 }
 
 .newsresource-container .content-media-top,
@@ -13,6 +14,11 @@
 .newsresource-container .content-media-top {
     display: flex;
     justify-content: space-between;
+    /* max-width to align header with images below it, margin to center. Can be removed but wont match figma 
+    max-width: 1512px;
+    margin: 0 auto;*/
+
+    
 }
 
 .newsresource-container__sub-components {

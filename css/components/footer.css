@@ -10,8 +10,6 @@ footer {
     min-width: 393px;
 }
 
-footer 
-
 .overall-footer-container {
     max-width: 1600px;
     margin: 0 auto;
@@ -105,6 +103,8 @@ footer
     font-size: 13px;
     letter-spacing: 2px;
     font-weight: 600;
+    line-height: 18px;
+    text-transform: uppercase;
 }
 
 .footer__contact-media {
@@ -156,7 +156,7 @@ footer
     }
 }
 
-@media(max-width: 862px) {
+@media(max-width: 899px) {
     .footer__middle-block, .footer__contact-info, .footer__contact-media {
         flex-direction: column;
         margin: 0 auto;
@@ -183,6 +183,10 @@ footer
 
     .footer__flag-container {
         margin: 15px 0 0 0;
+    }
+
+    .footer__link {
+        margin-bottom: 56px;
     }
 }
 
