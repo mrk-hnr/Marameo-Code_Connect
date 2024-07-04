@@ -1,6 +1,6 @@
 .property-container {
     flex-direction: row-reverse;
-    padding: 80px 96px; /* siwtch from margin to padding */
+    padding: 64px 96px; /* siwtch from margin to padding */
     background: rgba(255, 225, 214, 0.25);
     
 }
@@ -42,7 +42,8 @@
 @media(max-width: 1221px) {
 
     .property-container {
-        padding-right: 10px;
+        
+        padding: 64px 16px;
     }
 
     .property-container img {
@@ -51,7 +52,7 @@
 
     .property-container .content-media-left {
         margin-left: 20px;
-        margin-top: -50px;
+        margin-top: 20px;
     }
 
     .property-container p {
@@ -71,6 +72,16 @@
     .property-container .content-media-left,
     .property-container .content-media-right {
         margin: 0 16px;
+    }
+
+    .property-container .subtitle {     
+        font-size: 13px !important;
+        line-height: 18px !important;
+    }
+
+    .property-container span:last-of-type {     
+        font-size: 18px;
+        line-height: 26px;
     }
 
     .property-container .content-media-right {

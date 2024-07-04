@@ -22,6 +22,7 @@
 
 .main-container {
     background: linear-gradient(90deg, #F1EAE6 80%, #009496 20%); 
+    padding: 0 53px 0 96px;
 }
 
 .content-media-left {
@@ -30,6 +31,14 @@
     justify-content: center;
     margin-left: 95px;
     margin-right: 5px;
+}
+
+.main-container .content-media-left {
+    flex: 3;
+}
+
+.main-container .content-media-right {
+    flex: 2;
 }
 
 .content-media-right {
@@ -41,17 +50,13 @@
 }
 
 .main-container .curved-image {
-    margin-top: 230px
-}
-
-.curved-image {
     /* width: 40vw;  Best image width to maintain ratio and spacing upon resizing */
     /* position: absolute;
     bottom: 0; */
-    margin-right: 79px;
-    width: 30rem;
+    width: 100%;
     border-top-left-radius: 1000px;
     border-top-right-radius: 1000px;
+    margin-top: 150px
 }
 
 .content-media__descr {
@@ -82,10 +87,22 @@
     margin-bottom: 32px;
 }
 
+/* CONTACT Block */
+.content-media__descr {
+    margin: 0;
+}
+
+@media (max-width: 1115px) {
+    .main-container {
+        padding-top: 75px;
+    }
+}
+
 
 @media(max-width: 899px) {
     .main-container {
         background: linear-gradient(90deg, #F1EAE6 100%, #009496 20%); 
+        padding: 168px 16px 0 16px;
     }
 
     .content-media-container {
@@ -96,11 +113,11 @@
     }
 
     .content-media-left {
-        margin: 0 16px;
+        margin: 0;
     }
 
-    .shared-atom-header-green {
-        font-size: 56px !important;
+    .main-container .shared-atom-header-green {
+        font-size: 56px;
         line-height: 44px !important;
         font-weight: 400;
     }
@@ -118,15 +135,11 @@
         bottom: 0;
         border-top-left-radius: 1000px;
         border-top-right-radius: 1000px;
-        width: 85%;
+        width: 100%;
     } 
 
     .main-container .content-media-button-container {
         text-align: center;
-    }
-
-    .content-media-button-container button {
-        width: 95%;
     }
 
     /* .contentMedia-container {
@@ -151,11 +164,24 @@
         text-align: center;
     }
 
+    .difference-container .header-span {
+        font-size: 32px;
+    }
+
     .difference-container .h2-styling {
         font-size: 48px !important;
         line-height: 36px;
     }
+
+    .about-container .h2-styling {
+        font-size: 48px;
+    }
 }
 
+@media (max-width: 682px) {
+    .newsresource-container .h2-styling {
+        margin-bottom: 16px;
+    }
+}
 
 

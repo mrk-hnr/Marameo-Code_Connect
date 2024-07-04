@@ -18,17 +18,16 @@
 
 .stateproperties-container .content-media-top {
     position: absolute;
-
 }
 
 .stateproperties-container .content-media-bottom {  
-    margin-left: 25%;
+    margin-left: 40%;
     margin-top: 5%;
-
 }
 
 .stateproperties-container .content-media-bottom img {
-    width: 80%;
+    width: 100%;
+    min-width: 505px;
 }
 
 .state-properties__double {

@@ -1,18 +1,23 @@
 .about-container {
     flex-direction: row-reverse;
+    padding-top: 64px;
 }
-
-
 
 .about-container .content-media-right {
     flex-grow: 3;
     justify-content: center;
 }
 
+.about-container .curved-image {
+    margin-top: 64px;
+    margin-right: 25%;
+}
+
 .about-container .content-media-left {
     margin-right: 5%;
     margin-left: -20%;
     margin-bottom: 118px;
+    padding-right: 2%;
     flex: 3;
 }
 
@@ -24,6 +29,9 @@
 
 
 @media(max-width: 899px) {
+    .about-container {
+        padding: 64px 16px 0 16px;
+    }
     .about-container .curved-image {
         width: 90%;
         margin: 0;

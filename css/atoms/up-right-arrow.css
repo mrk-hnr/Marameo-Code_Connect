@@ -48,6 +48,14 @@
         width: 125px;
         margin: 0;
     }
+}
 
+@media (max-width: 682px) {
+    .newsresource-container .green-link-arrow {
+        margin-bottom: 32px;
+    }
 
+    .newsresource-container .green-link-arrow img {
+        margin-top: 10px;
+    }
 }

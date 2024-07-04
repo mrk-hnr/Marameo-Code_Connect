@@ -31,13 +31,15 @@
     border-radius: 12px;
 }
 
-@media (max-width: 675px) {
+@media (max-width: 682px) {
     .newsresource-container {
         background: white;
         padding: 64px 16px 62px 16px;
         display: flex;
         flex-direction: column;
     }
+
+
 
     
     .content-media-top {

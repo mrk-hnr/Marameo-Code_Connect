@@ -1,0 +1,10 @@
+.template-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 60px;
+    margin: 0 auto;
+}
+
+.template-container div {
+    width: 100%;
+}

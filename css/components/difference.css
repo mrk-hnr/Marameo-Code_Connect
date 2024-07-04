@@ -9,7 +9,7 @@
 }
 
 .difference-container .content-media-left {
-    margin-bottom: 0;
+    margin-bottom: 49px;
 }
 
 .difference-container .content-media-right {
@@ -36,6 +36,10 @@
 }
 
 @media (max-width: 1200px) {
+    .difference-container {
+        padding: 64px 16px;
+    }
+
     .difference-container .content-media-right img {
         width: 95%;
         margin-bottom: 45%;
@@ -45,8 +49,7 @@
 @media (max-width: 899px) {
     .difference-container {
         background: #09443E;
-        padding: 0 16px;
-    }
+    }    
 
     .difference-container__card {
         width: 95%;
@@ -55,15 +58,14 @@
     }
 
     .difference-container .content-media-right {
-        margin-top: 48px;
-        margin-bottom: 64px;
+        margin: 0;
     }
 
     .difference-container .content-media-right img {
         margin: 0;
+        width: 100%;
     }
 }
-
 
 @media (max-width: 768px) {
     .difference-container__card {

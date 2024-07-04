@@ -44,9 +44,9 @@ header {
 .navi__global {
     backface-visibility: hidden;
     position: absolute;
-    left: 0;
+    left: 30px;
     border-top: 3px solid rgba(94, 94, 94, 1);
-    width: 100%;
+    width: 50%;
     transition: 0.55s;
 }
 
@@ -56,9 +56,10 @@ header {
 
 .navi__middle {
     top: 18px;
-    width: 70%;
+    width: 25%;
     display: inline-block;
-    margin-left: 18px;
+    margin-left: 15px;
+
 }
 
 .navi__bottom {
@@ -362,11 +363,8 @@ navi__bottom-click {
 
 @media(max-width: 1033px) {
     .navi__title {
-        font-weight: 500;
-        font-size: 13px;
-        line-height: 24px;
-        letter-spacing: 2px;
-        text-transform: uppercase;
+        font-size: 13px !important;
+        
     }
 
     .navi__button {
@@ -375,7 +373,7 @@ navi__bottom-click {
     }
 }
 
-@media(max-width: 952px) { /* Removes Caret that messes up nav format on this size */
+@media(max-width: 963px) { /* Removes Caret that messes up nav format on this size */
     .navi__caret {
         display: none;
     }

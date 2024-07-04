@@ -1,26 +1,35 @@
 .contact-container {
     background: linear-gradient(90deg, #009496 17%, #F1EAE6 17%); 
     flex-direction: row-reverse;
+    padding-right: 80px;
 }
 
 .contact-container .content-media-left {
-    margin-right: 10%;
-    margin-left: 15%;
-    margin-bottom: 191px;
+    /* margin-right: 10%;
+    margin-left: 15%; */
+
+    margin-left: 20%;
+    
+    margin-bottom: 0;
 }
 
 .contact-container .curved-image {
     margin: 0 19%;
+    margin-top: 76px;
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
+    
 }
 
 @media(max-width: 1019px) {
     .contact-container {
         background: linear-gradient(90deg, #009496 0%, #F1EAE6 0%); 
         flex-direction: column;
+        padding: 64px 16px 0 16px;
     }
 
     .contact-container .content-media-left {
-        margin-bottom: 0;
+        margin: 0;
     }
 
     .contact-container .content-media-right {

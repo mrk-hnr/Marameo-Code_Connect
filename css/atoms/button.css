@@ -46,6 +46,12 @@
     margin-right: 24px;
 }
 
+/* FEATURES PROPERTY Block */
+
+.property-container__button-container {
+    margin-top: 32px;
+}
+
 /* CONTACT BLOCK */
 
 @media (max-width: 1020px) {
@@ -58,15 +64,22 @@
 
 @media(max-width: 952px) {
     .contact-container button {
-        width: 95%;
+        width: 100%;
     }
 }
 
 @media(max-width: 899px) {
+    .content-media-button-container button {
+        width: 100%;
+    }
+
+
     .property-container button {
-        width: 95%;
+        width: 100%;
         margin-top: 32px !important;
     }
+
+
 }
 
 
