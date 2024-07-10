@@ -3,701 +3,525 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/global/global.css">
-    <link rel="stylesheet" href="./css/global/fonts.css">
-    <link rel="stylesheet" href="../css/atoms/subtitle.css">
-    <link rel="stylesheet" href="./css/atoms/block-headers.css">
-    <link rel="stylesheet" href="./css/atoms/button.css">
-    <link rel="stylesheet" href="./css/atoms/up-right-arrow.css">
+    <link rel="stylesheet" href="../css/global/base.css">
+    <link rel="stylesheet" href="../css/global/base.css">
+    <link rel="stylesheet" href="../css/atoms/subtitles.css">
+    <link rel="stylesheet" href="../css/atoms/arrowed-link.css">
+    <link rel="stylesheet" href="../css/global/fonts.css">
+    <link rel="stylesheet" href="../css/atoms/headers.css">
+    <link rel="stylesheet" href="../css/atoms/description.css">
+    <link rel="stylesheet" href="../css/components/nav-bar.css">
+    <link rel="stylesheet" href="../css/blocks/about.css">
+    <link rel="stylesheet" href="../css/components/burger-menu.css">
+    <link rel="stylesheet" href="../css/atoms/button.css">
+    <link rel="stylesheet" href="../css/blocks/main.css">
+    <link rel="stylesheet" href="../css/blocks/featured-property.css">
+    <link rel="stylesheet" href="../css/blocks/state-properties.css">
+    <link rel="stylesheet" href="../css/components/cards.css">
+    <link rel="stylesheet" href="../css/components/cards.css">
+    <link rel="stylesheet" href="../css/blocks/sda.css">
+    <link rel="stylesheet" href="../css/blocks/difference.css">
+    <link rel="stylesheet" href="../css/components/blog-cards.css">
+    <link rel="stylesheet" href="../css/blocks/news-resource.css">
+    <link rel="stylesheet" href="./css/blocks/contact.css">
+    <link rel="stylesheet" href="../css/blocks/footer.css">
 
-    <link rel="stylesheet" href="./css/components/nav-bar.css">
-    <link rel="stylesheet" href="./css/components/content-media.css">
-    <link rel="stylesheet" href="./css/components/about.css">
-    <link rel="stylesheet" href="./css/components/contact.css">
-    <link rel="stylesheet" href="./css/components/featured-prop.css">
-    <link rel="stylesheet" href="./css/components/state-properties.css">
-    <link rel="stylesheet" href="./css/components/sda.css">
-    <link rel="stylesheet" href="./css/components/difference.css">
-    <link rel="stylesheet" href="./css/components/news-resource.css">
-    <link rel="stylesheet" href="./css/components/footer.css">
-
-    <link rel="stylesheet" href="">
-    <title>Marameo Design</title>
+    <title>Marameo - Code Connect</title>
 </head>
 <body>
     <header>
-        <nav class="navi">
-            
-            <div class="navi__left-container">
-                <a href="#">
-                    <img src="../images/logo.svg" alt="Logo">
-                </a>
-            </div>
+        <nav>
+            <div class="navi-container">
+                <div class="navi__left-container">
+                    <img src="../assets/images/logo.svg" alt="">
+                </div>
+                <div class="navi__mid-container">
+                    <button class="nav-link">
+                        Our Properties 
+                        <img src="../assets/images/caret.svg" alt="">
+                     </button>
+                     <button class="nav-link">
+                        SDA 
+                        <img src="../assets/images/caret.svg" alt="">
+                     </button>
+                     <button class="nav-link">
+                        About Us
+                        <img src="../assets/images/caret.svg" alt="">
+                     </button>
+                     <button class="nav-link">
+                        Resource Hub 
+                        <img src="../assets/images/caret.svg" alt="">
+                     </button>
+                     <button class="nav-link">
+                        Media & News
+                        <img src="../assets/images/caret.svg" alt="">
+                     </button>
+                </div>
+                <div class="navi__right-container">
+                    <img src="../assets/images/magnifying-glass.svg" alt="">
+                    <button class="button green">Submit Enquiry</button>
 
-            <div class="navi__middle-container">
-                <div class='navi__container'>
-                    <div class='navi__dropdown'>
-                        <div class='navi__select'>
-                            <span class='navi__title'>Our Properties</span>
-                            <img src="../images/caret.svg" alt="" class="navi__caret">
-                        </div>
-                        <!-- <ul class='navi__menu'>
-                            <li><div></div></li>
-                            <li>option 2</li>
-                            <li>option 3</li>
-                            <li>option 4</li>
-                        </ul> -->
+                    <div class="navi__burger-menu">
+                        <span class="navi__global navi__top"></span>
+                        <span class="navi__global navi__middle"></span>
+                        <span class="navi__global navi__bottom"></span>
                     </div>
-                </div>
-                <div class='navi__container'>
-                    <div class='navi__dropdown'>
-                        <div class='navi__select'>
-                            <span class='navi__title'>SDA</span>
-                            <img src="../images/caret.svg" alt="" class="navi__caret">
-                        </div>
-                        <!-- <ul class='navi__menu'>
-                            <li>option 1</li>
-                            <li>option 2</li>
-                            <li>option 3</li>
-                            <li>option 4</li>
-                        </ul> -->
-                    </div>
-                </div>
-
-                <div class='navi__container'>
-                    <div class='navi__dropdown'>
-                        <div class='navi__select'>
-                            <span class='navi__title'>About Us</span>
-                            <img src="../images/caret.svg" alt="" class="navi__caret">
-                        </div>
-                        <!-- <ul class='navi__menu'>
-                            <li>option 1</li>
-                            <li>option 2</li>
-                            <li>option 3</li>
-                            <li>option 4</li>
-                        </ul> -->
-                    </div>
-                </div>
-
-                <div class='navi__container'>
-                    <div class='navi__dropdown'>
-                        <div class='navi__select'>
-                            <span class='navi__title'>Resource Hub</span>
-                            <img src="../images/caret.svg" alt="" class="navi__caret">
-                        </div>
-                        <!-- <ul class='navi__menu'>
-                            <li>option 1</li>
-                            <li>option 2</li>
-                            <li>option 3</li>
-                            <li>option 4</li>
-                        </ul> -->
-                    </div>
-                </div>
-
-                <div class='navi__container'>
-                    <div class='navi__dropdown'>
-                        <div class='navi__select'>
-                            <span class='navi__title'>Media & News</span>
-                            <img src="../images/caret.svg" alt="" class="navi__caret">
-                        </div>
-                        <!-- <ul class='navi__menu'>
-                            <li>option 1</li>
-                            <li>option 2</li>
-                            <li>option 3</li>
-                            <li>option 4</li>
-                        </ul> -->
-                    </div>
-                </div>
-            </div>
-
-            <div class="navi__right-container">
-                <img src="../images/magnifying-glass.svg" alt="">
-
-                <button class="button green navi__button">
-                    <a href="#" class="green">
-                        Submit Enquiry
-                    </a>
-                </button>
-
-                <!-- BURGER MENU -->
-
-                <div class="navi__burger-menu">
-                    <span class="navi__global navi__top"></span>
-                    <span class="navi__global navi__middle"></span>
-                    <span class="navi__global navi__bottom"></span>
-                </div>
-            </div>
-        </nav>
-
-        <section class="navi__hover navi__content-container navi__properties">
-            <div class="navi__upper-container">
-                <div class="navi__upper-left-properties navi__content">
-                    <span class="navi__title navi__custom">Our Properties</span>
-                </div>
-                <div class="navi__upper-right-properties green-link-arrow">
-                    <span><a href="">Learn More</a></span>
-                    <img src="../images/upright-arrow.svg" alt="">
-                </div>
-            </div>
-            <div class="navi__map-container">
-                <a href="">
-                    <div class="navi__state-container">
-                        <img src="../images/victoria.svg" alt="">
-                        <p>VIC</p>
-                    </div>
-                </a>
                     
-                <a href="">
-                    <div class="navi__state-container">
-                        <img src="../images/new south wales.svg" alt="">
-                        <p>NSW</p>
-                    </div>
-                </a>
-
-                <a href="">
-                    <div class="navi__state-container">
-                        <img src="../images/queensland.svg" alt="">
-                        <p>QLD</p>
-                    </div>
-                </a>
-
-                <a href="">
-                    <div class="navi__state-container">
-                        <img src="../images/south aus.svg" alt="">
-                        <p>SA</p>
-                    </div>
-                </a>
-
-                <a href="">
-                    <div class="navi__state-container">
-                        <img src="../images/aus capital territory.svg" alt="">
-                        <p>ACT</p>
-                    </div>
-                </a>
-
-                <a href="">
-                    <div class="navi__state-container">
-                        <img src="../images/western aus.svg" alt="">
-                        <p>WA</p>
-                    </div>
-                </a>
-            </div>
-        </section>
-
-        <section class="navi__hover navi__SDA navi__properties">
-           <div class="navi__content-container">
-            <div class="navi__left-content">
-                <span class="navi__title navi__custom">SDA</span>
-                <a href="#">About SDA</a>
-                <a href="#">How to Apply</a>
-                <a href="#">Eligibility Check</a>
-                <a href="#">FAQs for Investors, Builders & Developers</a>
-            </div>
-            <div class="navi__right-content">
-                <div>
-                    <img src="../images/property.png" alt="">
                 </div>
                 
-                <div>
-                    <h5>How to Apply</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam mollitia laboriosam alias facilis at adipisci!</p>
-                </div>
             </div>
-           </div>   
-        </section>
-
-        <section class="navi__hover navi__about navi__properties">
-            <div class="navi__content-container">
-             <div class="navi__left-content">
-                 <span class="navi__title navi__custom">ABOUTMARAMEO</span>
-                 <a href="#">About Us</a>
-                 <a href="#">Governance</a>
-                 <a href="#">The Team</a>
-                 <a href="#">The Board</a>
-                 <a href="#">Why Us</a>
-             </div>
-             <div class="navi__right-content">
-                 <div>
-                     <img src="../images/nav-about.png" alt="">
-                 </div>
-                 
-                 <div>
-                     <h5>Why Us?</h5>
-                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis incidunt inventore, eum reprehenderit porro facilis.</p>
-                 </div>
-             </div>
-            </div>   
-         </section>
-
-         <section class="navi__hover navi__resource navi__properties">
-            <div class="navi__content-container">
-             <div class="navi__left-content-custom">
-                 <span class="navi__title navi__custom-title">RESOURCE HUB</span>
-                 <a href="#" class="navi__custom-link">Resource</a>
-                 <a href="#" class="navi__custom-link">Events</a>
-
-             </div>
-             <div class="navi__right-content">
-                 <div>
-                     <img src="../images/nav-events.png" alt="">
-                 </div>
-                 
-                 <div>
-                     <h5>Events</h5>
-                     <p>Nulla lectus fringilla felis varius consequat rhoncus enim.</p>
-                 </div>
-             </div>
-            </div>   
-         </section>
-
-         <section class="navi__hover navi__media-news navi__properties">
-            <div class="navi__content-container">
-             <div class="navi__left-content">
-                 <span class="navi__title navi__custom">MEDIA AND NEWS</span>
-                 <a href="#">All</a>
-                 <a href="#">Tenant Stories</a>
-                 <a href="#">Blog</a>
-                 <a href="#">News</a>
-             </div>
-             <div class="navi__right-content">
-                 <div>
-                     <img src="../images/nav-tenants.png" alt="">
-                 </div>
-                 
-                 <div>
-                     <h5>Tenant Stories</h5>
-                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore dolorem sunt laboriosam inventore nobis beatae saepe impedit, tenetur rem eos.</p>
-                 </div>
-             </div>
-            </div>   
-         </section>
+        </nav>
     </header>
 
-    <section class="content-media-container main-container">
-        <div class="content-media-left">
-            <div class="content-media__descr">
-                    <h1 class="shared-atom-header-green h1-styling ">Life-changing <span>living</span></h1>   
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est veritatis molestiae maiores, ducimus voluptates corporis? Reiciendis, necessitatibus! Minus, velit! Dignissimos, cumque nihil? Dolorem, molestias accusamus.</p>
-
-                <div class="content-media-button-container">
-                    <button class="button green"><a href="#">Submit Enquiry</a></button>
-                    <button class="button transparent"> <a href="#">Find Property</a></button>
+    <section>
+        <div class="main-container row-col container">
+            <div class="left-container main__desc">
+                <div>
+                    <h1 class="block-headers main-header">Life-changing </h1> <span class="main-span header-span">living</span>
+                </div>
+                <p class="main-hero description">
+                    In ornare et eget commodo consectetur mauris nec. Risus leo ultricies adipiscing commodo ipsum interdum vulputate. Ut magna et mollis et. 
+                </p>
+                <div class="two-button-container">
+                    <button class="button green">Submit Enquiry</button>
+                    <button class="button">Find a property</button>
                 </div>
             </div>
-        </div>
-        <div class="content-media-right">
 
-                <img src="../images/main.png" alt="Two women talking on the couch" class="curved-image" width="480" height="auto" loading="lazy">
-
-        </div>  
-    </section>
-
-    <section class="content-media-container about-container">
-        <div class="content-media-left">
-            <div class="content-media__descr">
-                <span class="subtitle">About Us</span>
-                <h2 class="shared-atom-header-green h2-styling">Love where you live <span class="header-span">with Marameo</span></h2>   
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est veritatis molestiae maiores, ducimus voluptates corporis? Reiciendis, necessitatibus! Minus, velit! Dignissimos, cumque nihil? Dolorem, molestias accusamus.</p>
-
-                <div class="green-link-arrow">
-                    <span><a href="#">Learn more about us</a></span>
-                    <img src="../images/upright-arrow.svg" alt="">
-                </div>
+            <div class="right-container main__img-container">
+                <img src="../assets/images/main.png" alt="Conversation between two women sitting in a couch" class="curved-image" width="480" height="auto" loading="lazy">
             </div>
         </div>
-        <div class="content-media-right">
-            <img src="../images/about.png" alt="Man on a wheelchair smiling with a laptop on his lap" class="curved-image"  width="480" height="auto" loading="lazy">
-        </div>  
     </section>
 
-    <section class="content-media-container property-container">
-        <div class="content-media-left">
-            <div class="content-media__descr">
-                <span class="subtitle">VIC</span>
-                <h3 class="shared-atom-header-green h2-styling">Ovation, Footscray</h3>   
-                <p>
-                    <span>100 Buckley St, Footscray, VIC 3011A</span>
-                    A vibrant city-edge atmosphere, thriving melting pot of culture, and a touch of historic Melbourne is just a slice of Footscray’s inner-suburban offering.
+    <section>
+        <div class="container about-container row-col">
+
+                <div class="left-container about__img-container">
+
+                        <img src="../assets/images/about-cropped.png" alt="Man on a wheelchair smiling with a laptop on his lap" width="480" height="auto" loading="lazy">
+
+                </div>
+                <div class="right-container about__desc">
+                    <h6 class="subtitle">About Us</h6>
+                    <div>
+                        <h2 class="block-headers">Love where you live</h2> <span class="about-span header-span">with Marameo</span>
+                    </div>
+                    <p class="about description">
+                        Facilisis viverra aliquam nisi at sit platea laoreet nisi ipsum. At nunc malesuada integer etiam. Sit phasellus facilisi gravida fringilla volutpat egestas. Imperdiet nec sit magna pharetra facilisi habitant at. Pellentesque nam pellentesque ullamcorper eget non risus. Lobortis non imperdiet auctor urna morbi pulvinar vestibulum. In in mi in mi vel. 
+                    </p>
+                    <div class="arrow-link">
+                        <a href="#">Learn more about us
+                            <img src="../assets/images/upright-arrow.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+        </div>
+    </section>
+
+    <section>
+        <div class="container featproperty-container row-col">
+            <div class="left-container img-container">
+                <h2 class="block-headers featured-property__header2-modifier">Featured Property</h2>
+                <img src="../assets/images/property.png" alt="View of a building" width="480" height="auto" loading="lazy">
+            </div>
+            <div class="right-container featproperty__desc">
+                <h6 class="subtitle green">VIC</h6>
+                <h3 class="block-headers featured-property__header3-modifier">Ovation, Footscray</h3>
+                <p class="featured-property description">
+                    <span>
+                        100 Buckley St, Footscray, VIC 3011A vibrant
+                    </span>
+                    city-edge atmosphere, thriving melting pot of culture, and a touch of historic Melbourne is just a slice of Footscray’s inner-suburban offering.
                 </p>
 
-                <div class="property-container__button-container">
-                    <button class="button green"><a href="#">Apply Now</a></button>
-                </div>
+                <button class="button green">Apply Now</button>
             </div>
+            
         </div>
-        <div class="content-media-right">
-            <h2>Featured proprety</h2>
-            <img src="../images/property.png" alt="View of a building" class="property-image" width="480" height="auto" loading="lazy">
-        </div>  
     </section>
 
-    <section class="stateproperties-container">
-        <!-- <div class="SDA-container__top-container"> -->
-            <div class="content-media-top">
-                <span class="subtitle">Our properties</span>
-                 <h2 class="shared-atom-header-green h2-styling"><span class="header-span">Opening the doors to you</span> next home</h2> 
-                <h5>Select your state</h5>
-                <div class="stateproperties__link-container">
-                    <div class="stateproperties__link-map">
-                        <a href="#">
-                            <div>
-                                <img src="../images/victoria colored.svg" alt="">
-                                <p>Victoria</p>
-                            </div>
-                        </a>                       
-                    </div>
+    <section>
+        <div class="container stateproperty-container row-col">
+            <div class="left-container state-properties__links">
+                <h6 class="subtitle">Our Properties</h6>
+                <span class="stateproperty-span header-span">Opening the door to your</span>
+                <h2 class="block-headers">next home</h2>
+                <h5 class="header-span">Select your state</h5>
 
-                    <div class="stateproperties__link-map">
+                <div class="stateproperty__link-container">
+                    <div class="state-properties__link-map">
                         <a href="#">
                             <div>
-                                <img src="../images/new south wales colored.svg" alt="">
-                                <p>New South Wales</p>
-                            </div>
-                        </a>                       
-                    </div>
-
-                    <div class="stateproperties__link-map">
-                        <a href="#">
-                            <div>
-                                <img src="../images/queensland colored.svg" alt="">
-                                <p>Queensland</p>
-                            </div>
-                        </a>                       
-                    </div>
-
-                    <div class="stateproperties__link-map">
-                        <a href="#">
-                            <div>
-                                <img src="../images/south aus colored.svg" alt="">
-                                <p>South Australia</p>
-                            </div>
-                        </a>                       
-                    </div>
-
-                    <div class="stateproperties__link-map">
-                        <a href="#">
-                            <div>
-                                <img src="../images/aus capital territory colored.svg" alt="">
-                                <p>Australian Capitral Territory</p>
-                            </div>
-                        </a>                       
-                    </div>
-
-                    <div class="stateproperties__link-map">
-                        <a href="#">
-                            <div>
-                                <img src="../images/western aus colored.svg" alt="">
-                                <p>Western Australia</p>
-                            </div>
-                        </a>                       
-                    </div>
-
-                    <div class="state-properties__double">
-                        <a href="#">
-                            <div>
-                                <img src="../images/victoria colored.svg" alt="">
+                                <img src="../assets/images/victoria colored.svg" alt="">
                                 <p>Victoria</p>
                             </div>
                         </a>
-
+                    </div>
+            
+                    <div class="state-properties__link-map">
                         <a href="#">
                             <div>
-                                <img src="../images/new south wales colored.svg" alt="">
+                                <img src="../assets/images/new south wales colored.svg" alt="">
                                 <p>New South Wales</p>
                             </div>
                         </a>
                     </div>
-
-                    <div class="state-properties__double">
+            
+                    <div class="state-properties__link-map">
                         <a href="#">
                             <div>
-                                <img src="../images/queensland colored.svg" alt="">
+                                <img src="../assets/images/queensland colored.svg" alt="">
                                 <p>Queensland</p>
                             </div>
                         </a>
-
+                    </div>
+            
+                    <div class="state-properties__link-map">
                         <a href="#">
                             <div>
-                                <img src="../images/south aus colored.svg" alt="">
+                                <img src="../assets/images/south aus colored.svg" alt="">
                                 <p>South Australia</p>
                             </div>
                         </a>
                     </div>
-
-                    <div class="state-properties__double">
+            
+                    <div class="state-properties__link-map">
                         <a href="#">
                             <div>
-                                <img src="../images/aus capital territory colored.svg" alt="">
+                                <img src="../assets/images/aus capital territory colored.svg" alt="">
                                 <p>Australian Capital Territory</p>
                             </div>
                         </a>
-
+                    </div>
+            
+                    <div class="state-properties__link-map">
                         <a href="#">
                             <div>
-                                <img src="../images/western aus colored.svg" alt="">
+                                <img src="../assets/images/western aus colored.svg" alt="">
                                 <p>Western Australia</p>
                             </div>
                         </a>
                     </div>
-
+            
+                    <div class="state-properties__double">
+                        <a href="#">
+                            <div>
+                                <img src="../assets/images/victoria colored.svg" alt="">
+                                <p>Victoria</p>
+                            </div>
+                        </a>
+            
+                        <a href="#">
+                            <div>
+                                <img src="../assets/images/new south wales colored.svg" alt="">
+                                <p>New South Wales</p>
+                            </div>
+                        </a>
                     </div>
-                </div>      
-            </div>
-            <div class="content-media-bottom">
-                <img src="../images/aus map.svg" alt="Map of Australia">
-            </div>
-
-
-        <!-- </div> -->
-
-    </section>
-
-    <section class="content-media-container SDA-container">
-        <div class="SDA-container__top-container">
-            <div class="content-media-left">
-                <div class="content-media__descr">
-                    <span class="subtitle">Specialist disability accommodation</span>
-                    <h2 class="shared-atom-header-green h2-styling"><span class="header-span">How we help,</span>homes and all</h2>   
+            
+                    <div class="state-properties__double">
+                        <a href="#">
+                            <div>
+                                <img src="../assets/images/queensland colored.svg" alt="">
+                                <p>Queensland</p>
+                            </div>
+                        </a>
+            
+                        <a href="#">
+                            <div>
+                                <img src="../assets/images/south aus colored.svg" alt="">
+                                <p>South Australia</p>
+                            </div>
+                        </a>
+                    </div>
+            
+                    <div class="state-properties__double">
+                        <a href="#">
+                            <div>
+                                <img src="../assets/images/aus capital territory colored.svg" alt="">
+                                <p>Australian Capital Territory</p>
+                            </div>
+                        </a>
+            
+                        <a href="#">
+                            <div>
+                                <img src="../assets/images/western aus colored.svg" alt="">
+                                <p>Western Australia</p>
+                            </div>
+                        </a>
+                    </div>
+            
+            
                 </div>
             </div>
-            <div class="content-media-right">
-                <div>
-                    <p>Vulputate nec ipsum tincidunt ornare pellentesque sapien nunc adipiscing velit. Pellentesque consectetur sed in nibh. Ut venenatis bibendum pulvinar tempus. Habitasse sapien amet laoreet turpis enim urna at. Sem ultricies proin urna nunc fermentum. Sed sit sed augue arcu. Aliquet aliquam nulla dignissim vel semper. Amet integer donec morbi vitae odio velit risus dictum rhoncus. Maecenas sagittis diam habitant posuere gravida nunc viverra volutpat. Nisl.</p>
-                    <div class="SDA-container__sub-components">
-                        <div class="SDA-container__card">
-                            <span class="subtitle">374</span>
+
+            <div class="right-container state-properties__map">
+                <img src="../assets/images/aus map.svg" alt="Map of Australia" width="480" height="auto" loading="lazy">
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+        <div class="container SDA-container row-col">
+            <div class="SDA__top-container">
+                <div class="SDA__top-left-container">
+                    <h6 class="subtitle">Specialist Disability Accomodation</h6>
+                    <span class="SDA-span header-span">How we help,</span>
+                    <h2 class="block-headers">homes and all</h2>
+                </div>
+                <div class="SDA__top-right-container">
+                    <p class="sda description">
+                        Vulputate nec ipsum tincidunt ornare pellentesque sapien nunc adipiscing velit. Pellentesque consectetur sed in nibh. Ut venenatis bibendum pulvinar tempus. Habitasse sapien amet laoreet turpis enim urna at. Sem ultricies proin urna nunc fermentum. Sed sit sed augue arcu. Aliquet aliquam nulla dignissim vel semper. Amet integer donec morbi vitae odio velit risus dictum rhoncus. Maecenas sagittis diam habitant posuere gravida nunc viverra volutpat. Nisl.
+                    </p>
+                    <div class="SDA__cards-container">
+                        <div class="SDA__cards">
+                            <span class="numbered-span">374</span>
                             <h4>Apartments</h4>
                         </div>
-    
-                        <div class="SDA-container__card">
-                            <span class="subtitle">70</span>
+                    
+                        <div class="SDA__cards">
+                            <span class="numbered-span">70</span>
                             <h4>Apartments in development</h4>
                         </div>
-    
-                        <div class="SDA-container__card">
-                            <span class="subtitle">444</span>
+                        <div class="SDA__cards">
+                            <span class="numbered-span">444</span>
                             <h4>Apartments in total</h4>
-                        </div>
-    
+                        </div>        
                     </div>
-                    <div class="property-container__link-container">
-                        <button class="button green">
-                            Learn more about SDA
-                        </button>
-                        <div class="green-link-arrow">
-                            <span><a href="#">View properties</a></span>
-                            <img src="../images/upright-arrow.svg" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>  
-        </div>
 
-        
-        <div class="SDA-container__video-container">
-
-            <video controls autoplay loop muted>
-                <source src="../images/cat.mp4" type="video/mp4"  width="483.5">
-                <source src="../images/cat.mp4" type="video/ogg" width="483.5">
-                Your browser does not support HTML5 video.
-            </video>
-
-        </div>
-
-
-    </section>
-
-    <section class="content-media-container difference-container">
-        <!-- <div class="SDA-container__top-container"> -->
-            <div class="content-media-left">
-                 <div class="content-media__descr">
-                    <h2 class="shared-atom-header-green h2-styling"><span class="header-span">The Marameo</span> difference</h2> 
+                    <button class="button green">Learn more about SDA</button>
                     
-                    <p>Amet morbi porta scelerisque enim tellus cursus ut. Fermentum condimentum nisi duis nunc purus scelerisque pulvinar vivamus. Nisi aenean potenti feugiat ullamcorper. Posuere semper id egestas faucibus. Mus mauris fermentum facilisi vestibulum lobortis fames aliquam.</p>
-
-                    <div class="difference-container__sub-components">
-                        <div class="difference-container__card">
-                            <span class="subtitle">01</span>
-                            <div class="difference__card-container">
-                                <h4>Focus on Quality and Technology</h4>
-                                <p>Et elementum sit a facilisi porttitor non. Lectus ut risus habitant lectus vitae. Arcu dui quis in orci ullamcorper quisque sit praesent. Vel massa sed molestie est elementum enim amet. Pretium ultrices nunc pellentesque egestas netus proin. Tortor non elementum.</p>
-                            </div>
-                            
-                        </div>
-    
-                        <div class="difference-container__card">
-                            <span class="subtitle">02</span>
-                            <div class="difference__card-container">
-                                <h4>Innovating, Every Day</h4>
-                                <p>Vitae leo imperdiet bibendum convallis est elit sit amet. Leo consectetur porttitor lectus lectus tortor tellus. Consectetur in ut imperdiet consectetur quisque. Egestas mi amet in bibendum eu.</p>
-                            </div>
-                        </div>
-    
-                        <div class="difference-container__card">
-                            <span class="subtitle">03</span>
-                            <div class="difference__card-container">
-                                <h4>Making Your Experience Better</h4>
-                                <p>Egestas fusce amet et vel tellus ut habitasse aliquet. Eu sed consectetur lorem in amet praesent malesuada tellus tempus. Mauris ultrices commodo ut elementum mauris nullam. Dolor morbi.</p>
-                            </div>
-                            
-                        </div>
-    
+                    <div class="arrow-link">
+                        
+                        <a href="#">View properties
+                            <img src="../assets/images/upright-arrow.svg" alt="">
+                        </a>
                     </div>
                 </div>
             </div>
-            <div class="content-media-right">
-                <img src="../images/difference.png" alt="Woman in a wheelchair chopping vegetables in the kitchen" width="480" height="auto" loading="lazy">
-            </div>  
-        <!-- </div> -->
+            <div class="SDA__bottom-container">
+                <video controls="" autoplay="" loop="" muted="">
+                    <source src="../assets/video/woman-in-wheelchair-video.mp4" type="video/mp4" width="483.5">
+                    <source src="../assets/video/woman-in-wheelchair-video.mp4" type="video/ogg" width="483.5">
+                    Your browser does not support HTML5 video.
+                </video>
 
+            </div>
+
+        </div>
     </section>
 
-    <section class="content-media-container newsresource-container">
-        <!-- <div class="SDA-container__top-container"> -->
-            <div class="content-media-top">
-                    <h2 class="shared-atom-header-green h2-styling"><span class="header-span">News</span> & <span class="header-span">Resource</span></h2> 
-                    <div class="green-link-arrow">
-                        <span><a href="#">View all articles</a></span>
-                        <img src="../images/upright-arrow.svg" alt="">
-                    </div>
-
-            </div>
-            <div class="content-media-bottom">
-                <div class="newsresource-container__sub-components">
-                    <div class="newsresource-container__card">
-                        <img src="../images/new-resource1.png" alt="Woman in a wheelchair using a laptop" width="424px" height="auto" loading="lazy">
-                        <span class="subtitle">Real Stories, Inclusive Communities</span>
-                        <div class="newsresource__card-container">
-                            <h4>Navigating the World of Specialist Disability Accommodation</h4>
-                            <p>Egestas morbi non at sit in leo fringilla nunc. Sit nisl ornare tempus sed. Vitae leo ac scelerisque eleifend</p>
-                        </div>    
-                    </div>
-
-                     <div class="newsresource-container__card">
-                        <img src="../images/new-resource2.png" alt="Woman smiling" width="424px" height="auto" loading="lazy">
-                        <span class="subtitle">Real Stories</span>
-                        <div class="newsresource__card-container">
-                            
-                            <h4>Cursus elit at amet est eget feugiat feugiat sed ipsum gravida.</h4>
-                            <p>Ullamcorper eget dolor ullamcorper pellentesque hac eu. Ac id netus purus dictum vitae adipiscing. Dolor risus laoreet ultrices risus non. Tristique.</p>
+    <section>
+        <div class="container difference-container row-col">
+            <div class="difference__left-container">
+                <span class="difference-span header-span">The Marameo</span>
+                <h2 class="block-headers">difference</h2>
+                <p class="difference description">
+                    Amet morbi porta scelerisque enim tellus cursus ut. Fermentum condimentum nisi duis nunc purus scelerisque pulvinar vivamus. Nisi aenean potenti feugiat ullamcorper. Posuere semper id egestas faucibus. Mus mauris fermentum facilisi vestibulum lobortis fames aliquam.
+                </p>
+                <div class="difference__cards-container">
+                    <div class="difference__cards">
+                        <span class="numbered-span">01</span>
+                        <div class="difference__card-desc">
+                            <h5>Focus on Quality and Technology</h5>
+                            <p class="difference__card description">
+                                Et elementum sit a facilisi porttitor non. Lectus ut risus habitant lectus vitae. Arcu dui quis in orci ullamcorper quisque sit praesent. Vel massa sed molestie est elementum enim amet. Pretium ultrices nunc pellentesque egestas netus proin. Tortor non elementum.
+                            </p>
                         </div>
                     </div>
-
-                    <div class="newsresource-container__card">
-                        <img src="../images/new-resource3.png" alt="Woman using a laptop while sitting in a couch" width="424px" height="auto" loading="lazy">
-                        <span class="subtitle">Real Stories, Challenges and Solutions</span>
-                        <div class="newsresource__card-container">
-                            
-                            <h4>Ullamcorper nam leo nunc ac quis dui turpis curabitur est egestas.</h4>
-                            <p>Cursus et commodo amet posuere sit auctor feugiat. A lacinia sit nulla ullamcorper congue nulla tincidunt in proin. Adipiscing vitae in ac mi amet.</p>
+                    <div class="difference__cards">
+                        <span class="numbered-span">02</span>
+                        <div class="difference__card-desc">
+                            <h5>Innovating, Every Day</h5>
+                            <p class="difference__card description">
+                                Vitae leo imperdiet bibendum convallis est elit sit amet. Leo consectetur porttitor lectus lectus tortor tellus. Consectetur in ut imperdiet consectetur quisque. Egestas mi amet in bibendum eu.
+                            </p>
                         </div>
                     </div>
-
+                    <div class="difference__cards">
+                        <span class="numbered-span">03</span>
+                        <div class="difference__card-desc">
+                            <h5>Making Your Experience Better</h5>
+                            <p class="difference__card description">
+                                Egestas fusce amet et vel tellus ut habitasse aliquet. Eu sed consectetur lorem in amet praesent malesuada tellus tempus. Mauris ultrices commodo ut elementum mauris nullam. Dolor morbi.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        <!-- </div> -->
-
+            <div class="difference__right-container">
+                <img src="../assets/images/difference.png" alt="Woman in a wheelchair chopping vegetables on the kitchen counter" width="480" height="auto" loading="lazy">
+            </div>
+ 
+        </div>
+            
     </section>
 
-    <section class="content-media-container contact-container">
-        <div class="content-media-left">
-            <div class="content-media__descr">
-                    <h2 class="shared-atom-header-green h2-styling "><span class="header-span">Contact</span>Marameo <span class="header-span">today</span></h2>   
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est veritatis molestiae maiores, ducimus voluptates corporis? Reiciendis, necessitatibus! Minus, velit! Dignissimos, cumque nihil? Dolorem, molestias accusamus.</p>
-
-                <div class="content-media-button-container">
-                    <button class="button green"><a href="#">Submit Enquiry</a></button>
-                    <button class="button transparent"> <a href="#">Call us 1300 156 555 </a></button>
+    <section>
+        <div class="container newsresource-container row-col">
+            <div class="newsresource__header-link">
+                <div class="newsresource__header-container">
+                    <h2 class="block-headers">News </h2> <span class="mediaresource-span header-span">& </span> <h2 class="block-headers">Resource</h2>
                 </div>
+    
+                <div class="arrow-link">
+                    <a href="#">View all articles
+                        <img src="../assets/images/upright-arrow.svg" alt="">
+                    </a>
+                </div>
+            </div>
+    
+            <div class="newsresource__blog-container">
+                <div class="blog-cards-container">
+                    <img src="../assets/images/new-resource1.png" alt="Woman in a wheelchair using a laptop" width="424px" height="auto" loading="lazy">
+                    <h6 class="subtitle green">Real Stories, Inclusive Communities</h6>
+            
+                    <h4>
+                        Navigating the World of Specialist Disability Accommodation
+                    </h4>
+            
+                    <p class="newsresource description">
+                        Egestas morbi non at sit in leo fringilla nunc. Sit nisl ornare tempus sed. Vitae leo ac scelerisque eleifend
+                    </p>
+                </div>
+            
+                <div class="blog-cards-container">
+                    <img src="../assets/images/new-resource2.png" alt="Woman in a wheelchair using a laptop" width="424px" height="auto" loading="lazy">
+                    <h6 class="subtitle green">Real Stories</h6>
+            
+                    <h4>
+                        Cursus elit at amet est eget feugiat feugiat sed ipsum gravida.
+                    </h4>
+            
+                    <p class="newsresource description">
+                        Ullamcorper eget dolor ullamcorper pellentesque hac eu. Ac id netus purus dictum vitae adipiscing. Dolor risus laoreet ultrices risus non. Tristique.
+                    </p>
+                </div>
+            
+                <div class="blog-cards-container">
+                    <img src="../assets/images/new-resource3.png" alt="Woman in a wheelchair using a laptop" width="424px" height="auto" loading="lazy">
+                    <h6 class="subtitle green">Real Stories, Challenges and Solutions</h6>
+            
+                    <h4>
+                        Ullamcorper nam leo nunc ac quis dui turpis curabitur est egestas.
+                    </h4>
+            
+                    <p class="newsresource description">
+                        Cursus et commodo amet posuere sit auctor feugiat. A lacinia sit nulla ullamcorper congue nulla tincidunt in proin. Adipiscing vitae in ac mi amet.
+                    </p>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+
+    <section>
+        <div class="container contact-container row-col">
+            <div class="left-container contact__img-container">
+                <img src="../assets/images/contact.png" alt="Conversation between two women sitting in a couch" class="curved-image">
+            </div>
+
+            <div class="right-container contact__desc">
+                <div>
+                    <span class="contact-span header-span">Contact</span>
+                    <h2 class="block-headers">Marameo</h2>
+                    <span class="contact-span header-span">today</span>
+                </div>
+                <p class="contact description">
+                    Integer amet ultrices odio sed amet nulla gravida lectus. Nisl proin quisque pretium porta magnis ullamcorper pellentesque. Nam nibh augue in sed sed felis risus eu.
+                </p>
+                
+                <div class="two-button-container">
+                    <button class="button green">Submit Enquiry</button>
+                    <button class="button">Call us at 1300 156 555</button>
+                  </div>
             </div>
         </div>
-        <div class="content-media-right">
-            <img src="../images/contact.png" alt="Woman waving at her laptop who is in a video call" class="curved-image" width="480" height="auto" loading="lazy">
-        </div>  
     </section>
-
 
     <footer>
-        <div class="overall-footer-container">
-            <!-- TOP BLOCK -->
-            <div class="footer__brand-logo">
-                <img src="../images/logo_white.svg" alt="Logo" class="logo-footer">
-                <img src="../images/ndis.svg" alt="Logo">
+
+        <div class="container footer-container row-col">
+            <div class="footer__logo-container">
+                <div class="footer__left-logo">
+                    <img src="../assets/images/logo_white.svg" alt="Logo" class="logoFooter">
+                </div>
+                <div class="footer__right-logo">
+                    <img src="../assets/images/ndis.svg" alt="Logo">
+                </div>
+                
             </div>
-            
-            
-            <!-- MIDDLE BLOCK -->
-            <div class="footer__middle-block">
-                <div class="footer__contact-info">
-                    <div class="footer__phone">
-                        <img src="../images/phone.svg" alt="">
-                        <p>1300 156 555</p>
+            <div class="footer__contacts">
+
+                <div class="footer__contact-left">
+                        <div class="footer__phone">
+                            <img src="../assets/images/phone.svg" alt="">
+                            <p>1300 156 555</p>
+                        </div>
+                        
+                        <div class="footer__email">
+                            <img src="../assets/images/mail.svg" alt="">
+                            <p>info@marameo.com</p>
+                        </div>
+                </div>
+
+                <div class="footer__contact-middle">
+                    <div class="footer__middle-left">
+                        <h6 class="subtitle">
+                            QUICK LINKS
+                        </h6>
+                        <ul>
+                            <li><a href="#">Our Properties</a></li>
+                            <li><a href="#">Special Disability Accomodation</a></li>
+                            <li><a href="#">About Liverty</a></li>
+                            <li><a href="#">Resources</a></li>
+                            <li><a href="#">All Media & News</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="footer__middle-right">
+                        <h6 class="subtitle">
+                            FOR TENANTS
+                        </h6>
+                        <ul>
+                            <li><a href="#">FAQs</a></li>
+                            <li><a href="#">Resources</a></li>
+                            <li><a href="#">Support</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer__contact-right">
+                    <!-- <img src="../assets/images/ndis.svg" alt="Logo"> -->
+                    <button class="button green">Contact Us</button>
+                    <div class="footer_social-media">
+                        <img src="../assets/images/FB.svg" alt="">
+                        <img src="../assets/images/linkedin.svg" alt="">
+                        <img src="../assets/images/IG.svg" alt="">
                     </div>
                     
-                    <div class="footer__email">
-                        <img src="../images/mail.svg" alt="">
-                        <p>info@marameo.com</p>
-                    </div>
                 </div>
 
-                <div class="footer__link">
-                    <div class="footer__inner-link-left">
-                        <p class="footer__yellow-header">Quick Links</p>
-                        <a href="#" class="block-links footer__footer-links">Our Properties</a>
-                        <a href="#" class="block-links footer__footer-links">Specialist Disability Accomodation</a>
-                        <a href="#" class="block-links footer__footer-links">About Liverty</a>
-                        <a href="#" class="block-links footer__footer-links">Resources</a>
-                        <a href="#" class="block-links footer__footer-links">All Media & News</a>
-                    </div>
 
-                    <div class="footer__inner-link-right">
-                        <span class="footer__yellow-header">For Tenants</span>
-                        <a href="#" class="block-links footer__footer-links">
-                            FAQs
-                        </a>
-                        <a href="#" class="block-links footer__footer-links">
-                            Resources
-                        </a>
-                        <a href="#" class="block-links footer__footer-links">
-                            Support
-                        </a>
-                    </div>
-                </div>
-
-                <div class="footer__contact-media">
-                    <button class="button footer-button footer__button">Contact Us</button> 
-                    <div class="footer__socialmedia">
-                        <a href="#"><img src="../images/FB.svg" alt=""></a>
-                        <a href="#"><img src="../images/linkedin.svg" alt=""></a>
-                        <a href="#"><img src="../images/IG.svg" alt=""></a>
-                    </div>    
-                </div>
             </div>
-
-            <!-- BOTTOM BLOCK -->
-
-            <div class="footer__bottom-block">
-                <div class="footer__flag-container">
-                    <img src="../images/flag.svg" alt="">
-                    <img src="../images/flag2.svg" alt="">
-                    <img src="../images/flag3.svg" alt="">
-                    <img src="../images/flag4.svg" alt="">
+            <div class="footer__copyright">
+                <div class="footer__flag">
+                    <img src="../assets/images/flag.svg" alt="">
+                    <img src="../assets/images/flag2.svg" alt="">
+                    <img src="../assets/images/flag3.svg" alt="">
+                    <img src="../assets/images/flag4.svg" alt="">
                 </div>
                 <div class="footer__code-measurement">
-                    <p>
-                        We acknowledge the Traditional Owners of the land where we work and live. We pay our respects to Elders past, present, and emerging.
-                    </p>
-        
-                    <p>
-                        &copy; Copyright Lorem ipsum. Website by <span><a href="">Marameo Design</a></span>
-                    </p>
+                    <p>We acknowledge the Traditional Owners of the land where we work and live. We pay our respects to Elders past, present, and emerging.</p>
+                    <p>© Copyright Lorem ipsum. Website by <span>Marameo Design</span></p>
                 </div>
             </div>
-
-        
-    <!-- BOTTOM BLOCK -->
         </div>
     </footer>
-
+    
+    
 </body>
 </html>

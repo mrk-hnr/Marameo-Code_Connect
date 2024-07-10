@@ -1,0 +1,23 @@
+.newsresource__blog-container {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+
+/* .newsresource-container > div {
+    width: 100%;
+} */
+
+.blog-cards-container {
+    width: 100%;
+    margin: 0 auto;
+    width: 424px;
+    margin-top: 34px
+}
+
+.blog-cards-container img {
+    border-radius: 12px;
+    width: 100%;
+}

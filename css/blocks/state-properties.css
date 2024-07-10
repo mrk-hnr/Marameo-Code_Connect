@@ -1,0 +1,117 @@
+.stateproperty-container {
+    padding-top: 80px;
+    display: flex;
+    background: rgba(255, 255, 255, 1);
+}
+
+.stateproperty-container .state-properties__links {
+    position: absolute;
+    padding-right: 60px;
+}
+
+.stateproperty-container .state-properties__map {
+    margin-left: 40%;
+    margin-top: 5%;
+    width: fit-content;
+}
+
+.stateproperty-container .state-properties__map img {
+    width: 110%;
+}
+
+.stateproperty-container .state-properties__link-map div > img,
+.stateproperty-container .state-properties__double {
+    display: none;
+}
+
+.stateproperty-container .stateproperties__link-map {
+    font-size: 18px;
+    line-height: 26px;
+    width: fit-content;
+}
+
+
+
+@media (max-width: 991px) {
+    .stateproperty-container .state-properties__links {
+        padding-bottom: 60px;
+    }
+
+    .stateproperty-container .state-properties__map {
+        margin-left: 20%;
+        padding-bottom: 130px;
+    } 
+}
+
+@media (max-width: 740px) {
+    .stateproperty-container .state-properties__map {
+        margin-top: 20%;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .stateproperty-container {
+        padding: 64px 16px 0 16px;
+    }
+
+    .stateproperty-container .state-properties__links {
+        position: static;
+        padding: 0;
+    }
+
+
+    .stateproperty-container .state-properties__link-map,
+    .stateproperty-container .state-properties__map {
+        display: none;
+    }
+    .stateproperty-container .state-properties__double {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        flex-wrap: nowrap;
+        margin-top: 56px;
+    }
+
+    .state-properties__double div {
+        width: 180px;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .state-properties__double img {
+        margin: 0 auto;
+        width: 50%;
+    }
+
+    .state-properties__links .state-properties__double:nth-last-of-type(3) a:first-child p {
+        margin-top: 31px;
+    }
+
+    .state-properties__links .state-properties__double:nth-last-of-type(2) a:last-child p {
+        margin-top: 37px;
+    }
+
+    .state-properties__links .state-properties__double:nth-last-of-type(1) a:first-child p {
+        margin-top: 38px;
+    }
+
+    /* .state-properties__links >
+    .state-properties__double:nth-last-of-type(1) a:last-child p {
+        margin-top: 5px;
+        font-size: 10rem;
+    } */
+}
+
+
+
+
+/* 
+
+
+@media (max-width: 576px) {
+    .about-container {
+      padding: 0 16px 0 16px;
+    }
+} */

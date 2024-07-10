@@ -1,0 +1,177 @@
+h1 {
+    font-weight: 400; /* Default in font.css, can be removed */
+    font-size: 66px;
+    line-height: 32px;
+    display: inline-block;
+    margin: 0 0 16px 0;
+}
+
+h4 {
+    font-family: "General Sans";
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    color: #0F1828;
+    margin: 0;
+}
+
+
+.header-span {
+    font-family: "General Sans";
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 44px;
+}
+
+.block-headers {
+    color: #007173;
+    font-family: "Gotcha";
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 44px;
+    margin: 16px 0;
+}
+
+
+/* MAIN */
+
+.main-span {
+    font-size: 48px;
+    line-height: 52px;
+}
+
+/* ABOUT */
+
+.about__desc .block-headers {
+    margin: 12px 0 0 0; 
+}
+
+/* ABOUT Block - Headers and span inherited from block-headers & header-spam */
+
+/* FEATURED PROPERTY */
+
+.featured-property__header2-modifier {
+    font-family: "General Sans";
+    color: #0F1828;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 44px;
+    margin: 0;
+}
+
+.featured-property__header3-modifier {
+    font-family: "General Sans";
+    color: #1C1C1C;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    margin: 8px 0;
+}
+
+/* STATE PROPERTY */
+
+.stateproperty-container h5 {
+    font-size:20px;
+    line-height: 26px;
+    margin-bottom: 28px;
+
+}
+
+.stateproperty-span + h2 {
+    display: inline-block
+}
+
+/* SDA  Block - Headers and span inherited from block-headers & header-spam */
+
+.numbered-span {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: .5px;
+    /* color: #007173;
+    color: #FAE6AA; */
+}
+
+.SDA__cards > .numbered-span {
+    color: #007173;
+    margin-bottom: 12px;
+}
+
+.SDA__cards > h4 {
+    margin: 0;
+}
+
+/* DIFFERENCE */
+
+.difference-span {
+    color: #FFFFFF;
+    display: inline-block
+}
+
+.difference__cards > .numbered-span {
+    color: #FAE6AA; 
+    font-family: "Geist Mono";
+    margin-right: 32px;
+}
+
+.difference-span + h2 {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 44px;
+    color: #FFE1D6;
+    display: inline-block !important;
+}
+
+.difference__cards h5 {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin: 0;
+    font-family: "General Sans";
+}
+
+/* NEWS RESOURCE */
+
+.blog-cards-container h4 {
+    margin-bottom: 8px;
+}
+
+.newsresource__header-link .block-headers {
+    display: inline;
+    font-family: "General Sans";
+    color: #1C1C1C;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 44px;
+}
+
+.newsresource__header-link .header-span {
+    font-family: "Gotcha";
+    color: #007173;
+    font-size: 60px;
+    line-height: 44px;
+    font-weight: 400;
+}
+
+/* MEDIA RESOURCE  Block - Headers and span inherited from block-headers & header-spam */
+
+.mediaresource-span + h2 {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 44px;
+    display: inline-block;
+}
+
+/* CONTACT */
+
+/* .contact-span {
+    INHERTING FROM HEADER-SPAN
+} */
+
+.contact-span + h2 {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 44px;
+    display: inline-block;
+}

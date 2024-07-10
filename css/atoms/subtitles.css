@@ -1,0 +1,69 @@
+.subtitle {
+    font-family: "General Sans";
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(15, 24, 40, 0.75);
+    margin: 0;
+}
+    
+.subtitle.green {
+    color: #007173;
+    letter-spacing: 0;
+}
+
+/* FEATURED PROPERTY */
+
+.featproperty-container .subtitle {
+    margin: 0;
+}
+
+/* STATE PROPERTY */ 
+
+.stateproperty-container h6 {
+    margin: 0 0 12px 0;
+}
+
+/* SDA */
+.SDA-container .subtitle {
+    margin-bottom: 12px;
+}
+
+/* NEWS RESOURCE */
+
+.blog-cards-container .subtitle {
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+/* FOOTER */
+
+.footer-container .footer__mid-container > .subtitle {
+    color: rgba(250, 230, 170, 1) !important;
+}
+
+
+
+@media (max-width: 991px) {
+    .featproperty-container .featproperty__desc {
+        margin: 0;
+    }
+
+    .featproperty-container .subtitle {
+        margin-top: 32px;
+        margin-bottom: 8px;
+    }
+
+    .SDA-container .subtitle {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .featproperty-container {
+      padding: 0 16px 0 16px;
+    }
+  }
+  

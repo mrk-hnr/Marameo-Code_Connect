@@ -1,481 +1,112 @@
-html {
-    background: rgb(217, 217, 217);
-    list-style: none;
+.navi-container {
+  border-radius: 100px;
+  background: white;
+  padding: 16px 16px 16px 32px;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 96px;
+  margin-top: 24px;
 }
 
-ul { 
-    padding: 0;
+/* .navi__left-container {
+    flex-grow: 0;
+} Will remove on final draft if it doesn't cause negative impact*/
+
+.navi__mid-container {
+  flex: 1; /* Allows nav links to spread out on resize */
+  display: flex;
+  justify-content: space-around;
 }
-
-li {
-    margin: 15px 0;
-}
-
-a {
-    color: #0F1828;
-    text-decoration: none;
-}
-
-header {
-    font-family: 'General Sans', sans-serif;
-
-
-    /* Codes added when added into index.html */
-    position: absolute;
-    left: 0; 
-    right: 0;
-    margin: 0 auto; 
-    margin-top: 24px;
-    /* Codes added when added into index.html */
-}
-
-/* BURGER MENU */
-
-.navi__burger-menu {
-    cursor: pointer;
-    margin: 0 auto;
-    padding-left: 1.25em;
-    position: relative;
-    width: 40px;
-    height: 40px;
-    display: none;
-}
-
-.navi__global {
-    backface-visibility: hidden;
-    position: absolute;
-    left: 30px;
-    border-top: 3px solid rgba(94, 94, 94, 1);
-    width: 50%;
-    transition: 0.55s;
-}
-
-.navi__top {
-    top: 7px;
-}
-
-.navi__middle {
-    top: 18px;
-    width: 33%;
-    display: inline-block;
-    margin-left: 10px;
-
-}
-
-.navi__bottom {
-    top: 28px;
-}
-
-.navi__top-click {
-    backface-visibility: hidden;
-    top: 15px;
-    transform: rotate(50deg);
-    transition: 0.55s 0.5s;
-}
-
-.navi__middle-click {
-    opacity: 0;
-}
-
-navi__bottom-click {
-    backface-visibility: hidden;
-    top: 15px;
-    transform: rotate(-410deg);
-    transition: 0.55s 0.5s;
-}
-
-/* Custom Styling */
-.navi {
-    background: white;
-    display: flex;
-    border-radius: 100px;
-    align-items: center; 
-    height: 80px;
-    width: 95%;
-    margin: 0 auto;
-}
- 
-/* LEFT NAV START */
-
-.navi__left-container {
-    margin: 12px 0 12px 32px;
-}
-
-/* LEFT NAV END */
-/* MIDDLE NAV START */
-
-.navi__middle-container {
-    display: flex;
-    justify-content: space-around;
-    flex: 5;
-}
-
-.navi__select {
-    cursor: pointer;
-    padding: 12px 12px;
-}
-
-.navi__select:hover {
-    cursor: pointer;
-    border-radius: 100px;
-    font-weight: 600;
-    background: rgba(255, 225, 214, 1);
-}
-
-.navi__select:hover .navi__title {
-    font-weight: 600;
-}
-
-.navi__title {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    margin-top: 32px;
-}
-
-.navi__menu {
-    display: none;
-}
-
-/* MIDDLE NAV END */
-/* RIGHT NAV START */
 
 .navi__right-container {
-    text-align: end; /* Makes the container to the rightmost position */
-    margin: 16px;
-    display: flex; 
+  margin-top: 5px;
+}
+
+.navi__mid-container button,
+.navi__right-container img,
+.navi__right-container button {
+  cursor: pointer;
+}
+
+.navi__mid-container button:hover {
+  background: #ffe1d6;
+  padding: 12px 16px;
+  border-radius: 100px;
+}
+
+@media (max-width: 1154px) {
+  .navi__mid-container button:hover img {
+    display: none; /* Removes caret on hover */
+  }
+}
+
+/* .navi__right-container {
+    text-align: end;
+} Code seems have no effect when all elements are present. Remove on final draft if no negative impact */
+
+.navi__right-container img {
+  vertical-align: middle;
+  margin: 12px;
+}
+
+@media (max-width: 1130px) {
+  .navi__mid-container img {
+    display: none; /* Removes carat to maintain nav UI */
+  }
+
+  .navi__right-container img {
+    margin: 12px 0; /* Removes side spacing to mantain nav UI */
+  }
+}
+
+@media (max-width: 1039px) {
+  .navi__mid-container {
+    display: none;
+  }
+
+  .navi__right-container {
+    display: flex;
+    margin: 0;
+  }
+
+  .navi__right-container img {
+    margin: 12px 24px;
+  }
+
+  .navi__right-container button {
+    display: none;
+  }
+
+  .navi__burger-menu {
+    display: block;
+  }
+}
+
+@media (max-width: 767px) {
+  .navi-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 24px;
+    min-width: 325px;
 }
 
 .navi__right-container img {
-    margin: 28px 12px;
+  margin-right: 0;
+}
+  
+  header {
+    margin: 0 16px;
+  }
 }
 
-.navi__button {
-    font-weight: 600;
-    font-size: 16px;
-    height: 48px;
-    transform: translateY(30%);
-}
-
-/* RIGHT NAV END */
-/* SHARED NAV HOVER PROPERTIES */
-
-.navi__hover {
-    justify-content: center;
-    margin: 0 auto;
-    margin-top: 4px;
-    background: white;
-    border-radius: 8px;
-    padding: 0 32px;
-    width: fit-content;
-    max-width: 689px;
-}
-
-.navi__hover img {
-    width: 240px;
-    border-radius: 8px;
-}
-
-
-.navi__left {
-    display: flex;
-    flex-direction: column;
-    color: rgba(15, 24, 40, 0.75);
-}
-
-.navi__right h5 {
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 26px;;
-}
-
-.navi__left {
-    justify-content: space-evenly;
-}
-
-.navi__left .navi__custom {
-    margin-top: -20px;
-}
-
-/* PROPERTIES HOVER CONTENT */
-
-.navi__properties {
-    display: none;
-}
-
-.navi__upper-container {
-    display: flex;
-}
-
-.navi__upper-left-properties, .navi__upper-right-properties {
-    width: 100%;
-    margin-top: 25px;
-}
-
-.navi__content .navi__custom {
-    font-weight: 600;
-    width: 100%;
-}
-
-.navi__upper-right-properties {
-    justify-content: end; 
-}
-
-/* PROPERTIES NAV -- MAP CONTENT */
-.navi__map-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.navi__state-container {
-    justify-content: center;
-    margin: 18px 28px;
-    height: 110px;
-    text-align: center;
-    position: relative; /* Relative so that absolute/bottom:0 works for its child p */
-}
-
-.navi__state-container > p {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.navi__state-container > img, .navi__upper-right-properties > img {
-    width: auto !important;
-}
-
-/* SDA NAV -- CONTENT */
-
-.navi__hover + .navi__SDA,
-.navi__hover + .navi__about,
-.navi__hover + .navi__resource,
-.navi__hover + .navi__media-news
- {
-    padding: 0 !important;
-}
-
-.navi__left-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 220%;
-    margin: 0 32px;
-}
-
-.navi__left-content a {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: rgba(15, 24, 40, 0.75);
-}
-
-.navi__left-content-custom {
-    display: flex;
-    flex-direction: column;
-    width: 220%;
-    margin: 0 32px;
-}
-
-.navi__left-content-custom span {
-    font-weight: 600;
-}
-
-/* navi__left-content-custom:last-child {
-    margin-top: 16px
-} */
-
-.navi__custom-title {
-    font-weight: 600;
-    font-size: 16;
-    line-height: 24px;
-    margin-bottom: 8px
-}
-
-.navi__custom-link {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: rgba(15, 24, 40, 0.75);
-    margin: 16px 0;
-}
-
-.navi__left-content a:last-child {
-    margin-bottom: 36px;
-}
-
-.navi__SDA > .navi__content-container,
-.navi__about > .navi__content-container,
-.navi__resource > .navi__content-container,
-.navi__media-news > .navi__content-container
- {
-    display: flex;
-}
-
-.navi__right-content {
-    border-left: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-.navi__right-content > * {
-    margin: 0 32px;
-}
-
-.navi__right-content img {
-    margin-top: 32px;
-    height: 120px;
-}
-
-.navi__right-content h5 {
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 26px;
-    margin-top: 16px;
-    margin-bottom: 4px;
-    font-family: "General Sans", sans-serif
-}
-
-.navi__right-content p {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: .5px;
-    padding-bottom: 32px;
-}
-
-.navi__left-content .navi__title {
-    font-weight: 600;
-}
-
-@media(max-width: 1086px) {
-    .navi__title {
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 24px;;
-    }
-
-    .navi__button {
-        font-size: 14px;
-    }
-}
-
-
-@media(max-width: 1033px) {
-    .navi__title {
-        font-size: 13px !important;
-        
-    }
-
-    .navi__button {
-        font-size: 12px;
-        width: auto !important;
-    }
-}
-
-@media(max-width: 963px) { /* Removes Caret that messes up nav format on this size */
-    .navi__caret {
-        display: none;
-    }
-}
-
-
-@media(max-width: 899px) { /* Removes links and button, mobile layout takesover the design*/
-    .navi__middle-container, .navi__right-container button {
-        display: none;
-    }
-
-    .navi__burger-menu {
-        display: block;
-        margin: 28px 21px
-    }
-
-    .navi {
-        display: flex;      
-        justify-content: space-around;
-    }
-
-    .navi__left-container {
-        width: 100%;
-    }
-
-    .navi__state-container {
-        margin: 20px 45px;
-    }
-
-    .navi__hover {
-        background: rgba(255, 225, 214, 1); /* Figma says 25% opacity but  */
-    }
-    
-}
-
-@media(max-width: 600px) {
-    .navi__SDA > .navi__content-container,
-    .navi__about > .navi__content-container,
-    .navi__resource > .navi__content-container,
-    .navi__media-news > .navi__content-container
-     {
-        flex-direction: column;
-        justify-content: center;
-        margin: 0 auto;
-    }
-
-    .navi__left-content {
-        width: auto;
-        height: 250px;
-    }
-
-    .navi__left-content a:last-child {
-        margin-bottom: 0;
-    }
-
-    .navi__right-content {
-        display: flex;
-        align-items: center;
-        margin-top: -1rem;
-    }
-
-    .navi__right-content * {
-        margin: 0;
-        padding: 0;
-        margin-left: 16px;
-    }
-
-    /* .navi__rightContent div:nth-child(1) {
-
-    } */
-    .navi__right-content div:nth-child(2) {
-        padding-left: 12px;
-        margin-top: 10%;
-        margin-bottom: 24px;
-    }
-
-    .navi__right-content img {
-        width: 140px;
-        height: 70px;
-    }
-
-
-    .navi__right-content h5 {
-        font-size: 18px;
-        margin: 0;
-        line-height: 24px;
-    }
-
-    .navi__right-content p {
-        font-size: 13px;
-        line-height: 18px;
-        letter-spacing: .5px;
-        padding: 0;
-        margin: 0;
-    }
-}
-
-@media(max-width: 335px) {
-    .navi__right-container img {
-        display: none;
-    }
-    .navi {
-        min-width: 285px;
-    }
+@media (max-width: 576px) {
+  .navi-container {
+    margin: 0 16px;
+    margin-top: 24px;
+  }
 }

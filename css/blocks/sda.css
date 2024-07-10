@@ -1,0 +1,51 @@
+.SDA-container {
+    background: rgba(15, 24, 40, 0.05);
+    padding-bottom: 80px;
+}
+
+.SDA-container .SDA__top-container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 72px;
+}
+
+/* .SDA__top-container > div {
+    flex: 1
+} */
+
+
+.SDA__top-left-container {
+    flex: 1.5;
+    
+}
+.SDA__top-right-container {
+    flex: 2;
+}
+
+.SDA__bottom-container {
+    width: 100%;
+    text-align: center;
+}
+
+.SDA__bottom-container video {
+    width: 77.2%;
+    height: auto;
+    object-fit: cover;
+}
+
+@media (max-width: 991px) {
+    .SDA-container .SDA__top-container {
+        flex-direction: column;
+    }
+
+    .SDA__bottom-container video {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .SDA-container {
+      padding: 80px 16px 62px 16px;
+    }
+  }
+  

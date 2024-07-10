@@ -1,0 +1,34 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.curved-image {
+  border-top-left-radius: 1000px;
+  border-top-right-radius: 1000px;
+}
+
+.container {
+  padding: 80px 96px 0 96px;
+}    
+
+a {
+  text-decoration: none;
+  color: #0F1828;
+  font-family: "General Sans";
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  list-style-type: none;
+  gap: 10px;
+}

@@ -1,90 +1,91 @@
-.button {
-    font-family: 'General Sans', sans-serif; 
+/* Nav Links */
+.navi__mid-container .nav-link {
+    font-family: "General Sans";
     border: none;
-    padding: 16px 24px;
+    background: transparent;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: inline-block;
+}
+
+.navi__right-container .button {
+    padding: 12px 24px;
+}
+
+/* General Styling */
+
+/*  */
+
+.button {
+    font-family: "General Sans";
     border-radius: 100px;
-    color: #0F1828;
-    /* width: 165px; */
-    width: fit-content;
+    padding: 16px 24px;
+    background: transparent;
+    border: none;
+    border: 1px solid rgba(15, 24, 40, 0.5);
     font-weight: 600;
     font-size: 16px;
-    /* line-height: 24px; */
-    background: #F1EAE6;
-    /* background: rgba(255, 255, 255, 0.5); */
+    line-height: 24px;
+    cursor: pointer;
 }
 
-.button a {
-    text-decoration: none;
-    color: rgba(15, 24, 40, 1);
-    
-}
-
-.transparent {
-    border: 1px solid rgba(15, 24, 40, 0.552);
-    padding: 16px 24px;
-}
-
-.green {
+.button.green {
     background: #007173;
-    color: white;
-    
+    color: #FFFFFF;
+    border: none;
 }
 
-.green a {
-    color: white;
-    text-decoration: none;
+.two-button-container {
+    display: flex;
+     gap: 8px; /* gap and flex should be on parent to apply gap spacing to children */
 }
 
-.footer-button {
-    background: #00BFC3;
+/* SDA */
+
+/* .SDA-top-right-container .arrow-link > button {
+} */
+
+/* FOOTER */
+
+footer .button.green {
+    background: rgba(0, 191, 195, 1);
+    color: rgba(15, 24, 40, 1);
+    max-width: 240px;
 }
 
 
-/* SDA Block */
 
-.SDA-container button {
-    margin-right: 24px;
-}
-
-/* FEATURES PROPERTY Block */
-
-.property-container__button-container {
-    margin-top: 32px;
-}
-
-/* CONTACT BLOCK */
-
-@media (max-width: 1020px) {
-    .SDA-container button {
-        margin: 0 auto;
-        width: 100%;
-        margin-bottom: 16px;
+@media (max-width: 1159px) {
+    .main-container .two-button-container {
+        flex-direction: column;
     }
 }
 
-@media(max-width: 952px) {
-    .contact-container button {
-        width: 100%;
+@media (max-width: 1115px) {
+    .contact__desc .two-button-container {
+        flex-direction: column;
     }
 }
 
-@media(max-width: 899px) {
-    .content-media-button-container button {
+@media (max-width: 991px) {
+    .featproperty-container .button,
+    .SDA-container .button {
         width: 100%;
     }
-
-
-    .property-container button {
-        width: 100%;
-        margin-top: 32px !important;
-    }
-
-
 }
 
-
-@media (max-width: 555px) {
-    .SDA-container button {
-        margin-top: 32px;
+@media (max-width: 826px) {
+    footer .button.green {
+        max-width: none;
     }
 }
+
+@media (max-width: 767px) {
+    .two-button-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+

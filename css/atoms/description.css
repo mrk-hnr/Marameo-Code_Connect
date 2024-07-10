@@ -1,0 +1,95 @@
+.description {
+    font-family: "General Sans";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #383838;
+}
+
+
+/* MAIN */
+
+.main-container .main__desc .description {
+    padding-right: 40%;
+}
+
+/* ABOUT */
+
+.about-container .about__desc .description {
+    margin-right: 25%;
+}
+/*
+.main-hero.description {  
+}
+
+.about.description {
+}
+
+ .featured-property.description {
+
+ 
+} */
+
+/* FEATURED PROPERTY */
+
+.featproperty-container p {
+    margin-bottom: 32px;
+}
+.featured-property.description > span {
+    font-weight: 600;
+    display: block;
+}
+
+/* SDA */
+
+.sda.description {
+    line-height: 26px;
+    margin-top: 0;
+}
+
+/* DIFFERENCE */
+
+.difference-container p {
+    color: #F1EAE6 !important;
+}
+
+.difference__card-desc {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.newsresource.description {
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+/* .contact.description {
+
+} */
+
+
+/* FOOTER */
+.footer.description {
+    font-size: 14px;
+    line-height: 16px;;
+    letter-spacing: .5px;
+    color: #FFFFFF;
+}
+
+.footer.phone, .footer.email {
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+
+@media (max-width: 1450px) {
+    .main-container .main__desc .description {
+        padding-right: 0;
+    }
+
+    .about-container .about__desc .description {
+        margin-right: 0;
+    }
+}
