@@ -1,8 +1,10 @@
+.main {
+  background: linear-gradient(90deg, #f1eae6 80%, #009496 20%);
+}
 .main-container {
   display: flex;
   justify-content: space-evenly;
-  background: linear-gradient(90deg, #f1eae6 80%, #009496 20%);
-  padding-top: 156px; /* Gives space for nav bar */
+  padding-top: 156px !important; /* Gives space for nav bar */
 }
 
 /* .main-container > div {

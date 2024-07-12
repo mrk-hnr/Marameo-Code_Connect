@@ -1,20 +1,24 @@
 .navi-container {
+  max-width: 1520px;
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+.navi-component {
+
   border-radius: 100px;
   background: white;
   padding: 16px 16px 16px 32px;
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
+  margin: 0 auto;
   position: absolute;
   left: 0;
   right: 0;
   margin: 0 96px;
   margin-top: 24px;
 }
-
-/* .navi__left-container {
-    flex-grow: 0;
-} Will remove on final draft if it doesn't cause negative impact*/
 
 .navi__mid-container {
   flex: 1; /* Allows nav links to spread out on resize */
@@ -38,28 +42,14 @@
   border-radius: 100px;
 }
 
-@media (max-width: 1154px) {
-  .navi__mid-container button:hover img {
-    display: none; /* Removes caret on hover */
-  }
-}
-
-/* .navi__right-container {
-    text-align: end;
-} Code seems have no effect when all elements are present. Remove on final draft if no negative impact */
-
 .navi__right-container img {
   vertical-align: middle;
   margin: 12px;
 }
 
-@media (max-width: 1130px) {
-  .navi__mid-container img {
-    display: none; /* Removes carat to maintain nav UI */
-  }
-
-  .navi__right-container img {
-    margin: 12px 0; /* Removes side spacing to mantain nav UI */
+@media (max-width: 1154px) {
+  .navi__mid-container button:hover img {
+    display: none; /* Removes caret on hover */
   }
 }
 
@@ -86,27 +76,32 @@
   }
 }
 
+@media (max-width: 1130px) {
+  .navi__mid-container img {
+    display: none; /* Removes carat to maintain nav UI */
+  }
+
+  .navi__right-container img {
+    margin: 12px 0; /* Removes side spacing to mantain nav UI */
+  }
+}
+
 @media (max-width: 767px) {
   .navi-container {
     position: absolute;
     left: 0;
     right: 0;
-    margin-top: 24px;
     min-width: 325px;
-}
+  }
 
-.navi__right-container img {
-  margin-right: 0;
-}
-  
-  header {
-    margin: 0 16px;
+  .navi__right-container img {
+    margin-right: 0;
   }
 }
 
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
   .navi-container {
-    margin: 0 16px;
-    margin-top: 24px;
+
+
   }
-}
+} */

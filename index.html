@@ -3,28 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/global/base.css">
-    <link rel="stylesheet" href="../css/global/base.css">
+
+    <link rel="stylesheet" href="../css/global/fonts.css">
+
     <link rel="stylesheet" href="../css/atoms/subtitles.css">
     <link rel="stylesheet" href="../css/atoms/arrowed-link.css">
-    <link rel="stylesheet" href="../css/global/fonts.css">
     <link rel="stylesheet" href="../css/atoms/headers.css">
     <link rel="stylesheet" href="../css/atoms/description.css">
-    <link rel="stylesheet" href="../css/components/nav-bar.css">
-    <link rel="stylesheet" href="../css/blocks/about.css">
-    <link rel="stylesheet" href="../css/components/burger-menu.css">
     <link rel="stylesheet" href="../css/atoms/button.css">
+
+    <link rel="stylesheet" href="../css/components/nav-bar.css">
+    <link rel="stylesheet" href="../css/components/burger-menu.css">
+    <link rel="stylesheet" href="../css/components/cards.css">
+    <link rel="stylesheet" href="../css/components/blog-cards.css">
+
     <link rel="stylesheet" href="../css/blocks/main.css">
+    <link rel="stylesheet" href="../css/blocks/about.css">
     <link rel="stylesheet" href="../css/blocks/featured-property.css">
     <link rel="stylesheet" href="../css/blocks/state-properties.css">
-    <link rel="stylesheet" href="../css/components/cards.css">
-    <link rel="stylesheet" href="../css/components/cards.css">
     <link rel="stylesheet" href="../css/blocks/sda.css">
     <link rel="stylesheet" href="../css/blocks/difference.css">
-    <link rel="stylesheet" href="../css/components/blog-cards.css">
     <link rel="stylesheet" href="../css/blocks/news-resource.css">
     <link rel="stylesheet" href="./css/blocks/contact.css">
     <link rel="stylesheet" href="../css/blocks/footer.css">
+
+    <link rel="stylesheet" href="../css/global/base.css">
 
     <title>Marameo - Code Connect</title>
 </head>
@@ -32,66 +35,73 @@
     <header>
         <nav>
             <div class="navi-container">
-                <div class="navi__left-container">
-                    <img src="../assets/images/logo.svg" alt="">
-                </div>
-                <div class="navi__mid-container">
-                    <button class="nav-link">
-                        Our Properties 
-                        <img src="../assets/images/caret.svg" alt="">
-                     </button>
-                     <button class="nav-link">
-                        SDA 
-                        <img src="../assets/images/caret.svg" alt="">
-                     </button>
-                     <button class="nav-link">
-                        About Us
-                        <img src="../assets/images/caret.svg" alt="">
-                     </button>
-                     <button class="nav-link">
-                        Resource Hub 
-                        <img src="../assets/images/caret.svg" alt="">
-                     </button>
-                     <button class="nav-link">
-                        Media & News
-                        <img src="../assets/images/caret.svg" alt="">
-                     </button>
-                </div>
-                <div class="navi__right-container">
-                    <img src="../assets/images/magnifying-glass.svg" alt="">
-                    <button class="button green">Submit Enquiry</button>
-
-                    <div class="navi__burger-menu">
-                        <span class="navi__global navi__top"></span>
-                        <span class="navi__global navi__middle"></span>
-                        <span class="navi__global navi__bottom"></span>
+                <div class="navi-component">
+                    <div class="navi__left-container">
+                        <img src="../assets/images/logo.svg" alt="">
                     </div>
-                    
+                    <div class="navi__mid-container">
+                        <button class="nav-link">
+                            Our Properties 
+                            <img src="../assets/images/caret.svg" alt="">
+                         </button>
+                         <button class="nav-link">
+                            SDA 
+                            <img src="../assets/images/caret.svg" alt="">
+                         </button>
+                         <button class="nav-link">
+                            About Us
+                            <img src="../assets/images/caret.svg" alt="">
+                         </button>
+                         <button class="nav-link">
+                            Resource Hub 
+                            <img src="../assets/images/caret.svg" alt="">
+                         </button>
+                         <button class="nav-link">
+                            Media & News
+                            <img src="../assets/images/caret.svg" alt="">
+                         </button>
+                    </div>
+                    <div class="navi__right-container">
+                        <img src="../assets/images/magnifying-glass.svg" alt="">
+                        <button class="button green">Submit Enquiry</button>
+    
+                        <div class="navi__burger-menu">
+                            <span class="navi__global navi__top"></span>
+                            <span class="navi__global navi__middle"></span>
+                            <span class="navi__global navi__bottom"></span>
+                        </div>
+                        
+                    </div>
+
                 </div>
+                
                 
             </div>
         </nav>
     </header>
 
-    <section>
-        <div class="main-container row-col container">
-            <div class="left-container main__desc">
-                <div>
-                    <h1 class="block-headers main-header">Life-changing </h1> <span class="main-span header-span">living</span>
+    <section class="main">
+        <div class="component-container">
+            <div class="main-container row-col container">
+                <div class="left-container main__desc">
+                    <div>
+                        <h1 class="block-headers main-header">Life-changing </h1> <span class="main-span header-span">living</span>
+                    </div>
+                    <p class="main-hero description">
+                        In ornare et eget commodo consectetur mauris nec. Risus leo ultricies adipiscing commodo ipsum interdum vulputate. Ut magna et mollis et. 
+                    </p>
+                    <div class="two-button-container">
+                        <button class="button green">Submit Enquiry</button>
+                        <button class="button">Find a property</button>
+                    </div>
                 </div>
-                <p class="main-hero description">
-                    In ornare et eget commodo consectetur mauris nec. Risus leo ultricies adipiscing commodo ipsum interdum vulputate. Ut magna et mollis et. 
-                </p>
-                <div class="two-button-container">
-                    <button class="button green">Submit Enquiry</button>
-                    <button class="button">Find a property</button>
+    
+                <div class="right-container main__img-container">
+                    <img src="../assets/images/main.png" alt="Conversation between two women sitting in a couch" class="curved-image" width="480" height="auto" loading="lazy">
                 </div>
-            </div>
-
-            <div class="right-container main__img-container">
-                <img src="../assets/images/main.png" alt="Conversation between two women sitting in a couch" class="curved-image" width="480" height="auto" loading="lazy">
             </div>
         </div>
+
     </section>
 
     <section>
