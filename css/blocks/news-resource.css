@@ -9,5 +9,12 @@
     }
 }
 
+@media (max-width: 576px) {
+    .newsresource-container {
+      padding: 80px 16px 0 16px !important;
+    }
+  }
+  
+
 
 

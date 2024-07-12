@@ -1,8 +1,12 @@
+.contact {
+  background: linear-gradient(90deg, #009496 26%, #f1eae6 18%);
+}
+
 .contact-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background: linear-gradient(90deg, #009496 18%, #f1eae6 18%);
+  
 }
 
 /* .contact-container > div {
@@ -77,6 +81,6 @@
 
 @media (max-width: 576px) {
   .contact-container {
-    padding: 0 16px 0 16px;
+    padding: 0 16px 0 16px !important;
   }
 }

@@ -67,6 +67,6 @@
 
 @media (max-width: 576px) {
   .main-container {
-    padding: 0 16px 0 16px;
+    padding: 0 16px 0 16px !important;
   }
 }

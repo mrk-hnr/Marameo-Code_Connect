@@ -4,8 +4,8 @@ Code_Connect is a developer mentorship program aimed at supporting developers ge
 
 ## Working On:
 
-- Finish 90% of site by Friday
-  - Proceed into completing Optimization 6-9 once Week 3 target reached
+- Polish current codebase
+- Continue with other pages
 
 ## Goals:
 
@@ -18,7 +18,12 @@ Code_Connect is a developer mentorship program aimed at supporting developers ge
   - <strike>At least 1 block from the home page</strike>
 
 - Week 3 Target:
-  - Complete 90% of the page
+
+  - <strike>Complete 90% of the page</strike>
+
+- Week 4 Target:
+  - Make further improvements to existing containers and css codes as per Mentor notes/corrections
+  - Continue creating the other pages
 
 ## Tech used:
 
@@ -30,14 +35,14 @@ Code_Connect is a developer mentorship program aimed at supporting developers ge
 2. <strike>Responsive Header/Nav</strike>
    - Create functional burger menu on Week 3 (JS)
 3. <strike>Footer Flag Spacing on Responsive</strike>
-4. Further organize classes name in accordance with the [BEM Naming Convention](https://getbem.com/naming/)
-   - Maximize potential shared atoms/components and further optimize reusable codes as a result of organizing classes
+4. <strike>Further organize classes name in accordance with the [BEM Naming Convention](https://getbem.com/naming/)</strike>
+   - <strike>Maximize potential shared atoms/components and further optimize reusable codes as a result of organizing classes</strike>
 5. <strike>Change files and class naming convention from camelCase to kebab-case</strike>
-6. Switch some button elements to anchor
-   - anchor strictly for linking to other pages
-   - buttons if it's behavioral actions
-7. Add inline width and height to images to prevent shifting during/after page load
-8. Add basic description for alt properties in image for SEO and accessibility purposes
+6. <strike>Switch some button elements to anchor</strike>
+   - <strike>anchor strictly for linking to other pages</strike>
+   - <strike>buttons if it's behavioral actions</strike>
+7. <strike>Add inline width and height to images to prevent shifting during/after page load</strike>
+8. <strike>Add basic description for alt properties in image for SEO and accessibility purposes</strike>
 9. <strike>Create subfolders in css</strike>
    - <strike>i.e. css => atoms folder => button.css</strike>
    - <strike>i.e. css => block folder => nav.css</strike>

@@ -1,6 +1,10 @@
-.SDA-container {
+.SDA {
     background: rgba(15, 24, 40, 0.05);
-    padding-bottom: 80px;
+}
+
+.SDA-container {
+
+    padding-bottom: 80px !important;
 }
 
 .SDA-container .SDA__top-container {
@@ -45,7 +49,7 @@
 
 @media (max-width: 576px) {
     .SDA-container {
-      padding: 80px 16px 62px 16px;
+      padding: 80px 16px 62px 16px !important;
     }
   }
   

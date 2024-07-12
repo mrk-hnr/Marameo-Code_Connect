@@ -200,6 +200,6 @@ footer a,
     }
 
     .footer-container {
-        padding: 76px 16px 0 16px;
+        padding: 76px 16px 0 16px !important;
       }
 }

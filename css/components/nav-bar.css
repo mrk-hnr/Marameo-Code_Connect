@@ -2,11 +2,9 @@
   max-width: 1520px;
   width: 100%;
   margin: 0 auto;
-
 }
 
 .navi-component {
-
   border-radius: 100px;
   background: white;
   padding: 16px 16px 16px 32px;
@@ -87,11 +85,12 @@
 }
 
 @media (max-width: 767px) {
-  .navi-container {
+  .navi-component  {
     position: absolute;
     left: 0;
     right: 0;
     min-width: 325px;
+    margin: 24px 16px 0 16px !important; 
   }
 
   .navi__right-container img {

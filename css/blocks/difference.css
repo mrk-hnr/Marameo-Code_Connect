@@ -1,8 +1,12 @@
+.difference {
+    background: linear-gradient(90deg, #09443E 65%, #FFE1D6 20%);
+}
+
 .difference-container {
-    background: linear-gradient(90deg, #09443E 80%, #FFE1D6 20%);
+    
 
     justify-content: space-between;
-    padding-bottom: 80px;
+    padding-bottom: 80px !important;
     gap: 50px;
     padding-right: 56px;
 }
@@ -54,7 +58,7 @@
 
 @media (max-width: 576px) {
     .difference-container {
-      padding: 80px 16px 64px 16px;
+      padding: 80px 16px 64px 16px !important;
     }
   }
   

@@ -52,7 +52,7 @@
 
 @media (max-width: 600px) {
     .stateproperty-container {
-        padding: 64px 16px 0 16px;
+        padding: 64px 16px 0 16px !important;
     }
 
     .stateproperty-container .state-properties__links {

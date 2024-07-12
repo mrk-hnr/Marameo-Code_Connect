@@ -49,6 +49,6 @@
 
 @media (max-width: 576px) {
     .about-container {
-      padding: 0 16px 0 16px;
+      padding: 0 16px 0 16px !important;
     }
 }
