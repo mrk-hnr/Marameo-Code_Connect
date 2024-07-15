@@ -1,10 +1,13 @@
-.contact-page {
+.news-resource-page {
     background: rgba(9, 68, 62, 1);
     font-family: "General Sans";
     color: rgba(255, 255, 255, 1);
+    padding-bottom: 124px !important;   
 }
 
-.contact-page__descr {
+/* PAGE INTRO */
+
+.news-resource-page__descr {
     margin-top: 100px;
 }
 
@@ -17,8 +20,14 @@
     margin: 0 auto;
 }
 
-.contact-page__descr .page-title span {
+.news-resource-page__descr .page-title span {
     color: rgba(255, 225, 214, 1);
     font-family: "Gotcha";
+}
+
+/* TAGS AND ARTICLES */
+
+.articles-list-content {
+    padding: 52px 72px 72px 72px;
 }
 

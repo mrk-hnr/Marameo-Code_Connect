@@ -1,0 +1,16 @@
+.filtered-tag {
+    display: flex;
+    padding: 12px;
+    background: rgba(244, 131, 58, 0.1);
+    width: fit-content;
+    border-radius: 100px;
+    border: 1px solid rgba(244, 131, 58, 0.1);
+}
+
+.filtered-tag img {
+    margin-right: 8px;
+}
+
+.filtered-tag .subtitle {
+    color: rgba(15, 24, 40, 1);
+}

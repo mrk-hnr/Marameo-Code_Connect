@@ -10,6 +10,13 @@ h1 {
     font-weight: 600;
 }
 
+h2 {
+    font-family: "General Sans";
+    font-weight: 600;
+    font-size: 40px;
+    font-weight: 44px;
+}
+
 h4 {
     font-family: "General Sans";
     font-weight: 500;
@@ -57,9 +64,6 @@ h4 {
 .featured-property__header2-modifier {
     font-family: "General Sans";
     color: #0F1828;
-    font-weight: 600;
-    font-size: 40px;
-    line-height: 44px;
     margin: 0;
 }
 

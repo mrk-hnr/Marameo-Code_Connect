@@ -11,11 +11,14 @@
     <link rel="stylesheet" href="../css/atoms/headers.css">
     <link rel="stylesheet" href="../css/atoms/description.css">
     <link rel="stylesheet" href="../css/atoms/button.css">
+    <link rel="stylesheet" href="../css/atoms/tags.css">
 
     <link rel="stylesheet" href="../css/components/nav-bar.css">
     <link rel="stylesheet" href="../css/components/burger-menu.css">
     <link rel="stylesheet" href="../css/components/cards.css">
     <link rel="stylesheet" href="../css/components/blog-cards.css">
+
+    <link rel="stylesheet" href="../css/components/tag-filter.css">
 
     <link rel="stylesheet" href="../css/blocks/main.css">
     <link rel="stylesheet" href="../css/blocks/about.css">
@@ -81,10 +84,10 @@
         </nav>
     </header>
 
-    <section class="contact-page">
+    <section class="news-resource">
         <div class="component-container">
-            <div class="container contact-page-container row-col">
-                <div class="contact-page__descr">
+            <div class="container news-resource-page row-col">
+                <div class="news-resource-page__descr">
                     <p class="current-path">Home > <span>Media & News</span></p>
                     <div class="page-title">
                         <h1>Media <span>&</span> News</h1>
@@ -92,7 +95,40 @@
                     </div>
                 </div>
     
-                <div class="container contact-page-content">
+                <div class="articles-list-content">
+                    <div class="tag-filter-container">
+                        <div class="tag-container">
+                            <div class="filtered-tag">
+                                <img src="../assets/images/close.svg" alt="">
+                                <p class="subtitle">Placeholder</p>
+                            </div>
+                            <div class="filtered-tag">
+                                <img src="../assets/images/close.svg" alt="">
+                                <p class="subtitle">Placeholder</p>
+                            </div>
+                        </div>
+                        
+                        <div class="filter-container">
+                            <span class="subtitle">Filter By</span>
+                
+                            <div class='filter-dropdown-container'>
+                                <div class='filter-dropdown'>
+                                  <div class='filter-select'>
+                                    <div class='selected-filter placeholder-filter'> Select Filter</div>
+                                    <div class='filter-caret'>
+                                        <img src="../assets/images/caret.svg" alt="">
+                                    </div>
+                                  </div>
+                                  <ul class='filter-menu'>
+                                    <li>Plaholder Tag 1</li>
+                                    <li>Plaholder Tag 2</li>
+                                    <li>Plaholder Tag 3</li>
+                                    <li>Plaholder Tag 4</li>
+                                  </ul>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

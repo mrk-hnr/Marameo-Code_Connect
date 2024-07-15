@@ -41,3 +41,10 @@ ul {
   list-style-type: none;
   gap: 10px;
 }
+
+.articles-list-content {
+  background: rgba(255, 255, 255, 1);
+  border-radius: 16px;
+  margin: 0 -90px 0 -90px;
+  margin-top: 120px;
+}
