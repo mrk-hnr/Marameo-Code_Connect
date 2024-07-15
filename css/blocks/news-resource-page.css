@@ -1,0 +1,24 @@
+.contact-page {
+    background: rgba(9, 68, 62, 1);
+    font-family: "General Sans";
+    color: rgba(255, 255, 255, 1);
+}
+
+.contact-page__descr {
+    margin-top: 100px;
+}
+
+.page-title {
+    text-align: center;
+}
+.page-title .description {
+    color: rgba(255, 255, 255, 1);
+    width: 370px;
+    margin: 0 auto;
+}
+
+.contact-page__descr .page-title span {
+    color: rgba(255, 225, 214, 1);
+    font-family: "Gotcha";
+}
+

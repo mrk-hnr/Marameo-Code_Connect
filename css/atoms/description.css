@@ -77,12 +77,15 @@
     color: #FFFFFF;
 }
 
-.footer.phone, .footer.email {
+.footer.phone, .footer.email, .current-path {
     font-size: 16px;
     line-height: 24px;
-    color: #FFFFFF;
 }
 
+.current-path span {
+    font-weight: 600;
+    color: rgba(255, 225, 214, 1);
+}
 
 @media (max-width: 1450px) {
     .main-container .main__desc .description {
