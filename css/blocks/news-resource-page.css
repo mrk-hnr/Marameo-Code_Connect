@@ -27,7 +27,19 @@
 
 /* TAGS AND ARTICLES */
 
-.articles-list-content {
-    padding: 52px 72px 72px 72px;
+.tag-container {
+    flex-wrap: wrap;
 }
 
+@media (max-width: 921px) {
+    .articles-list-content {
+        padding: 52px 16px !important;
+    }
+    /* .filter-container {
+        margin-top: 32px;
+    } */
+
+    .filter-dropdown {
+        width: 80%;
+    }
+}

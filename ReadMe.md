@@ -6,6 +6,7 @@ Code_Connect is a developer mentorship program aimed at supporting developers ge
 
 - Polish current codebase
 - Continue with other pages
+  - Fix responsive filter tag container
 
 ## Goals:
 
