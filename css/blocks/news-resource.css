@@ -3,18 +3,25 @@
     justify-content: space-between;
 }
 
+.newsresource__header-link .arrow-link {
+    margin-right: 20px;
+}
+
+@media (max-width: 991px) {
+    .newsresource-container {
+        padding: 80px 16px 0 16px !important;
+      }
+}
+
 @media (max-width: 637px) {
     .newsresource__header-link {
         flex-direction: column;
     }
 }
 
-@media (max-width: 576px) {
-    .newsresource-container {
-      padding: 80px 16px 0 16px !important;
+@media (max-width: 575px) {
+    .newsresource__blog-container .blog-cards-container {
+        width: 100% !important;
     }
-  }
-  
-
-
+}
 

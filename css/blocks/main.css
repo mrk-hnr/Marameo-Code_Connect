@@ -63,10 +63,9 @@
     margin-top: 168px;
     margin-bottom: 52px;
   }
-}
-
-@media (max-width: 576px) {
   .main-container {
     padding: 0 16px 0 16px !important;
   }
 }
+
+

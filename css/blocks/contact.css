@@ -52,6 +52,10 @@
   /* Tablet  */
 
   .contact-container {
+    padding: 0 16px 0 16px !important;
+  }
+
+  .contact-container {
     background: #f1eae6;
     padding-top: 20px;
   }
@@ -80,7 +84,5 @@
 }
 
 @media (max-width: 576px) {
-  .contact-container {
-    padding: 0 16px 0 16px !important;
-  }
+
 }

@@ -130,6 +130,7 @@ footer a,
 }
 
 @media (max-width: 891px) {
+    
 
     .footer__contact-middle {
         flex-direction: column;
@@ -174,6 +175,10 @@ footer a,
 }
 
 @media (max-width: 650px) {
+    .footer-container {
+        padding: 76px 16px 0 16px !important;
+      }
+      
     .footer__logo-container {
         flex-direction: column;
         gap: 52px;
@@ -198,8 +203,4 @@ footer a,
     .footer__left-logo {
         margin-left: 20px;
     }
-
-    .footer-container {
-        padding: 76px 16px 0 16px !important;
-      }
 }

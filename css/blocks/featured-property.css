@@ -28,6 +28,10 @@
 }
 
 @media (max-width: 991px) {
+    .featproperty-container {
+        padding: 80px 16px 62px 16px !important;
+      }
+      
     .featproperty-container .featproperty__desc {
         margin: 0;
     }
@@ -39,8 +43,6 @@
 }
 
 @media (max-width: 576px) {
-    .featproperty-container {
-      padding: 80px 16px 62px 16px !important;
-    }
+
   }
   

@@ -38,6 +38,10 @@
 }
 
 @media (max-width: 991px) {
+    .SDA-container {
+        padding: 80px 16px 62px 16px !important;
+      }
+      
     .SDA-container .SDA__top-container {
         flex-direction: column;
     }
@@ -48,8 +52,6 @@
 }
 
 @media (max-width: 576px) {
-    .SDA-container {
-      padding: 80px 16px 62px 16px !important;
-    }
+
   }
   

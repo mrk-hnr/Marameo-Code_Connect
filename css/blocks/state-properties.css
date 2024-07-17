@@ -39,11 +39,15 @@
 
     .stateproperty-container .state-properties__map {
         margin-left: 20%;
-        padding-bottom: 130px;
+        padding-bottom: 55px;
     } 
 }
 
 @media (max-width: 740px) {
+    .stateproperty-container {
+        padding: 64px 16px 0 16px !important;
+    }
+    
     .stateproperty-container .state-properties__map {
         margin-top: 20%;
     }
@@ -51,9 +55,7 @@
 
 
 @media (max-width: 600px) {
-    .stateproperty-container {
-        padding: 64px 16px 0 16px !important;
-    }
+
 
     .stateproperty-container .state-properties__links {
         position: static;

@@ -47,6 +47,7 @@
     }
 
     .difference-container {
+        padding: 80px 16px 64px 16px !important;
         background: #09443E;
         padding-right: 96px;
     }
@@ -57,8 +58,6 @@
 }
 
 @media (max-width: 576px) {
-    .difference-container {
-      padding: 80px 16px 64px 16px !important;
-    }
+
   }
   

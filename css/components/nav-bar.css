@@ -87,6 +87,9 @@
 }
 
 @media (max-width: 767px) {
+  .navi-container  {
+    width: 100%;
+  }
   .navi-component  {
     position: absolute;
     left: 0;
