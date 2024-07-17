@@ -21,12 +21,11 @@
 /* Pages Dropdown */
 
 .filter-dropdown-container {
-    width: 300px;
     font-family: "General Sans";
+    width: fit-content;
 }
 
 .filter-dropdown {
-    width: 100%;
     position: relative;
     color: rgba(94, 94, 94, 1);
 }
