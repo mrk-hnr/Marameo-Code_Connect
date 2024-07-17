@@ -1,10 +1,13 @@
 .navi-container {
   max-width: 1520px;
-  width: 100%;
+  width: 90%;
   margin: 0 auto;
+  position: relative;
 }
 
 .navi-component {
+  max-width: 1520px;
+  margin: 0 auto;
   border-radius: 100px;
   background: white;
   padding: 16px 16px 16px 32px;
@@ -14,7 +17,6 @@
   position: absolute;
   left: 0;
   right: 0;
-  margin: 0 96px;
   margin-top: 24px;
 }
 
