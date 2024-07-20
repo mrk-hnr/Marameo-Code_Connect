@@ -2,12 +2,12 @@
 
 Code_Connect is a developer mentorship program aimed at supporting developers getting ready to enter the job market.
 
-**Start Date:** July 17, 2024
+**Start Date:** June 17, 2024
 
 ## Working On:
 
 - Polish current codebase
-- Complete 2 other pages by Friday, Week 5 (07/26/2024)
+- Complete 2 other pages by Friday, Week 6 (07/26/2024)
   - <strike>Fix responsive filter tag container</strike>
 
 ## Goals:
