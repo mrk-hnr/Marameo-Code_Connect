@@ -17,6 +17,7 @@
     .newsresource__header-link {
         flex-direction: column;
     }
+
 }
 
 @media (max-width: 575px) {
