@@ -49,13 +49,19 @@ Code_Connect is a developer mentorship program aimed at supporting developers ge
 9. <strike>Create subfolders in css</strike>
    - <strike>i.e. css => atoms folder => button.css</strike>
    - <strike>i.e. css => block folder => nav.css</strike>
+10. Refactor images on main page
+
+- Fix inline width and height
+- Appropriate width on css file in accordance with the inline width
 
 ## Notes
 
 1. navi-hover put on display: none, and then display:block on havi-(linkname) on hover
    - don't forget to put navi\_\_properties on hover contents
+2. Current issue: alt="xx" prevents inline width and height from taking place, causing layout shift.
 
 ## Resources:
 
 1. [BEM Naming Convention](https://getbem.com/naming/)
 2. [Bootstrap Breakpoints](https://getbootstrap.com/docs/5.0/layout/breakpoints/)
+3. [Cumulative Layout Shift (CLS)](https://web.dev/articles/cls)

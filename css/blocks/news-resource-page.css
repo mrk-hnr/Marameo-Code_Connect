@@ -44,6 +44,7 @@
 .news-resource-page .blog-cards-container img {
     object-fit: cover;
     height: 212px;
+    border: 1px solid black;
 }
 
 .news-resource-page .blog-cards-container:nth-child(5) img {
