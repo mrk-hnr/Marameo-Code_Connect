@@ -10,6 +10,9 @@ Code_Connect is a developer mentorship program aimed at supporting developers ge
 - Complete 2 other pages by Friday, Week 6 (07/26/2024)
   - <strike>Fix responsive filter tag container</strike>
 
+[Media & News page](https://marameo-codeconnect.netlify.app/blocks/news-resource-page)
+[Event page](https://marameo-codeconnect.netlify.app/blocks/events-page)
+
 ## Goals:
 
 - Week 1-2 Target:
