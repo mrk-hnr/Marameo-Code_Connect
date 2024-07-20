@@ -11,6 +11,7 @@ Code_Connect is a developer mentorship program aimed at supporting developers ge
   - <strike>Fix responsive filter tag container</strike>
 
 [Media & News page](https://marameo-codeconnect.netlify.app/blocks/news-resource-page)
+
 [Event page](https://marameo-codeconnect.netlify.app/blocks/events-page)
 
 ## Goals:
