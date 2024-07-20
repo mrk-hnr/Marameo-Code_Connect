@@ -10,13 +10,18 @@
     gap: 12px;
 }
 
-.filter-container .subtitle {
-    margin: 12px 12px 0 0;
-}
-
 .filter-container {
     display: flex;
 }
+
+
+.filter-container .subtitle {
+    margin: 12px 12px 0 0;
+    display: flex;
+    flex-wrap: nowrap;
+    min-width: 81px;
+}
+
 
 /* Pages Dropdown */
 
@@ -111,3 +116,13 @@
     background: maroon;
 }
 
+@media (max-width: 750px) {
+    .filter-select {
+        width: 100%;
+    }
+
+
+    .filter-caret {
+        right: 5%;
+    }
+}
