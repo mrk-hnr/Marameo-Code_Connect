@@ -37,6 +37,10 @@
 
 /* ARTICLE IMAGES CROPPING */
 
+.news-resource-page .newsresource__blog-container {
+    padding-bottom: 45px;
+}
+
 .news-resource-page .blog-cards-container img {
     object-fit: cover;
     height: 212px;
