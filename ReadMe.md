@@ -2,7 +2,7 @@
 
 Code_Connect is a developer mentorship program aimed at supporting developers getting ready to enter the job market.
 
-<h2>Start Date:</h2> July 17, 2024
+### Start Date: July 17, 2024
 
 ## Working On:
 
