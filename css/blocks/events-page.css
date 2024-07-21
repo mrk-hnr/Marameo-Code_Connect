@@ -144,10 +144,45 @@
     text-indent: 16px;
 }
 
+.events-connect-mobile {
+    display: none;
+}
 
+
+
+@media (max-width: 1325px) {
+    .events__connect {
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 1205px) {
+    .events-connect-inform {
+        padding: 0 16px;
+    }
+    .events__connect {
+        margin: 0 15px 0 25px;
+    }
+    .events__connect .tag-title {
+        font-size: 32px;
+        margin-bottom: 0;
+    }
+
+    .events__connect .description {
+        font-size: 18px;
+        margin: 8px 0 16px 0;
+    }
+    .subscribe {
+        flex-direction: column;
+    }
+
+    .subscribe button {
+        width: 100%;
+    }
+}
   
 
-@media (max-width: 991px) {
+@media (max-width: 1015px) {
     .events-page, .articles-list-content {
         padding: 52px 16px 52px 16px !important;
     }
@@ -156,6 +191,91 @@
     } */
 }
 
+@media (max-width: 888px) {
+    .events-connect-inform {
+        display: none;
+    }
+
+    .events-connect-mobile {
+        display: block;
+        background: #f1eae6;
+        color: black;
+        border-radius: 8px;
+        margin-top: 320px;
+        padding: 0 16px 32px 16px;
+        
+        
+    }
+
+    .events__img {
+        /* background: linear-gradient(180deg, #9b3838 26%, #f1eae6 18%);
+        text-align: center;
+        border-radius: 10% 10% 10% 10%; */
+        height: 50px;
+        text-align: center;
+    }
+
+    .events__img img {
+        border-radius: 1000px 1000px 0 0;
+        object-fit: cover;
+        width: 90%;
+        height: 40vh;
+        object-position: 0 70%;
+        position: relative;
+        top: -555%;
+        z-index: 99;
+    }
+
+    .events__desc-mobile {
+        margin-top: 265px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .events__img img {
+        height: 30vh;
+    }
+
+    .events__desc-mobile {
+        margin-top: 110px;
+    }
+}
+
+
+
+@media (max-width: 450px) {
+    .events-connect-mobile {
+        margin-top: 165px;
+    }
+    .events__img {
+        height: 20px;
+    }
+
+    .events__img img {
+        border-radius: 1000px 1000px 0 0;
+        object-fit: cover;
+        
+        height: 305px;
+        object-position: 0 70%;
+        padding: 0 10px;
+    }
+
+    .events__desc-mobile {
+        margin-top: 185px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 575px) {
     .events-page button {
@@ -163,5 +283,7 @@
         width: 100%;
         margin: 0 auto;
     }
+
+
 }
 
