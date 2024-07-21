@@ -7,8 +7,10 @@ Code_Connect is a developer mentorship program aimed at supporting developers ge
 ## Working On:
 
 - Polish current codebase
+  - Remove height="auto" on inline images; incorrect syntax and causes layout shift
 - Complete 2 other pages by Friday, Week 6 (07/26/2024)
   - <strike>Fix responsive filter tag container</strike>
+  - Fix subscription width
 
 [Media & News page](https://marameo-codeconnect.netlify.app/blocks/news-resource-page)
 
