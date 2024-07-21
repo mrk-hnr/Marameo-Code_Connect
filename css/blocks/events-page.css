@@ -75,6 +75,78 @@
     letter-spacing: 2px;
 }
 
+/* .events-connect-inform {
+    background: linear-gradient(90deg, #009496 26%, #f1eae6 18%);
+    display: flex;
+    margin-top: 36px;
+
+
+    height: 400px;
+    overflow: hidden;
+}
+
+.events__img-container {
+    position: relative;
+    
+}
+
+.events__desc {
+
+} 
+
+
+
+.events-connect-inform img {
+    border-radius: 1000px 1000px 0 0;
+
+
+}
+
+*/
+
+.events-connect-inform {
+    background: linear-gradient(90deg, #009496 26%, #f1eae6 18%);
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 16px;
+    padding: 0 72px 0 93px;
+    margin-top: 120px;
+}
+
+
+.events__img-container img {
+    position: relative;
+    border-radius: 1000px 1000px 0 0;
+    object-fit: cover;
+    z-index: 1;
+    top: -85px;
+    object-position: 0 90%;
+}
+
+.events__connect {
+    margin-left: 69px;
+    margin-top: 100px;
+}
+
+.subscribe {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe .email-sub {
+    height: 48px;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid black;
+    text-indent: 16px;
+}
+
+
+  
+
 @media (max-width: 991px) {
     .events-page, .articles-list-content {
         padding: 52px 16px 52px 16px !important;
