@@ -1,6 +1,13 @@
 .main {
   background: linear-gradient(90deg, #f1eae6 80%, #009496 20%);
+  margin: 0 auto;
+  
 }
+
+/* .main .component-container {
+  background: linear-gradient(90deg, #f1eae6 80%, #009496 20%);
+} */
+
 .main-container {
   display: flex;
   justify-content: space-evenly;

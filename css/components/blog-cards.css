@@ -11,9 +11,9 @@
 } */
 
 .blog-cards-container {
-    width: 100%;
+    width: 30%;
     margin: 0 auto;
-    width: 424px;
+    /* width: 424px; */
     margin-top: 34px;
 }
 
