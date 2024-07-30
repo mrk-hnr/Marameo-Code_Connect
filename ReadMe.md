@@ -10,6 +10,9 @@ Code_Connect is a developer mentorship program aimed at supporting developers ge
   - Remove height="auto" on inline images; incorrect syntax and causes layout shift
 - Correct code as per Mentor notes for Events and News page
   - Card width set to %
+  - Change div to form tag
+  - Transfer Events and News html to page folder
+  - Fix container from home
 - Create site with separate repo
 - Create counter on codepen (JS)
 
