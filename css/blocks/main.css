@@ -1,12 +1,13 @@
 .main {
-  background: linear-gradient(90deg, #f1eae6 80%, #009496 20%);
-  margin: 0 auto;
-  
+  background: linear-gradient(90deg, #f1eae6 65%, #009496 20%);
+  /* margin: 0 auto; */
+
 }
 
-/* .main .component-container {
-  background: linear-gradient(90deg, #f1eae6 80%, #009496 20%);
-} */
+.main .component-container {
+  /* background: linear-gradient(90deg, #f1eae6 70%, #009496 20%); */
+  background: linear-gradient(90deg, #f1eae6 83%, #009496 20%);
+}
 
 .main-container {
   display: flex;
