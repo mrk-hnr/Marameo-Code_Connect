@@ -2,8 +2,12 @@
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
-    justify-content: center;
+    /* justify-content: center; */
+    /* padding-bottom: 80px; */
+
+    justify-content: space-between;
     padding-bottom: 80px;
+    margin-top: 38px;
 }
 
 /* .newsresource-container > div {
@@ -11,9 +15,8 @@
 } */
 
 .blog-cards-container {
-    width: 30%;
+    width: 30%; 
     margin: 0 auto;
-    /* width: 424px; */
     margin-top: 34px;
 }
 

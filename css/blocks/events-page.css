@@ -232,6 +232,8 @@
 
 }
 
+
+
 @media (max-width: 600px) {
     .events__img img {
         height: 30vh;
@@ -240,7 +242,13 @@
     .events__desc-mobile {
         margin-top: 110px;
     }
+
+    .events-page .newsresource__blog-container .blog-cards-container {
+        width: 100% !important;
+    }
 }
+
+
 
 
 
@@ -266,17 +274,6 @@
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 575px) {
     .events-page button {
         display: block;
@@ -286,4 +283,3 @@
 
 
 }
-

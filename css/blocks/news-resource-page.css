@@ -90,6 +90,12 @@
     }
 }
 
+@media (max-width: 600px) {
+    .news-resource-page .newsresource__blog-container .blog-cards-container {
+        width: 100% !important;
+    }
+}
+
 @media (max-width: 575px) {
     .news-resource-page button {
         display: block;
