@@ -43,6 +43,15 @@ h4 {
     margin: 16px 0;
 }
 
+/* NAV */
+
+.nav-search-quest {
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    font-weight: 600;
+}
+
 
 /* MAIN */
 

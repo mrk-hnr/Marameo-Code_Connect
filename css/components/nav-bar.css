@@ -47,6 +47,48 @@
   margin: 12px;
 }
 
+/* SEARCH MODAL */
+
+.nav-search-modal-container {
+  background: rgb(237, 237, 237);
+  height: 100vh;
+  font-family: "General Sans";
+}
+
+.nav-search-center {
+  position: absolute;
+  top: 25%;
+  width: 100%; 
+  padding: 0 16px;
+}
+
+.nav-search-modal-input {
+  border: 1px solid rgba(94, 94, 94, 1);
+  max-width: 800px;
+  margin: auto;
+  display: flex;
+  border-radius: 8px;
+  justify-content: space-between;
+  
+}
+
+.nav-search-modal-input > * {
+  background: rgba(15, 24, 40, 0.05);
+}
+
+.nav-search-input {
+  padding: 13px 0 13px 13px;
+  border: none;
+  width: 100%;
+  
+}
+
+.nav-search-icon {
+  padding-right: 13px;
+}
+
+
+
 @media (max-width: 1154px) {
   .navi__mid-container button:hover img {
     display: none; /* Removes caret on hover */
