@@ -45,9 +45,15 @@ Code_Connect is a developer mentorship program aimed at supporting developers ge
   - <strike>Fix subscription width</strike>
 
 - Week 7 Target:
-  - Correct code as per Mentor notes for Events and News page
-  - Create site with separate repo
-  - Create counter on codepen (JS)
+
+  - <strike>Correct code as per Mentor notes for Events and News page</strike>
+  - <strike>Create site with separate repo</strike>
+  - <strike>Create counter on codepen (JS)</strike>
+
+- Week 8 Target:
+  - Implement search modal
+  - Implement hamburger
+  - Create an accordion
 
 ## Tech used:
 
