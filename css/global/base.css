@@ -51,17 +51,11 @@ ul {
   /* min-width: 393px; Stay or remove?? */
 }
 
-.show {
-   opacity: 1; 
+/* /* .hide-show {
+  visibility: visible;
+  transition: all 0.2s ease-in-out;
+} */
 
-}
-
-
-.hide {
-   opacity: 0; 
-  /* display: none; */
-}
-  
 
 @media (max-width: 991px) {
   .articles-list-content {

@@ -3,6 +3,7 @@
   width: 90%;
   margin: 0 auto;
   position: relative;
+  
 }
 
 
@@ -29,15 +30,14 @@
   justify-content: space-around;
 }
 
-.navi__right-container {
-  margin-top: 5px;
-}
 
 .navi__mid-container button,
 .navi__right-container img,
 .navi__right-container button {
   cursor: pointer;
 }
+
+.navi__right-container
 
 .navi__mid-container button:hover {
   background: #ffe1d6;
@@ -57,7 +57,7 @@
   width: 100%;
   font-family: "General Sans";
   position: absolute;
-  
+   background: rgb(255, 255, 255); /* DO NOT REMOVE, it hides navbar */
 }
 
 .nav-close {
@@ -71,8 +71,13 @@
 #nav-search-show {
   visibility: visible;
   /* transition: visibility .2s, opacity 0.5s linear; */
-  transition: all 0.2s ease-in-out;
+  /* transition: all 0.2s ease-in-out; */
+  display: inline-flex;
+  transform: translate(-23%, 15%);
+
 }
+
+
 
 #nav-search-close {
   visibility: hidden;
@@ -118,18 +123,42 @@
   }
 }
 
+
+
+@media (max-width: 1130px) {
+  .navi__mid-container img {
+    display: none; /* Removes carat to maintain nav UI */
+  }
+
+  #nav-search-show {
+    transform: translate(-45%, 5%);
+  }
+
+  .navi__right-container img {
+    margin: 16px 0; /* Removes side spacing to mantain nav UI */
+  }
+}
+
 @media (max-width: 1039px) {
+
+  #nav-search-show {
+    transform: translate(-10%, -3%);
+  }
+
+
   .navi__mid-container {
     display: none;
   }
 
   .navi__right-container {
     display: flex;
+    flex-direction: row;
     margin: 0;
   }
 
   .navi__right-container img {
     margin: 12px 24px;
+    display: inline-flex;
   }
 
   .navi__right-container button {
@@ -137,21 +166,19 @@
   }
 
   .navi__burger-menu {
-    display: block;
+    display: block !important;
+
   }
 }
 
-@media (max-width: 1130px) {
-  .navi__mid-container img {
-    display: none; /* Removes carat to maintain nav UI */
-  }
-
-  .navi__right-container img {
-    margin: 12px 0; /* Removes side spacing to mantain nav UI */
-  }
-}
 
 @media (max-width: 767px) {
+
+  #nav-search-show {
+    transform: translate(-50%, -3%);
+  }
+
+
   .navi-container  {
     width: 100%;
   }
