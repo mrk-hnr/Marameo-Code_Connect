@@ -34,8 +34,8 @@
 <body>
     <header>
         <nav>
-            <div class="navi-container">
-                <div class="navi-component">
+            <div class="navi-container" id="nav-bar-el">
+                <div class="navi-component" id="nav-search-show">
                     <div class="navi__left-container">
                         <a href="./index.html"><img src="../assets/images/logo.svg" alt=""></a>
                     </div>
@@ -61,8 +61,8 @@
                             <img src="../assets/images/caret.svg" alt="">
                          </button>
                     </div>
-                    <div class="navi__right-container">
-                        <img src="../assets/images/magnifying-glass.svg" alt="">
+                    <div class="navi__right-container" id="nav-search-modal">
+                        <img src="../assets/images/magnifying-glass.svg" alt="" class="search-me">
                         <button class="button green">Submit Enquiry</button>
     
                         <div class="navi__burger-menu">
@@ -72,12 +72,22 @@
                         </div>
                         
                     </div>
-
-                </div>
-                
-                
+                </div>   
             </div>
         </nav>
+
+        <div class="nav-search-container" id="nav-search-close">
+            <img src="./assets/images/close.svg" alt="" class="nav-close"> 
+
+            <div class="nav-search-center">
+                <p class="nav-search-quest">How can we help you today?</p>
+                <div class="nav-search-modal-input">
+                    <input type="text" placeholder="Enter a keyword to start searching" class="nav-search-input">
+                    <img src="../assets/images/magnifying-glass.svg" alt="Search" class="nav-search-icon">  
+                </div>
+            </div>
+        </div>
+
     </header>
 
     <section class="main">
@@ -554,5 +564,6 @@
     </footer>
     
     
+    <script src="./js/script.js"></script>
 </body>
 </html>
