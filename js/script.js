@@ -1,20 +1,28 @@
 // // DECLERATION
-
-let navBar = document.querySelector(".navi-container")
-
-let searchEnable = document.getElementById("nav-search-show")
-let searchDisable = document.getElementById("nav-search-close")
-
 let burgerMode = document.querySelector(".navi__burger-menu")
-
 let hamburger = document.getElementById('hamburger');
+
+
+let naviComponent = document.querySelector(".navi-component")
+let navSearchContainer = document.querySelector(".nav-search-container")
+let modalClose = document.querySelector(".nav-close")
+
+// let navBar = document.querySelector(".navi-container")
+
+
+// let searchEnable = document.getElementById("nav-search-show")
+// let searchDisable = document.getElementById("nav-search-close")
+// let searchDisable = document.querySelector(".nav-close")
+
 
 
 
 // EVENT LISTENERS
 
-searchEnable.addEventListener("click", switchVisible)
-searchDisable.addEventListener("click", switchVisible)
+// searchEnable.addEventListener("click", switchVisible)
+// searchDisable.addEventListener("click", switchVisible)
+modalClose.addEventListener("click", closeModal)
+naviComponent.addEventListener("click", switchVisible)
 
 // burgerMode.addEventListener("click", switchVisible) -- TRIGGERS MODAL
 
@@ -27,33 +35,22 @@ searchDisable.addEventListener("click", switchVisible)
 
 // SEARCH MODAL
 function switchVisible() {
-    if (searchEnable) {
-
-        if (searchEnable.style.visibility == 'hidden') {
-
-            searchEnable.style.visibility = 'visible';
-            searchEnable.style.opacity = '1';
-            navBar.style.zIndex = "1"
-
-        
-            searchDisable.style.visibility = 'hidden';
-            searchDisable.style.opacity = '0';
-            searchDisable.style.position = 'absolute';
-
-            // burgerMode.style.visibility = "visible"
-        }
-        else {
-            searchEnable.style.visibility = 'hidden';
-            searchEnable.style.opacity = '0';
-            // burgerMode.style.visibility = "hidden"
-            navBar.style.zIndex = "-1"
-
-            searchDisable.style.visibility = 'visible';
-            searchDisable.style.opacity = '1';
-            searchDisable.style.position = 'static';
-        }
-    }
+    console.log("test")
+    naviComponent.style.zIndex = "-1"
+    navSearchContainer.style.visibility = 'visible';
 }
+
+function closeModal() {
+    naviComponent.style.zIndex = "1"
+    navSearchContainer.style.visibility = 'hidden';
+}
+
+
+
+
+
+
+
 
 
 hamburger.addEventListener('click', function() {
