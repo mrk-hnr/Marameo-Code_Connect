@@ -51,6 +51,11 @@ ul {
   /* min-width: 393px; Stay or remove?? */
 }
 
+.reset-me {
+  padding: 0;
+  margin: 0;
+}
+
 /* /* .hide-show {
   visibility: visible;
   transition: all 0.2s ease-in-out;

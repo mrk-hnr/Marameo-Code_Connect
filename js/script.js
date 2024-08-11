@@ -6,6 +6,8 @@ let burgerMode = document.querySelector(".navi__burger-menu")
 let hamburger = document.getElementById('hamburger');
 let burgerLine = document.querySelectorAll('.burger-line');
 
+let burgerContainer = document.getElementById("nav__burger-menu")
+
 
 let naviComponent = document.querySelector(".navi__right-container")
 let navSearch = document.getElementById("nav-search-show")
@@ -18,7 +20,7 @@ let modalClose = document.querySelector(".nav-close")
 // +++++++++++++++++++++++++++++
 modalClose.addEventListener("click", closeModal)
 navSearch.addEventListener("click", switchVisible)
-
+// hamburger.addEventListener("click", burgerMenu)
 
 
 
@@ -45,7 +47,12 @@ function closeModal() {
 // BURGER MENU
 hamburger.addEventListener('click', function() {
     this.classList.toggle('open');
+    burgerContainer.classList.toggle('add-height');
 });
+
+// burgerContainer.addEventListener("click", function() {
+    
+// })
 
 // CANNOT MAKE CODE BELOW WORK!!
 // function resetBurgerState() {
@@ -54,5 +61,8 @@ hamburger.addEventListener('click', function() {
 //     }
 // }
 
+
+
+// BURGER MENU LIST
 
 

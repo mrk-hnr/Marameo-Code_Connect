@@ -50,7 +50,10 @@
 }
 
 @media (max-width: 991px) {
-  /* Tablet  */
+  .main__desc {
+    margin-top: 15px;
+    margin-bottom: 52px;
+  }
 
   .main-container {
     background: #f1eae6;
