@@ -22,27 +22,21 @@ Code_Connect is a developer mentorship program aimed at supporting developers ge
 
 ## Goals:
 
-- Week 1-2 Target:
+-Week 9 Target
 
-  - <strike>Approved Estimates (docs being worked on)</strike>
-  - <strike>Theme Structure (+ repo) - Codebase setup</strike>
-  - <strike>Header (static)</strike>
-  - <strike>Footer</strike>
-  - <strike>At least 1 block from the home page</strike>
+- Finish Search Modal
+- FInish Burger Menu
+- Extra Challenge:
 
-- Week 3 Target:
+  - Light/Dark Mode toggle button
+  - Create form that shows custom error
+    - At least one input
 
-  - <strike>Complete 90% of the page</strike>
+- Week 8 Target:
 
-- Week 4-5 Target:
-
-  - <strike>Make further improvements to existing containers and css codes as per Mentor notes/corrections</strike>
-  - <strike>Continue creating the other pages</strike>
-
-- Week 6 Target:
-
-  - <strike>Fix responsive filter tag container</strike>
-  - <strike>Fix subscription width</strike>
+  - <strike>Implement search modal</strike>
+  - Implement hamburger
+  - Create an [Accordion](https://codepen.io/makenri/pen/QWXMNBN) in Codepen
 
 - Week 7 Target:
 
@@ -50,10 +44,27 @@ Code_Connect is a developer mentorship program aimed at supporting developers ge
   - <strike>Create site with separate repo</strike>
   - <strike>Create counter on codepen (JS)</strike>
 
-- Week 8 Target:
-  - Implement search modal
-  - Implement hamburger
-  - Create an accordion
+- Week 6 Target:
+
+  - <strike>Fix responsive filter tag container</strike>
+  - <strike>Fix subscription width</strike>
+
+- Week 4-5 Target:
+
+  - <strike>Make further improvements to existing containers and css codes as per Mentor notes/corrections</strike>
+  - <strike>Continue creating the other pages</strike>
+
+- Week 3 Target:
+
+  - <strike>Complete 90% of the page</strike>
+
+  - Week 1-2 Target:
+
+  - <strike>Approved Estimates (docs being worked on)</strike>
+  - <strike>Theme Structure (+ repo) - Codebase setup</strike>
+  - <strike>Header (static)</strike>
+  - <strike>Footer</strike>
+  - <strike>At least 1 block from the home page</strike>
 
 ## Tech used:
 
