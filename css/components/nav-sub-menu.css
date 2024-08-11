@@ -26,7 +26,7 @@
     transition: transform .5s ease-in-out;
 }
 
-.nav__burger-links:hover {
+.whatever:hover {
     cursor: pointer;
 }
 
@@ -146,6 +146,8 @@
 
 .nav-sub-menu-title.sda > p {
     color: black;
+    letter-spacing: 2px;
+    font-weight: 600;
 }
 .nav-sub-sda {
     background: rgba(255, 225, 214, 0.50); 
@@ -159,12 +161,16 @@
     padding: 0 16px;
     padding-top: 18px;
     gap: 15px;
-    
 }
 
 .nav-sub-sda-top li {
     margin: 10px 0;
 }
+
+.nav-sub-sda-top a {
+    color: rgba(15, 24, 40, 0.75);
+}
+
 
 .nav-sub-sda-top li:first-of-type {
     margin-top: 0;
