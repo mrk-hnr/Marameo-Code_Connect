@@ -83,6 +83,11 @@
     justify-content: space-between;
     z-index: 1001;
     display: none;
+    position: absolute;
+    right: 0;
+    margin-right: 50px;
+    margin-top: 55px;
+    
 }
 
 #hamburger span {
@@ -90,7 +95,7 @@
     height: 3px;
     background-color: rgba(94, 94, 94, 1);
     ;
-    transition: all 0.3s ease;
+    transition: all 0.1s ease;
 }
 
 /* Adjust the width of the middle bar */

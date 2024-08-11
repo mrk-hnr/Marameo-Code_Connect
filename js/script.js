@@ -28,7 +28,7 @@ naviComponent.addEventListener("click", switchVisible)
 
 // burgerMode.addEventListener("click", burgerEnabled)
 
-
+// document.querySelector('#parent').addEventListener('click', e => e.stopPropagation(), true);
 
 // FUNCTIONS
 
@@ -38,11 +38,17 @@ function switchVisible() {
     console.log("test")
     naviComponent.style.zIndex = "-1"
     navSearchContainer.style.visibility = 'visible';
+    hamburger.style.visibility = 'hidden';
 }
 
 function closeModal() {
     naviComponent.style.zIndex = "1"
     navSearchContainer.style.visibility = 'hidden';
+    hamburger.style.visibility = 'visible';
+
+    
+    
+
 }
 
 
