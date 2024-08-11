@@ -6,9 +6,19 @@
     color: #383838;
 }
 
+.font-prop-13-18 {
+    font-size: 13px;
+    line-height: 18px;
+}
+
 .font-prop-16-24 {
     font-size: 16px;
     line-height: 24px;
+}
+
+.font-prop-18-27 {
+    font-size: 18px;
+    line-height: 27px;
 }
 
 

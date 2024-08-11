@@ -4,9 +4,14 @@
 
 let burgerMode = document.querySelector(".navi__burger-menu")
 let hamburger = document.getElementById('hamburger');
-let burgerLine = document.querySelectorAll('.burger-line');
+let burgerLine = document.querySelector('.burger-line');
+
+
 
 let burgerContainer = document.getElementById("nav__burger-menu")
+let navBurgerLinks =  document.querySelectorAll(".nav__burger-links")
+let navBurgerSubLinks = document.querySelectorAll(".sub-link")
+
 
 
 let naviComponent = document.querySelector(".navi__right-container")
@@ -20,6 +25,7 @@ let modalClose = document.querySelector(".nav-close")
 // +++++++++++++++++++++++++++++
 modalClose.addEventListener("click", closeModal)
 navSearch.addEventListener("click", switchVisible)
+// navBurgerLinks.addEventListener("click", toggleNavSubLinks)
 // hamburger.addEventListener("click", burgerMenu)
 
 
@@ -48,21 +54,19 @@ function closeModal() {
 hamburger.addEventListener('click', function() {
     this.classList.toggle('open');
     burgerContainer.classList.toggle('add-height');
+    subBurgerMenu()
 });
 
-// burgerContainer.addEventListener("click", function() {
-    
-// })
+function subBurgerMenu() {
+    for (let i = 0; i < navBurgerLinks.length; i++) {
+        navBurgerLinks[i].addEventListener("click", toggleBurgerMenu)
+    }
+}
 
-// CANNOT MAKE CODE BELOW WORK!!
-// function resetBurgerState() {
-//     if (window.innerWidth > 1039) {
-//         hamburger.removeAttribute("open");
-//     }
-// }
+// Expands selected UL from burger menu (took 3 hours to fix!!!)
+function toggleBurgerMenu() {
+    this.querySelector("div").classList.toggle("add-sub-height")
+}
 
-
-
-// BURGER MENU LIST
 
 
