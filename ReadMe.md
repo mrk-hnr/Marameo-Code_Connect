@@ -17,8 +17,8 @@ Code_Connect is a developer mentorship program aimed at supporting developers ge
 
 -Week 9 Target
 
-- Finish Search Modal
-- FInish Burger Menu
+- <strike>Finish Search Modal</strike>
+- Finish Burger Menu
 - Extra Challenge:
 
   - Light/Dark Mode toggle button
@@ -27,7 +27,7 @@ Code_Connect is a developer mentorship program aimed at supporting developers ge
 
 - Week 8 Target:
 
-  - <strike>Implement search modal</strike>
+  - <strike>Implement Search Modal</strike>
   - Implement hamburger
   - Create an [Accordion](https://codepen.io/makenri/pen/QWXMNBN) in Codepen
 
