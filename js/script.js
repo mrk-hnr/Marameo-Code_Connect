@@ -1,39 +1,26 @@
-// // DECLERATION
+// // VARIABLE DECLERATION
 let burgerMode = document.querySelector(".navi__burger-menu")
 let hamburger = document.getElementById('hamburger');
 
 
-let naviComponent = document.querySelector(".navi-component")
+let naviComponent = document.querySelector(".navi__right-container")
+let navSearch = document.getElementById("nav-search-show")
 let navSearchContainer = document.querySelector(".nav-search-container")
 let modalClose = document.querySelector(".nav-close")
 
-// let navBar = document.querySelector(".navi-container")
 
 
-// let searchEnable = document.getElementById("nav-search-show")
-// let searchDisable = document.getElementById("nav-search-close")
-// let searchDisable = document.querySelector(".nav-close")
+// EVENT LISTENERS DECLARATION
 
 
-
-
-// EVENT LISTENERS
-
-// searchEnable.addEventListener("click", switchVisible)
-// searchDisable.addEventListener("click", switchVisible)
 modalClose.addEventListener("click", closeModal)
-naviComponent.addEventListener("click", switchVisible)
+navSearch.addEventListener("click", switchVisible)
 
-// burgerMode.addEventListener("click", switchVisible) -- TRIGGERS MODAL
-
-// burgerMode.addEventListener("click", burgerEnabled)
-
-// document.querySelector('#parent').addEventListener('click', e => e.stopPropagation(), true);
 
 // FUNCTIONS
 
 
-// SEARCH MODAL
+// ENABLES SEARCH MODAL
 function switchVisible() {
     console.log("test")
     naviComponent.style.zIndex = "-1"
@@ -41,46 +28,15 @@ function switchVisible() {
     hamburger.style.visibility = 'hidden';
 }
 
+// DISABLE SEARCH MODAL
 function closeModal() {
     naviComponent.style.zIndex = "1"
     navSearchContainer.style.visibility = 'hidden';
     hamburger.style.visibility = 'visible';
-
-    
-    
-
 }
 
-
-
-
-
-
-
-
+// BURGER MENU
 
 hamburger.addEventListener('click', function() {
     this.classList.toggle('open');
-    
 });
-
-
-// HAMBURGER
-
-//  function burgerEnabled() {
-
-//     if (burgerMode) {
-
-        
-//         document.querySelector(".navi__burger-menu").classList.add("click")
-//         document.querySelector(".navi__top").classList.add("click")
-//         document.querySelector(".navi__middle").classList.add("click")
-//         document.querySelector(".navi__bottom").classList.add("click")
-//     } else {
-//         document.querySelector(".navi__burger-menu").classList.remove("click")
-//         document.querySelector(".navi__top").classList.remove("click")
-//         document.querySelector(".navi__middle").classList.remove("click")
-//         document.querySelector(".navi__bottom").classList.remove("click")
-//     }
-// }
-
