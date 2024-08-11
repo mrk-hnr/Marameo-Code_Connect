@@ -12,7 +12,8 @@
     padding: 0;
     max-height: 0;
     background: rgb(238, 238, 238);
-    overflow: hidden;;
+    overflow: hidden;
+    transition: all .5s ease-in-out
 }
 
 .add-height {
@@ -43,11 +44,16 @@
 .nav__burger-links img {
     width: fit-content;
     margin-right: 25px;
+    transition: transform .5s ease-in-out;
 }
 
 .nav__burger-links:hover {
     background: rgba(255, 225, 214, 1);
     cursor: pointer;
+}
+
+.nav__burger-links:hover img {
+    transform: rotate(540deg);
 }
 
 #nav__burger-menu button {
