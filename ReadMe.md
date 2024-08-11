@@ -51,8 +51,7 @@ Code_Connect is a developer mentorship program aimed at supporting developers ge
 
   - <strike>Complete 90% of the page</strike>
 
-  - Week 1-2 Target:
-
+- Week 1-2 Target:
   - <strike>Approved Estimates (docs being worked on)</strike>
   - <strike>Theme Structure (+ repo) - Codebase setup</strike>
   - <strike>Header (static)</strike>
