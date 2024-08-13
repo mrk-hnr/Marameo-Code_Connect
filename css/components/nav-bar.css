@@ -9,8 +9,6 @@ navi-subcontainer {
   position: relative;
 }
 
-
-
 .navi-component {
   /* max-width: 1520px; removed as per mentor */
   margin: 0 auto;
@@ -25,7 +23,6 @@ navi-subcontainer {
   right: 0;
   margin-top: 24px;
   transition: all .1s ease-in-out;
-  
 }
 
 .navi__mid-container {
