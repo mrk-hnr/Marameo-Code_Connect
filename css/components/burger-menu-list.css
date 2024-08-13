@@ -13,11 +13,14 @@
     max-height: 0;
     background: rgb(238, 238, 238);
     overflow: hidden;
-    transition: all .5s ease-in-out
+    transition: all .5s ease-in-out;
+    padding-bottom: 1px;
 }
 
 .add-height {
     max-height: 82vh !important;
+    margin-bottom: 50px;
+    
 }
 
 .add-sub-height {
