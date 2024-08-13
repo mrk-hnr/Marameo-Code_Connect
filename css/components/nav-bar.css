@@ -123,6 +123,12 @@ navi-subcontainer {
   }
 }
 
+@media (max-width: 1042px) {
+  .nav-link img {
+    display: none;
+  }
+}
+
 @media (max-width: 1039px) {
 
   #nav-search-show {
