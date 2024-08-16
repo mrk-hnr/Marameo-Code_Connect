@@ -15,15 +15,18 @@ Code_Connect is a developer mentorship program aimed at supporting developers ge
 
 ## Goals:
 
--Week 9 Target
+- Final Target (Week 10 onwards): :sob:
 
-- <strike>Finish Search Modal</strike>
-- <strike>Finish Burger Menu</strike> :sob: :sob:
-- Extra Challenge:
+  - Page 3
 
-  - Light/Dark Mode toggle button
-  - Create form that shows custom error
-    - At least one input
+- Week 9 Target:
+
+  - <strike>Finish Search Modal</strike>
+  - <strike>Finish Burger Menu</strike>
+  - <strike>Extra Challenge:</strike>
+    - <strike>[Light/Dark Mode](https://codepen.io/makenri/pen/ExBobjZ) toggle button</strike>
+    - Create form that shows custom error
+      - At least one input
 
 - Week 8 Target:
 
